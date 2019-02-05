@@ -1113,7 +1113,7 @@ var PhoneComponent = (function () {
         this.owner = new __WEBPACK_IMPORTED_MODULE_1__angular_forms__["c" /* FormControl */]('', __WEBPACK_IMPORTED_MODULE_1__angular_forms__["d" /* Validators */].required);
         this.myForm = fb.group({
             IMEI: this.IMEI,
-            status: this.phoneStatus,
+            phoneStatus: this.phoneStatus,
             owner: this.owner
         });
     }
