@@ -3268,7 +3268,9 @@ var DataService = (function () {
     DataService.prototype.getAll = function (ns) {
         console.log('GetAll ' + ns + ' from ' + this.actionUrl + ns);
         console.log("" + this.actionUrl + ns);
-        return this.http.get("" + this.actionUrl + ns)
+        var combinedURL = "" + this.actionUrl + ns;
+        console.log(combinedURL);
+        return this.http.get(combinedURL)
             .map(this.extractData)
             .catch(this.handleError);
     };
@@ -3310,6 +3312,7 @@ var DataService = (function () {
         return __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"].throw(errMsg);
     };
     DataService.prototype.extractData = function (res) {
+        console.log("HERE I AM");
         return res.json();
     };
     return DataService;
