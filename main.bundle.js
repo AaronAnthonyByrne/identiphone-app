@@ -3270,7 +3270,7 @@ var DataService = (function () {
         console.log("" + this.actionUrl + ns);
         var combinedURL = "" + this.actionUrl + ns;
         console.log(combinedURL);
-        return this.http.get('http://35.204.114.96:3000/api/Phone')
+        return this.http.get(combinedURL)
             .map(this.extractData)
             .catch(this.handleError);
     };
@@ -3306,6 +3306,7 @@ var DataService = (function () {
     DataService.prototype.handleError = function (error) {
         // In a real world app, we might use a remote logging infrastructure
         // We'd also dig deeper into the error to get a better message
+        console.log("This is the ERRORR" + error);
         var errMsg = (error.message) ? error.message :
             error.status ? error.status + " - " + error.statusText : 'Server error';
         console.error(errMsg); // log to console instead
