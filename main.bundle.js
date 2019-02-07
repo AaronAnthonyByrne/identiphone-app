@@ -3267,7 +3267,7 @@ var DataService = (function () {
     }
     DataService.prototype.getAll = function (ns) {
         console.log('GetAll ' + ns + ' from ' + this.actionUrl + ns);
-        console.log(this.http.get("" + this.actionUrl + ns));
+        console.log("" + this.actionUrl + ns);
         return this.http.get("" + this.actionUrl + ns)
             .map(this.extractData)
             .catch(this.handleError);
