@@ -3269,7 +3269,7 @@ var DataService = (function () {
         console.log('GetAll ' + ns + ' from ' + this.actionUrl + ns);
         console.log("" + this.actionUrl + ns);
         var combinedURL = "" + this.actionUrl + ns;
-        console.log(this.http.get(combinedURL));
+        console.log(combinedURL);
         return this.http.get(combinedURL)
             .map(this.extractData)
             .catch(this.handleError);
