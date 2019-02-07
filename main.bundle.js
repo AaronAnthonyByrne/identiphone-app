@@ -3271,7 +3271,10 @@ var DataService = (function () {
         var combinedURL = "" + this.actionUrl + ns;
         console.log(combinedURL);
         return this.http.get(combinedURL)
-            .map(this.extractData)
+            .map(function (response) {
+            console.log(response.json());
+            return response.json();
+        })
             .catch(this.handleError);
     };
     DataService.prototype.getSingle = function (ns, id) {
@@ -3294,10 +3297,7 @@ var DataService = (function () {
         console.log('what is the updated item?', itemToUpdate);
         console.log('what is the updated item?', JSON.stringify(itemToUpdate));
         return this.http.put("" + this.actionUrl + ns + "/" + id, itemToUpdate)
-            .map(function (response) {
-            console.log(response.json());
-            return response.json();
-        })
+            .map(this.extractData)
             .catch(this.handleError);
     };
     DataService.prototype.delete = function (ns, id) {
