@@ -4,7 +4,6 @@
   "version": "0.0.1",
   "author": "Aaron Anthony Byrne",
   "email": "c15709609@mydit.ie",
-  "homepage": "https://aaronanthonybyrne.github.io/identiphone-app/",
   "license": "Apache-2.0",
   "engines": {
     "node": ">=8",

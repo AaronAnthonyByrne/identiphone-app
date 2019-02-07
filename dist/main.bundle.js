@@ -3260,7 +3260,7 @@ var DataService = (function () {
     function DataService(http) {
         this.http = http;
         this.resolveSuffix = '?resolve=true';
-        this.actionUrl = '35.204.114.96:3000/api/';
+        this.actionUrl = 'https://35.204.114.96:3000/api/';
         this.headers = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Headers */]();
         this.headers.append('Content-Type', 'application/json');
         this.headers.append('Accept', 'application/json');
@@ -3294,10 +3294,7 @@ var DataService = (function () {
         console.log('what is the updated item?', itemToUpdate);
         console.log('what is the updated item?', JSON.stringify(itemToUpdate));
         return this.http.put("" + this.actionUrl + ns + "/" + id, itemToUpdate)
-            .map(function (response) {
-            console.log(response.json());
-            return response.json();
-        })
+            .map(this.extractData)
             .catch(this.handleError);
     };
     DataService.prototype.delete = function (ns, id) {
@@ -3309,20 +3306,21 @@ var DataService = (function () {
     DataService.prototype.handleError = function (error) {
         // In a real world app, we might use a remote logging infrastructure
         // We'd also dig deeper into the error to get a better message
+        console.log("This is the ERRORR " + error);
         var errMsg = (error.message) ? error.message :
             error.status ? error.status + " - " + error.statusText : 'Server error';
         console.error(errMsg); // log to console instead
         return __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"].throw(errMsg);
     };
     DataService.prototype.extractData = function (res) {
-        console.log("HERE I AM");
+        console.log(__WEBPACK_IMPORTED_MODULE_1__angular_http__["c" /* Response */]);
         return res.json();
     };
     return DataService;
 }());
 DataService = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* Injectable */])(),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_http__["c" /* Http */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_http__["c" /* Http */]) === "function" && _a || Object])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_http__["d" /* Http */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_http__["d" /* Http */]) === "function" && _a || Object])
 ], DataService);
 
 var _a;

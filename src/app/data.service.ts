@@ -25,7 +25,7 @@ export class DataService<Type> {
     private headers: Headers;
 
     constructor(private http: Http) {
-        this.actionUrl = '35.204.114.96:3000/api/';
+        this.actionUrl = 'https://35.204.114.96:3000/api/';
         this.headers = new Headers();
         this.headers.append('Content-Type', 'application/json');
         this.headers.append('Accept', 'application/json');
@@ -65,10 +65,7 @@ export class DataService<Type> {
         console.log('what is the updated item?', itemToUpdate);
         console.log('what is the updated item?', JSON.stringify(itemToUpdate));
         return this.http.put(`${this.actionUrl}${ns}/${id}`, itemToUpdate)
-        .map((response: Response) => {
-            console.log(response.json());
-            return response.json();
-          })
+          .map(this.extractData)
           .catch(this.handleError);
     }
 
@@ -83,6 +80,7 @@ export class DataService<Type> {
     private handleError(error: any): Observable<string> {
         // In a real world app, we might use a remote logging infrastructure
         // We'd also dig deeper into the error to get a better message
+        console.log("This is the ERRORR "+error)
         const errMsg = (error.message) ? error.message :
           error.status ? `${error.status} - ${error.statusText}` : 'Server error';
         console.error(errMsg); // log to console instead
@@ -90,7 +88,7 @@ export class DataService<Type> {
     }
 
     private extractData(res: Response): any {
-        console.log("HERE I AM");
+        console.log(Response);
         return res.json();
     }
 
