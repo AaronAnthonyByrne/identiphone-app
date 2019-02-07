@@ -3260,14 +3260,17 @@ var DataService = (function () {
     function DataService(http) {
         this.http = http;
         this.resolveSuffix = '?resolve=true';
-        this.actionUrl = '/api/';
+        this.actionUrl = '35.204.114.96:3000/api/';
         this.headers = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Headers */]();
         this.headers.append('Content-Type', 'application/json');
         this.headers.append('Accept', 'application/json');
     }
     DataService.prototype.getAll = function (ns) {
-        console.log('GetAll ' + ns + ' to ' + this.actionUrl + ns);
-        return this.http.get("" + this.actionUrl + ns)
+        console.log('GetAll ' + ns + ' from ' + this.actionUrl + ns);
+        console.log("" + this.actionUrl + ns);
+        var combinedURL = "" + this.actionUrl + ns;
+        console.log(combinedURL);
+        return this.http.get(combinedURL)
             .map(this.extractData)
             .catch(this.handleError);
     };
@@ -3291,7 +3294,10 @@ var DataService = (function () {
         console.log('what is the updated item?', itemToUpdate);
         console.log('what is the updated item?', JSON.stringify(itemToUpdate));
         return this.http.put("" + this.actionUrl + ns + "/" + id, itemToUpdate)
-            .map(this.extractData)
+            .map(function (response) {
+            console.log(response.json());
+            return response.json();
+        })
             .catch(this.handleError);
     };
     DataService.prototype.delete = function (ns, id) {
@@ -3309,6 +3315,7 @@ var DataService = (function () {
         return __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"].throw(errMsg);
     };
     DataService.prototype.extractData = function (res) {
+        console.log("HERE I AM");
         return res.json();
     };
     return DataService;
