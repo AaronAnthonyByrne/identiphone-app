@@ -3270,11 +3270,8 @@ var DataService = (function () {
         console.log("" + this.actionUrl + ns);
         var combinedURL = "" + this.actionUrl + ns;
         console.log(combinedURL);
-        return this.http.get(combinedURL)
-            .map(function (response) {
-            console.log(response.json());
-            return response.json();
-        })
+        return this.http.get('http://35.204.114.96:3000/api/Phone')
+            .map(this.extractData)
             .catch(this.handleError);
     };
     DataService.prototype.getSingle = function (ns, id) {
