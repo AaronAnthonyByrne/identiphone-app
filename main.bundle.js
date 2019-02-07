@@ -3260,7 +3260,7 @@ var DataService = (function () {
     function DataService(http) {
         this.http = http;
         this.resolveSuffix = '?resolve=true';
-        this.actionUrl = 'http://35.204.114.96:3000/api/';
+        this.actionUrl = 'https://35.204.114.96:3000/api/';
         this.headers = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Headers */]();
         this.headers.append('Content-Type', 'application/json');
         this.headers.append('Accept', 'application/json');
