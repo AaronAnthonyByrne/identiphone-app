@@ -3294,7 +3294,10 @@ var DataService = (function () {
         console.log('what is the updated item?', itemToUpdate);
         console.log('what is the updated item?', JSON.stringify(itemToUpdate));
         return this.http.put("" + this.actionUrl + ns + "/" + id, itemToUpdate)
-            .map(this.extractData)
+            .map(function (response) {
+            console.log(response.json());
+            return response.json();
+        })
             .catch(this.handleError);
     };
     DataService.prototype.delete = function (ns, id) {
