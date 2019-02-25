@@ -3205,7 +3205,7 @@ module.exports = "<!--\n Licensed under the Apache License, Version 2.0 (the \"L
 /***/ 509:
 /***/ (function(module, exports) {
 
-module.exports = "<!--\n Licensed under the Apache License, Version 2.0 (the \"License\");\n you may not use this file except in compliance with the License.\n You may obtain a copy of the License at\n\n http://www.apache.org/licenses/LICENSE-2.0\n\n Unless required by applicable law or agreed to in writing, software\n distributed under the License is distributed on an \"AS IS\" BASIS,\n WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n See the License for the specific language governing permissions and\n limitations under the License.\n-->\n<div class=\"container\">\n\t<div class=\"jumbotron\">\n\t\t<h1>identiphone-app</h1>\n\t</div>\n</div>\n"
+module.exports = "<!--\n Licensed under the Apache License, Version 2.0 (the \"License\");\n you may not use this file except in compliance with the License.\n You may obtain a copy of the License at\n\n http://www.apache.org/licenses/LICENSE-2.0\n\n Unless required by applicable law or agreed to in writing, software\n distributed under the License is distributed on an \"AS IS\" BASIS,\n WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n See the License for the specific language governing permissions and\n limitations under the License.\n-->\n<div class=\"container\">\n\t<div class=\"jumbotron\">\n\t\t<h1>identiphone-app</h1>\n\t</div>\n</div>\n\n<div class=\"homeScreen\">\n\t<p>test</p>\n</div>\n"
 
 /***/ }),
 
