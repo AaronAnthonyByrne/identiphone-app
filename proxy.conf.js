@@ -41,6 +41,7 @@ module.exports = [{
     ws: true,
     bypass: function (req, res, proxyOptions) {
         const accept = req.headers.accept || '';
+        console.log("This is the accept "+accept);
         if (accept.indexOf('html') !== -1) {
             return '/index.html';
         }
