@@ -2211,9 +2211,10 @@ var RestService = (function () {
         })
             .then(function (cardData) {
             console.log('CARD-DATA', cardData);
-            //const file = new File([cardData], 'myCard.card', {type: 'application/octet-stream', lastModified: Date.now()});
+            var happy = new Blob();
+            var file = new File([happy], 'myCard.card', { lastModified: Date.now() });
             var formData = new FormData();
-            //formData.append('card', file);
+            formData.append('card', file);
             var headers = new __WEBPACK_IMPORTED_MODULE_1__angular_common_http__["a" /* HttpHeaders */]();
             headers.set('Content-Type', 'multipart/form-data');
             return _this.httpClient.post('http://35.204.114.96:3000/api/wallet/import', formData, { withCredentials: true, headers: headers });
