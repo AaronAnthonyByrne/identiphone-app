@@ -2208,19 +2208,16 @@ var RestService = (function () {
                 options: {}
             };
             return _this.httpClient.post('http://35.204.114.96:3001/api/system/identities/issue', identity, { responseType: 'blob' }).toPromise();
+        })
+            .then(function (cardData) {
+            console.log('CARD-DATA', cardData);
+            //const file = new File([cardData], 'myCard.card', {type: 'application/octet-stream', lastModified: Date.now()});
+            var formData = new FormData();
+            //formData.append('card', file);
+            var headers = new __WEBPACK_IMPORTED_MODULE_1__angular_common_http__["a" /* HttpHeaders */]();
+            headers.set('Content-Type', 'multipart/form-data');
+            return _this.httpClient.post('http://35.204.114.96:3000/api/wallet/import', formData, { withCredentials: true, headers: headers });
         });
-        // .then((cardData) => {
-        // console.log('CARD-DATA', cardData);
-        //   const file = new File([cardData], 'myCard.card', {type: 'application/octet-stream', lastModified: Date.now()});
-        //   const formData = new FormData();
-        //   formData.append('card', file);
-        //   const headers = new HttpHeaders();
-        //   headers.set('Content-Type', 'multipart/form-data');
-        //   return this.httpClient.post('http://35.204.114.96:3000/api/wallet/import', formData, {
-        //     withCredentials: true,
-        //     headers
-        //   }).toPromise();
-        // });
     };
     RestService.prototype.getCurrentUser = function () {
         return this.httpClient.get('http://35.204.114.96:3000/api/system/ping', { withCredentials: true }).toPromise()
@@ -2232,7 +2229,7 @@ var RestService = (function () {
 }());
 RestService = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* Injectable */])(),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_common_http__["a" /* HttpClient */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_common_http__["a" /* HttpClient */]) === "function" && _a || Object])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_common_http__["b" /* HttpClient */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_common_http__["b" /* HttpClient */]) === "function" && _a || Object])
 ], RestService);
 
 var _a;
