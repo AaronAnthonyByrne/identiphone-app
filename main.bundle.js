@@ -2200,14 +2200,14 @@ var RestService = (function () {
             lastName: data.lastName,
             ownerId: data.ownerId
         };
-        return this.httpClient.post('http://35.204.114.96:3001/api/org.example.mynetwork.Member', member).toPromise()
+        return this.httpClient.post('https://35.204.114.96:3000/api/org.example.mynetwork.Member', member).toPromise()
             .then(function () {
             var identity = {
                 participant: 'org.example.mynetwork.Member#' + data.firstName,
                 userID: data.email,
                 options: {}
             };
-            return _this.httpClient.post('http://35.204.114.96:3001/api/system/identities/issue', identity, { responseType: 'blob' }).toPromise();
+            return _this.httpClient.post('https://35.204.114.96:3000/api/system/identities/issue', identity, { responseType: 'blob' }).toPromise();
         })
             .then(function (cardData) {
             console.log('CARD-DATA', cardData);
