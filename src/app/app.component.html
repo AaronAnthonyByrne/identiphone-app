@@ -11,10 +11,11 @@
  See the License for the specific language governing permissions and
  limitations under the License.
 -->
+<img class ="logoImage" src="assets/images/logo.png" width="150px" height="150px"/>
 <nav class="navbar navbar-inverse">
     <div class="container-fluid">
       <div class="navbar-header">
-        <img src="assets/images/logo.png" width="150px" height="150px"/>
+        
       </div>
       <ul class="nav navbar-nav">
         <li class="dropdown active">
@@ -40,11 +41,9 @@
             <li><a [routerLink]="['/markAsStolen']">markAsStolen</a></li>
           </ul>
         </li>
-        <li><button class="btn btn-primary btn-margin"><a href="https://35.204.114.96:3000/auth/github"> Log In</a></button></li>
-       </ul> 
-      <!-- <button class="btn btn-primary btn-margin" *ngIf="!auth.isAuthenticated()" (click)="auth.login()">Log In</button>
-      <button class="btn btn-primary btn-margin" *ngIf="auth.isAuthenticated()" (click)="auth.logout()">Log Out</button> -->
+      </ul>
     </div>
-  </nav>
-
+  </nav>       
+  <button *ngIf="!authenticated" class="btn btn-primary btn-margin" (click)="location.href = 'https://35.204.114.96:3000/auth/github';" type="submit"> Log In</button>
+  <button *ngIf="authenticated" class="btn btn-primary btn-margin">Log Out</button>
   <router-outlet></router-outlet>

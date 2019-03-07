@@ -28,6 +28,8 @@ import { NetworkProviderComponent } from './NetworkProvider/NetworkProvider.comp
 import { LawEnfrocmentComponent } from './LawEnfrocment/LawEnfrocment.component';
 import { ChangeOwnerComponent } from './ChangeOwner/ChangeOwner.component';
 import { markAsStolenComponent } from './markAsStolen/markAsStolen.component';
+import { RestService } from './rest.service';
+import {HttpClientModule} from '@angular/common/http';
 
   @NgModule({
   declarations: [
@@ -48,10 +50,12 @@ import { markAsStolenComponent } from './markAsStolen/markAsStolen.component';
     FormsModule,
     ReactiveFormsModule,
     HttpModule,
+    HttpClientModule,
     AppRoutingModule
   ],
   providers: [
-    DataService
+    DataService,
+    RestService
   ],
   bootstrap: [AppComponent]
 })

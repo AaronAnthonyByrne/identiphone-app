@@ -13,19 +13,54 @@
 -->
 <div class="container">
 	<div class="jumbotron">
-		<h2>Welcome to Identiphone.</h2>
+		<h2>Welcome to Identiphone, <div *ngIf="currentUser" class="user-info"> {{currentUser.split('#')[1]}}</div></h2>
 		<p>Identiphone is a blockchain solution to help track a phones history and to help stop the selling of stolen phones</p>
 	</div>
-
-</div>
-<div class="container">
-	<div class="jumbotron">
-		<h3>How does it work</h3>
-		<ul>
-			<li><p>Your phone is registered when you buy it or opt in.</p></li>
-			<li><p>If your phone is ever stolen, you can log into Identiphone to retrieve your IMEI number and with this number you can ring your network provider to block your phone</p></li>
-			<li><p>It also enables you to check the history of a phone. So you can see if a phone has been stolen or the number of previous owners it has had</p></li>		
-			<li><p>For retailers or people buying second hand phones it can provide clarity that you are buying from the actual owner of the phone</p></li>
-		</ul>
+<section *ngIf="authenticated && !loggedIn">
+	<h3>Sign Up</h3>
+	<form (ngSubmit)="onSignUp()" #signupForm="ngForm">
+		<table>
+			<colgroup>
+				<col span="1" style="width: 11%;">
+				<col span="1" style="width: 89%;">
+			</colgroup>
+			<tr>
+				<td><label>Email</label></td>
+				<td><input type="email" [(ngModel)]="signUp.email" #id="ngModel" name="email"></td>
+			</tr>
+			<tr>
+				<td><label>First Name</label></td>
+				<td><input type="text" [(ngModel)]="signUp.firstName" #firstName="ngModel" name="firstName"></td>
+			</tr>
+			<tr>
+				<td><label>Surname</label></td>
+				<td><input type="text" [(ngModel)]="signUp.lastName" #lastName="ngModel" name="lastName"></td>
+			</tr>
+		</table>
+		<button type="submit" class="primary">
+		<div *ngIf="!signUpInProgress">
+			<span>Sign up</span>
+		</div>
+		<div *ngIf="signUpInProgress" class="ibm-spinner-indeterminate small loop">
+			<div class="loader">
+			<svg class="circular" viewBox="25 25 50 50">
+				<circle class="circle-path" cx="50" cy="50" r="20"/>
+			</svg>
+			</div>
+		</div>
+		</button>
+	</form>
+</section>
+<section *ngIf="loggedIn">
+	<div class="container">
+		<div class="jumbotron">
+			<h3>How does it work</h3>
+			<ul>
+				<li><p>Your phone is registered when you buy it or opt in.</p></li>
+				<li><p>If your phone is ever stolen, you can log into Identiphone to retrieve your IMEI number and with this number you can ring your network provider to block your phone</p></li>
+				<li><p>It also enables you to check the history of a phone. So you can see if a phone has been stolen or the number of previous owners it has had</p></li>		
+				<li><p>For retailers or people buying second hand phones it can provide clarity that you are buying from the actual owner of the phone</p></li>
+			</ul>
+		</div>
 	</div>
-</div>
+</section>

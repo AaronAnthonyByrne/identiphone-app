@@ -1,41 +1,41 @@
 webpackJsonp([1,5],{
 
-/***/ 156:
+/***/ 159:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_core_js_es6_symbol__ = __webpack_require__(173);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_core_js_es6_symbol__ = __webpack_require__(175);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_core_js_es6_symbol___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_core_js_es6_symbol__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_core_js_es6_object__ = __webpack_require__(166);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_core_js_es6_object__ = __webpack_require__(168);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_core_js_es6_object___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_core_js_es6_object__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_core_js_es6_function__ = __webpack_require__(162);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_core_js_es6_function__ = __webpack_require__(164);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_core_js_es6_function___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_core_js_es6_function__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_core_js_es6_parse_int__ = __webpack_require__(168);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_core_js_es6_parse_int__ = __webpack_require__(170);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_core_js_es6_parse_int___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_core_js_es6_parse_int__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_core_js_es6_parse_float__ = __webpack_require__(167);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_core_js_es6_parse_float__ = __webpack_require__(169);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_core_js_es6_parse_float___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_core_js_es6_parse_float__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_core_js_es6_number__ = __webpack_require__(165);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_core_js_es6_number__ = __webpack_require__(167);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_core_js_es6_number___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_core_js_es6_number__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_core_js_es6_math__ = __webpack_require__(164);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_core_js_es6_math__ = __webpack_require__(166);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_core_js_es6_math___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_core_js_es6_math__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_core_js_es6_string__ = __webpack_require__(172);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_core_js_es6_string__ = __webpack_require__(174);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_core_js_es6_string___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_core_js_es6_string__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_core_js_es6_date__ = __webpack_require__(161);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_core_js_es6_date__ = __webpack_require__(163);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_core_js_es6_date___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_core_js_es6_date__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_core_js_es6_array__ = __webpack_require__(160);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_core_js_es6_array__ = __webpack_require__(162);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_core_js_es6_array___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_core_js_es6_array__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_core_js_es6_regexp__ = __webpack_require__(170);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_core_js_es6_regexp__ = __webpack_require__(172);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_core_js_es6_regexp___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10_core_js_es6_regexp__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_core_js_es6_map__ = __webpack_require__(163);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_core_js_es6_map__ = __webpack_require__(165);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_core_js_es6_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_11_core_js_es6_map__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_core_js_es6_set__ = __webpack_require__(171);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_core_js_es6_set__ = __webpack_require__(173);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_core_js_es6_set___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_12_core_js_es6_set__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_core_js_es6_reflect__ = __webpack_require__(169);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_core_js_es6_reflect__ = __webpack_require__(171);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_core_js_es6_reflect___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_13_core_js_es6_reflect__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_core_js_es7_reflect__ = __webpack_require__(174);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_core_js_es7_reflect__ = __webpack_require__(176);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_core_js_es7_reflect___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_14_core_js_es7_reflect__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_zone_js_dist_zone__ = __webpack_require__(337);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_zone_js_dist_zone__ = __webpack_require__(339);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_zone_js_dist_zone___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_15_zone_js_dist_zone__);
 /*
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -72,13 +72,13 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 /***/ }),
 
-/***/ 339:
+/***/ 343:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(54);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ChangeOwner_service__ = __webpack_require__(472);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ChangeOwner_service__ = __webpack_require__(474);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_toPromise__ = __webpack_require__(67);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_toPromise___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_toPromise__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ChangeOwnerComponent; });
@@ -319,8 +319,8 @@ var ChangeOwnerComponent = (function () {
 ChangeOwnerComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* Component */])({
         selector: 'app-changeowner',
-        template: __webpack_require__(501),
-        styles: [__webpack_require__(486)],
+        template: __webpack_require__(503),
+        styles: [__webpack_require__(488)],
         providers: [__WEBPACK_IMPORTED_MODULE_2__ChangeOwner_service__["a" /* ChangeOwnerService */]]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__ChangeOwner_service__["a" /* ChangeOwnerService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__ChangeOwner_service__["a" /* ChangeOwnerService */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1__angular_forms__["e" /* FormBuilder */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_forms__["e" /* FormBuilder */]) === "function" && _b || Object])
@@ -331,13 +331,13 @@ var _a, _b;
 
 /***/ }),
 
-/***/ 340:
+/***/ 344:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(54);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__LawEnfrocment_service__ = __webpack_require__(473);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__LawEnfrocment_service__ = __webpack_require__(475);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_toPromise__ = __webpack_require__(67);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_toPromise___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_toPromise__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LawEnfrocmentComponent; });
@@ -565,8 +565,8 @@ var LawEnfrocmentComponent = (function () {
 LawEnfrocmentComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* Component */])({
         selector: 'app-lawenfrocment',
-        template: __webpack_require__(502),
-        styles: [__webpack_require__(487)],
+        template: __webpack_require__(504),
+        styles: [__webpack_require__(489)],
         providers: [__WEBPACK_IMPORTED_MODULE_2__LawEnfrocment_service__["a" /* LawEnfrocmentService */]]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__LawEnfrocment_service__["a" /* LawEnfrocmentService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__LawEnfrocment_service__["a" /* LawEnfrocmentService */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1__angular_forms__["e" /* FormBuilder */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_forms__["e" /* FormBuilder */]) === "function" && _b || Object])
@@ -577,13 +577,13 @@ var _a, _b;
 
 /***/ }),
 
-/***/ 341:
+/***/ 345:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(54);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Member_service__ = __webpack_require__(474);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Member_service__ = __webpack_require__(476);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_toPromise__ = __webpack_require__(67);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_toPromise___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_toPromise__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MemberComponent; });
@@ -825,8 +825,8 @@ var MemberComponent = (function () {
 MemberComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* Component */])({
         selector: 'app-member',
-        template: __webpack_require__(503),
-        styles: [__webpack_require__(488)],
+        template: __webpack_require__(505),
+        styles: [__webpack_require__(490)],
         providers: [__WEBPACK_IMPORTED_MODULE_2__Member_service__["a" /* MemberService */]]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__Member_service__["a" /* MemberService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__Member_service__["a" /* MemberService */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1__angular_forms__["e" /* FormBuilder */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_forms__["e" /* FormBuilder */]) === "function" && _b || Object])
@@ -837,13 +837,13 @@ var _a, _b;
 
 /***/ }),
 
-/***/ 342:
+/***/ 346:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(54);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__NetworkProvider_service__ = __webpack_require__(475);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__NetworkProvider_service__ = __webpack_require__(477);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_toPromise__ = __webpack_require__(67);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_toPromise___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_toPromise__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NetworkProviderComponent; });
@@ -1057,8 +1057,8 @@ var NetworkProviderComponent = (function () {
 NetworkProviderComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* Component */])({
         selector: 'app-networkprovider',
-        template: __webpack_require__(504),
-        styles: [__webpack_require__(489)],
+        template: __webpack_require__(506),
+        styles: [__webpack_require__(491)],
         providers: [__WEBPACK_IMPORTED_MODULE_2__NetworkProvider_service__["a" /* NetworkProviderService */]]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__NetworkProvider_service__["a" /* NetworkProviderService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__NetworkProvider_service__["a" /* NetworkProviderService */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1__angular_forms__["e" /* FormBuilder */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_forms__["e" /* FormBuilder */]) === "function" && _b || Object])
@@ -1069,13 +1069,13 @@ var _a, _b;
 
 /***/ }),
 
-/***/ 343:
+/***/ 347:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(54);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Phone_service__ = __webpack_require__(476);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Phone_service__ = __webpack_require__(478);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_toPromise__ = __webpack_require__(67);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_toPromise___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_toPromise__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PhoneComponent; });
@@ -1305,8 +1305,8 @@ var PhoneComponent = (function () {
 PhoneComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* Component */])({
         selector: 'app-phone',
-        template: __webpack_require__(505),
-        styles: [__webpack_require__(490)],
+        template: __webpack_require__(507),
+        styles: [__webpack_require__(492)],
         providers: [__WEBPACK_IMPORTED_MODULE_2__Phone_service__["a" /* PhoneService */]]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__Phone_service__["a" /* PhoneService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__Phone_service__["a" /* PhoneService */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1__angular_forms__["e" /* FormBuilder */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_forms__["e" /* FormBuilder */]) === "function" && _b || Object])
@@ -1317,13 +1317,13 @@ var _a, _b;
 
 /***/ }),
 
-/***/ 344:
+/***/ 348:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(54);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Recycler_service__ = __webpack_require__(477);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Recycler_service__ = __webpack_require__(479);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_toPromise__ = __webpack_require__(67);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_toPromise___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_toPromise__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RecyclerComponent; });
@@ -1551,8 +1551,8 @@ var RecyclerComponent = (function () {
 RecyclerComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* Component */])({
         selector: 'app-recycler',
-        template: __webpack_require__(506),
-        styles: [__webpack_require__(491)],
+        template: __webpack_require__(508),
+        styles: [__webpack_require__(493)],
         providers: [__WEBPACK_IMPORTED_MODULE_2__Recycler_service__["a" /* RecyclerService */]]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__Recycler_service__["a" /* RecyclerService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__Recycler_service__["a" /* RecyclerService */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1__angular_forms__["e" /* FormBuilder */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_forms__["e" /* FormBuilder */]) === "function" && _b || Object])
@@ -1563,13 +1563,13 @@ var _a, _b;
 
 /***/ }),
 
-/***/ 345:
+/***/ 349:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(54);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Retailer_service__ = __webpack_require__(478);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Retailer_service__ = __webpack_require__(480);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_toPromise__ = __webpack_require__(67);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_toPromise___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_toPromise__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RetailerComponent; });
@@ -1797,8 +1797,8 @@ var RetailerComponent = (function () {
 RetailerComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* Component */])({
         selector: 'app-retailer',
-        template: __webpack_require__(507),
-        styles: [__webpack_require__(492)],
+        template: __webpack_require__(509),
+        styles: [__webpack_require__(494)],
         providers: [__WEBPACK_IMPORTED_MODULE_2__Retailer_service__["a" /* RetailerService */]]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__Retailer_service__["a" /* RetailerService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__Retailer_service__["a" /* RetailerService */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1__angular_forms__["e" /* FormBuilder */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_forms__["e" /* FormBuilder */]) === "function" && _b || Object])
@@ -1809,11 +1809,13 @@ var _a, _b;
 
 /***/ }),
 
-/***/ 346:
+/***/ 350:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(342);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_app_rest_service__ = __webpack_require__(352);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomeComponent; });
 /*
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -1838,31 +1840,94 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
+
+
 var HomeComponent = (function () {
-    function HomeComponent() {
+    function HomeComponent(route, router, restService) {
+        this.route = route;
+        this.router = router;
+        this.restService = restService;
+        this.authenticated = false;
+        this.loggedIn = false;
+        this.signUpInProgress = false;
+        this.signUp = {
+            email: '',
+            firstName: '',
+            lastName: '',
+            ownerId: ''
+        };
     }
+    HomeComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        this.route
+            .queryParams
+            .subscribe(function (queryParams) {
+            var loggedIn = queryParams['loggedIn'];
+            if (loggedIn) {
+                _this.authenticated = true;
+                return _this.router.navigate(['/'])
+                    .then(function () {
+                    return _this.checkWallet();
+                });
+            }
+        });
+    };
+    HomeComponent.prototype.checkWallet = function () {
+        var _this = this;
+        return this.restService.checkWallet()
+            .then(function (res) {
+            if (res['length'] > 0) {
+                _this.loggedIn = true;
+                return _this.getCurrentUser();
+            }
+        });
+    };
+    HomeComponent.prototype.onSignUp = function () {
+        var _this = this;
+        this.signUpInProgress = true;
+        return this.restService.signUp(this.signUp)
+            .then(function () {
+            return _this.getCurrentUser();
+        })
+            .then(function () {
+            _this.loggedIn = true;
+            _this.signUpInProgress = true;
+        });
+    };
+    HomeComponent.prototype.getCurrentUser = function () {
+        var _this = this;
+        return this.restService.getCurrentUser()
+            .then(function (currentUser) {
+            _this.currentUser.currentUser;
+        });
+    };
     return HomeComponent;
 }());
+__decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ViewChild */])('signupForm'),
+    __metadata("design:type", Object)
+], HomeComponent.prototype, "signupForm", void 0);
 HomeComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* Component */])({
         selector: 'app-home',
-        template: __webpack_require__(509),
-        styles: [__webpack_require__(494)]
+        template: __webpack_require__(511),
+        styles: [__webpack_require__(496)]
     }),
-    __metadata("design:paramtypes", [])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* ActivatedRoute */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* ActivatedRoute */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["c" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_router__["c" /* Router */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2_app_rest_service__["a" /* RestService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2_app_rest_service__["a" /* RestService */]) === "function" && _c || Object])
 ], HomeComponent);
 
+var _a, _b, _c;
 //# sourceMappingURL=home.component.js.map
 
 /***/ }),
 
-/***/ 347:
+/***/ 351:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(54);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markAsStolen_service__ = __webpack_require__(482);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markAsStolen_service__ = __webpack_require__(484);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_toPromise__ = __webpack_require__(67);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_toPromise___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_toPromise__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return markAsStolenComponent; });
@@ -2089,8 +2154,8 @@ var markAsStolenComponent = (function () {
 markAsStolenComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* Component */])({
         selector: 'app-markasstolen',
-        template: __webpack_require__(510),
-        styles: [__webpack_require__(495)],
+        template: __webpack_require__(512),
+        styles: [__webpack_require__(497)],
         providers: [__WEBPACK_IMPORTED_MODULE_2__markAsStolen_service__["a" /* markAsStolenService */]]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__markAsStolen_service__["a" /* markAsStolenService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__markAsStolen_service__["a" /* markAsStolenService */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1__angular_forms__["e" /* FormBuilder */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_forms__["e" /* FormBuilder */]) === "function" && _b || Object])
@@ -2101,7 +2166,79 @@ var _a, _b;
 
 /***/ }),
 
-/***/ 462:
+/***/ 352:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common_http__ = __webpack_require__(340);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RestService; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var RestService = (function () {
+    function RestService(httpClient) {
+        this.httpClient = httpClient;
+    }
+    RestService.prototype.checkWallet = function () {
+        return this.httpClient.get('https://35.204.114.96:3000/api/wallet', { withCredentials: true }).toPromise();
+    };
+    RestService.prototype.signUp = function (data) {
+        var _this = this;
+        var member = {
+            $class: 'org.example.mynetwork.Member',
+            email: data.email,
+            firstName: data.firstName,
+            lastName: data.lastName,
+            ownerId: data.ownerId
+        };
+        return this.httpClient.post('https://35.204.114.96:3000/api/org.example.mynetwork.Member', member).toPromise()
+            .then(function () {
+            var identity = {
+                participant: 'org.example.mynetwork.Member#' + data.firstName,
+                userID: data.email,
+                options: {}
+            };
+            return _this.httpClient.post('https://35.204.114.96:3000/api/system/identities/issue', identity, { responseType: 'blob' }).toPromise();
+        })
+            .then(function (cardData) {
+            console.log('CARD-DATA', cardData);
+            var happy = new Blob();
+            var file = new File([happy], 'myCard.card', { lastModified: Date.now() });
+            var formData = new FormData();
+            formData.append('card', file);
+            var headers = new __WEBPACK_IMPORTED_MODULE_1__angular_common_http__["b" /* HttpHeaders */]();
+            headers.set('Content-Type', 'multipart/form-data');
+            return _this.httpClient.post('https://35.204.114.96:3000/api/wallet/import', formData, { withCredentials: true, headers: headers });
+        });
+    };
+    RestService.prototype.getCurrentUser = function () {
+        return this.httpClient.get('https://35.204.114.96:3000/api/system/ping', { withCredentials: true }).toPromise()
+            .then(function (data) {
+            return data['participant'];
+        });
+    };
+    return RestService;
+}());
+RestService = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* Injectable */])(),
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_common_http__["c" /* HttpClient */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_common_http__["c" /* HttpClient */]) === "function" && _a || Object])
+], RestService);
+
+var _a;
+//# sourceMappingURL=rest.service.js.map
+
+/***/ }),
+
+/***/ 465:
 /***/ (function(module, exports) {
 
 function webpackEmptyContext(req) {
@@ -2110,21 +2247,21 @@ function webpackEmptyContext(req) {
 webpackEmptyContext.keys = function() { return []; };
 webpackEmptyContext.resolve = webpackEmptyContext;
 module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 462;
+webpackEmptyContext.id = 465;
 
 
 /***/ }),
 
-/***/ 463:
+/***/ 466:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__polyfills_ts__ = __webpack_require__(156);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser_dynamic__ = __webpack_require__(470);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_app_module__ = __webpack_require__(481);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__environments_environment__ = __webpack_require__(483);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__polyfills_ts__ = __webpack_require__(159);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser_dynamic__ = __webpack_require__(473);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_app_module__ = __webpack_require__(483);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__environments_environment__ = __webpack_require__(485);
 /*
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -2151,13 +2288,13 @@ __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__angular_platform_browser_dyna
 
 /***/ }),
 
-/***/ 472:
+/***/ 474:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__data_service__ = __webpack_require__(55);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Rx__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Rx__ = __webpack_require__(69);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Rx___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Rx__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ChangeOwnerService; });
 /*
@@ -2219,13 +2356,13 @@ var _a;
 
 /***/ }),
 
-/***/ 473:
+/***/ 475:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__data_service__ = __webpack_require__(55);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Rx__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Rx__ = __webpack_require__(69);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Rx___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Rx__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LawEnfrocmentService; });
 /*
@@ -2287,13 +2424,13 @@ var _a;
 
 /***/ }),
 
-/***/ 474:
+/***/ 476:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__data_service__ = __webpack_require__(55);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Rx__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Rx__ = __webpack_require__(69);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Rx___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Rx__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MemberService; });
 /*
@@ -2355,13 +2492,13 @@ var _a;
 
 /***/ }),
 
-/***/ 475:
+/***/ 477:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__data_service__ = __webpack_require__(55);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Rx__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Rx__ = __webpack_require__(69);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Rx___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Rx__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NetworkProviderService; });
 /*
@@ -2423,13 +2560,13 @@ var _a;
 
 /***/ }),
 
-/***/ 476:
+/***/ 478:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__data_service__ = __webpack_require__(55);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Rx__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Rx__ = __webpack_require__(69);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Rx___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Rx__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PhoneService; });
 /*
@@ -2491,13 +2628,13 @@ var _a;
 
 /***/ }),
 
-/***/ 477:
+/***/ 479:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__data_service__ = __webpack_require__(55);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Rx__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Rx__ = __webpack_require__(69);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Rx___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Rx__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RecyclerService; });
 /*
@@ -2559,13 +2696,13 @@ var _a;
 
 /***/ }),
 
-/***/ 478:
+/***/ 480:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__data_service__ = __webpack_require__(55);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Rx__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Rx__ = __webpack_require__(69);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Rx___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Rx__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RetailerService; });
 /*
@@ -2627,21 +2764,21 @@ var _a;
 
 /***/ }),
 
-/***/ 479:
+/***/ 481:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(471);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home_component__ = __webpack_require__(346);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Phone_Phone_component__ = __webpack_require__(343);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Member_Member_component__ = __webpack_require__(341);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Retailer_Retailer_component__ = __webpack_require__(345);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Recycler_Recycler_component__ = __webpack_require__(344);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__NetworkProvider_NetworkProvider_component__ = __webpack_require__(342);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__LawEnfrocment_LawEnfrocment_component__ = __webpack_require__(340);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ChangeOwner_ChangeOwner_component__ = __webpack_require__(339);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__markAsStolen_markAsStolen_component__ = __webpack_require__(347);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(342);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home_component__ = __webpack_require__(350);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Phone_Phone_component__ = __webpack_require__(347);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Member_Member_component__ = __webpack_require__(345);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Retailer_Retailer_component__ = __webpack_require__(349);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Recycler_Recycler_component__ = __webpack_require__(348);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__NetworkProvider_NetworkProvider_component__ = __webpack_require__(346);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__LawEnfrocment_LawEnfrocment_component__ = __webpack_require__(344);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ChangeOwner_ChangeOwner_component__ = __webpack_require__(343);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__markAsStolen_markAsStolen_component__ = __webpack_require__(351);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppRoutingModule; });
 /*
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -2702,12 +2839,12 @@ AppRoutingModule = __decorate([
 
 /***/ }),
 
-/***/ 480:
+/***/ 482:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_jquery__ = __webpack_require__(497);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_jquery__ = __webpack_require__(499);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_jquery___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_jquery__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppComponent; });
 /*
@@ -2755,8 +2892,8 @@ var AppComponent = (function () {
 AppComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* Component */])({
         selector: 'app-root',
-        template: __webpack_require__(508),
-        styles: [__webpack_require__(493)]
+        template: __webpack_require__(510),
+        styles: [__webpack_require__(495)]
     })
 ], AppComponent);
 
@@ -2764,26 +2901,28 @@ AppComponent = __decorate([
 
 /***/ }),
 
-/***/ 481:
+/***/ 483:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(94);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(338);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(341);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_forms__ = __webpack_require__(54);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_routing_module__ = __webpack_require__(479);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_routing_module__ = __webpack_require__(481);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__data_service__ = __webpack_require__(55);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__app_component__ = __webpack_require__(480);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__home_home_component__ = __webpack_require__(346);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Phone_Phone_component__ = __webpack_require__(343);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__Member_Member_component__ = __webpack_require__(341);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__Retailer_Retailer_component__ = __webpack_require__(345);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__Recycler_Recycler_component__ = __webpack_require__(344);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__NetworkProvider_NetworkProvider_component__ = __webpack_require__(342);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__LawEnfrocment_LawEnfrocment_component__ = __webpack_require__(340);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__ChangeOwner_ChangeOwner_component__ = __webpack_require__(339);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__markAsStolen_markAsStolen_component__ = __webpack_require__(347);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__app_component__ = __webpack_require__(482);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__home_home_component__ = __webpack_require__(350);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Phone_Phone_component__ = __webpack_require__(347);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__Member_Member_component__ = __webpack_require__(345);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__Retailer_Retailer_component__ = __webpack_require__(349);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__Recycler_Recycler_component__ = __webpack_require__(348);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__NetworkProvider_NetworkProvider_component__ = __webpack_require__(346);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__LawEnfrocment_LawEnfrocment_component__ = __webpack_require__(344);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__ChangeOwner_ChangeOwner_component__ = __webpack_require__(343);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__markAsStolen_markAsStolen_component__ = __webpack_require__(351);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__rest_service__ = __webpack_require__(352);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__angular_common_http__ = __webpack_require__(340);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 /*
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -2820,6 +2959,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
+
+
 var AppModule = (function () {
     function AppModule() {
     }
@@ -2837,17 +2978,19 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_12__NetworkProvider_NetworkProvider_component__["a" /* NetworkProviderComponent */],
             __WEBPACK_IMPORTED_MODULE_13__LawEnfrocment_LawEnfrocment_component__["a" /* LawEnfrocmentComponent */],
             __WEBPACK_IMPORTED_MODULE_14__ChangeOwner_ChangeOwner_component__["a" /* ChangeOwnerComponent */],
-            __WEBPACK_IMPORTED_MODULE_15__markAsStolen_markAsStolen_component__["a" /* markAsStolenComponent */]
+            __WEBPACK_IMPORTED_MODULE_15__markAsStolen_markAsStolen_component__["a" /* markAsStolenComponent */],
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
             __WEBPACK_IMPORTED_MODULE_3__angular_forms__["a" /* FormsModule */],
             __WEBPACK_IMPORTED_MODULE_3__angular_forms__["b" /* ReactiveFormsModule */],
             __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* HttpModule */],
+            __WEBPACK_IMPORTED_MODULE_17__angular_common_http__["a" /* HttpClientModule */],
             __WEBPACK_IMPORTED_MODULE_4__app_routing_module__["a" /* AppRoutingModule */]
         ],
         providers: [
-            __WEBPACK_IMPORTED_MODULE_5__data_service__["a" /* DataService */]
+            __WEBPACK_IMPORTED_MODULE_5__data_service__["a" /* DataService */],
+            __WEBPACK_IMPORTED_MODULE_16__rest_service__["a" /* RestService */]
         ],
         bootstrap: [__WEBPACK_IMPORTED_MODULE_6__app_component__["a" /* AppComponent */]]
     })
@@ -2857,13 +3000,13 @@ AppModule = __decorate([
 
 /***/ }),
 
-/***/ 482:
+/***/ 484:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__data_service__ = __webpack_require__(55);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Rx__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Rx__ = __webpack_require__(69);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Rx___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Rx__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return markAsStolenService; });
 /*
@@ -2925,7 +3068,7 @@ var _a;
 
 /***/ }),
 
-/***/ 483:
+/***/ 485:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2966,42 +3109,6 @@ var _a;
 
 /***/ }),
 
-/***/ 486:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(44)(false);
-// imports
-
-
-// module
-exports.push([module.i, "/*\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n * \n * http://www.apache.org/licenses/LICENSE-2.0\n * \n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n.container {\n    margin-left: 72px;\n    margin-right: 32px;\n    background-color: #F4F4F4;\n    border-radius: 5px;\n}\n\n.btn-primary {\n    background: #3D9970;\n    border-radius: 4px;\n    border: 0px;\n    font-size: 14px;\n    color: #FFFFFF;\n    letter-spacing: 0;\n    line-height: 10px;\n    height: 40px;\n    width: 153px;\n    float: right;\n    margin-top: 5%;\n}\n\n.table > thead > tr > th {\n    border-bottom: 1px solid #EAEAEA;\n}\n\n.table > thead > tr > th.info {\n    background: #FFF;\n}\n.modal-title {\n    font-family: inherit;\n    font-size: 24px;\n    color: #4E4E4E;\n    letter-spacing: 0.28px;\n    line-height: 28px;\n    padding-top: 15px;\n}\n.modal-intro {\n    font-family: inherit;\n    font-size: 14px;\n    color: #545454;\n    line-height: 20px;\n    padding-top: 15px;\n\n}\n.modal-header{\n    background: #F4F4F4;\n    border-radius: 5px;\n    border-bottom: 1px solid #F4F4F4;\n}\n.modal-body{\n    background: #F4F4F4;\n    border-radius: 5px;\n}\n.modal-footer{\n    background: #F4F4F4;\n    border-radius: 5px;\n    border-top: 1px solid #f4f4f4\n}\n.form-control{\n    color: #393939;\n    height: 42px;\n    border: 1px solid #ffffff;\n    box-shadow: inset 0 0px 0px rgba(0,0,0,.075); \n    border-radius: 4px;\n    resize: none;\n\n}\nlabel {\n    color: #545454;\n}\n.modal-content{\n    margin-top: 15%;\n    margin-bottom: 15%;\n    box-shadow: 0 0px 0px;\n    border: 0px;\n\n}\n.btn-default {\n    color: #2ECC40;\n    background-color: #ffffff;\n    border-color: #2ECC40;\n    border-radius: 4px;\n    width: 76px;\n    height: 40px;\n}\n.btn-danger{\n    color: #ffffff;\n    background-color: #3D9970;\n    border-color: #3D9970;\n    border-radius: 4px;\n    width: 76px;\n    height: 40px;\n}\n.btn-danger:focus{\n    background-color: #01FF70;\n    border-color: #01FF70;\n}\n.btn-success {\n    color: #ffffff;\n    background-color: #3D9970;\n    border-color: #3D9970;\n    border-radius: 4px;\n    width: 76px;\n    height: 40px;\n}\n.btn-success:focus{\n    background-color: #01FF70;\n    border-color: #01FF70;\n}\n.btn-default:focus{\n    background-color: #fff;\n    border-color: #01FF70;  \n    color: #01FF70;      \n}\n.transaction-title{\n    font-family: inherit;\n    font-size: 18px;\n    color: #4E4E4E;\n    letter-spacing: 0.21px;\n    line-height: 28px;\n    display: inline-block;\n    margin-top: 30px;\n    margin-left: 20px;\n}\n.info{\n    font-family: inherit;\n    font-size: 14px;\n    color: #343C41;\n    letter-spacing: 0.2px;\n    line-height: 24px;\n}\n.info-actions{\n    font-family: inherit;\n    font-size: 14px;\n    color: #343C41;\n    letter-spacing: 0.2px;\n    line-height: 24px;\n    padding-left: 24px;\n}\n.transaction-properties{\n    font-family: inherit;\n    font-size: 14px;\n    color: #848484;\n    line-height: 42px;\n    white-space: nowrap;\n    overflow: hidden;\n    text-overflow: ellipsis;\n    max-width: 250px;\n}\n.plus-svg{\n    color: #fff;\n    fill: currentColor;\n}\n\n.invoke_cancel {\n    font-size: 14px;\n    color: #3D9970;\n    letter-spacing: 0.2px;\n    float: right;\n    margin-top: 30px;\n    font-weight: bold;\n    display: inline-block;\n    margin-right: 32px;\n}\n\n.invokeTransactionBtn {\n    float: right;\n    margin: 32px;\n}\n\n/***.transaction-properties:hover, .transaction-properties:hover span{  \noverflow: visible;\nposition: relative;\n make readable design \nbackground-color: #FFFFFF;\nborder: 1px solid #FFFFFF;\nborder-radius: 4px;\npadding: 3px;\n/* compensate padding and border size to avoid jerking \nmargin-left: -4px;\n}\n***/\n\n\n\n", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-
-/***/ 487:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(44)(false);
-// imports
-
-
-// module
-exports.push([module.i, "/*\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n * \n * http://www.apache.org/licenses/LICENSE-2.0\n * \n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n.container {\n    width: 100%;\n    padding-left: 72px;\n    padding-right: 72px;\n}\n\n.btn-primary {\n    background: #3D9970;\n    border-radius: 4px;\n    border: 0px;\n    font-size: 14px;\n    color: #FFFFFF;\n    letter-spacing: 0;\n    line-height: 10px;\n    height: 40px;\n    width: 163px;\n    float: right;\n    margin-top: 5%;\n}\n\n.table > thead > tr > th {\n    border-bottom: 1px solid #EAEAEA;\n}\n\n.table > thead > tr > th.info {\n    background: #FFF;\n}\n.modal-title {\n    font-family: inherit;\n    font-size: 24px;\n    color: #4E4E4E;\n    letter-spacing: 0.28px;\n    line-height: 28px;\n    padding-top: 15px;\n}\n.modal-intro {\n    font-family: inherit;\n    font-size: 14px;\n    color: #545454;\n    line-height: 20px;\n    padding-top: 15px;\n\n}\n.modal-header{\n    background: #F4F4F4;\n    border-radius: 5px;\n    border-bottom: 1px solid #F4F4F4;\n}\n.modal-body{\n    background: #F4F4F4;\n    border-radius: 5px;\n}\n.modal-footer{\n    background: #F4F4F4;\n    border-radius: 5px;\n    border-top: 1px solid #f4f4f4\n}\n.form-control{\n    color: #393939;\n    height: 42px;\n    border: 1px solid #ffffff;\n    box-shadow: inset 0 0px 0px rgba(0,0,0,.075); \n    border-radius: 4px;\n    resize: none;\n\n}\nlabel {\n    color: #545454;\n}\n.modal-content{\n    margin-top: 15%;\n    margin-bottom: 15%;\n    box-shadow: 0 0px 0px;\n    border: 0px;\n\n}\n.btn-default {\n    color: #2ECC40;\n    background-color: #ffffff;\n    border-color: #2ECC40;\n    border-radius: 4px;\n    width: 76px;\n    height: 40px;\n}\n.btn-danger{\n    color: #ffffff;\n    background-color: #3D9970;\n    border-color: #3D9970;\n    border-radius: 4px;\n    width: 76px;\n    height: 40px;\n}\n.btn-danger:focus{\n    background-color: #01FF70;\n    border-color: #01FF70;\n}\n.btn-success {\n    color: #ffffff;\n    background-color: #3D9970;\n    border-color: #3D9970;\n    border-radius: 4px;\n    width: 76px;\n    height: 40px;\n}\n.btn-success:focus{\n    background-color: #01FF70;\n    border-color: #01FF70;\n}\n.btn-default:focus{\n    background-color: #fff;\n    border-color: #01FF70;  \n    color: #01FF70;      \n}\n.participant-title{\n    font-family: inherit;\n    font-size: 24px;\n    color: #4E4E4E;\n    letter-spacing: 0.28px;\n    line-height: 28px;\n}\n.info{\n    font-family: inherit;\n    font-size: 14px;\n    color: #343C41;\n    letter-spacing: 0.2px;\n    line-height: 24px;\n}\n.info-actions{\n    font-family: inherit;\n    font-size: 14px;\n    color: #343C41;\n    letter-spacing: 0.2px;\n    line-height: 24px;\n    padding-left: 24px;\n}\n.participant-properties{\n    font-family: inherit;\n    font-size: 14px;\n    color: #848484;\n    line-height: 42px;\n    white-space: nowrap;\n    overflow: hidden;\n    text-overflow: ellipsis;\n    max-width: 250px;\n}\n.plus-svg{\n    color: #fff;\n    fill: currentColor;\n}\n\n/***.participant-properties:hover, .participant-properties:hover span{  \noverflow: visible;\nposition: relative;\n make readable design \nbackground-color: #FFFFFF;\nborder: 1px solid #FFFFFF;\nborder-radius: 4px;\npadding: 3px;\n/* compensate padding and border size to avoid jerking \nmargin-left: -4px;\n}\n***/\n\n\n", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-
 /***/ 488:
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3010,7 +3117,7 @@ exports = module.exports = __webpack_require__(44)(false);
 
 
 // module
-exports.push([module.i, "/*\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n * \n * http://www.apache.org/licenses/LICENSE-2.0\n * \n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n.container {\n    width: 100%;\n    padding-left: 72px;\n    padding-right: 72px;\n}\n\n.btn-primary {\n    background: #3D9970;\n    border-radius: 4px;\n    border: 0px;\n    font-size: 14px;\n    color: #FFFFFF;\n    letter-spacing: 0;\n    line-height: 10px;\n    height: 40px;\n    width: 163px;\n    float: right;\n    margin-top: 5%;\n}\n\n.table > thead > tr > th {\n    border-bottom: 1px solid #EAEAEA;\n}\n\n.table > thead > tr > th.info {\n    background: #FFF;\n}\n.modal-title {\n    font-family: inherit;\n    font-size: 24px;\n    color: #4E4E4E;\n    letter-spacing: 0.28px;\n    line-height: 28px;\n    padding-top: 15px;\n}\n.modal-intro {\n    font-family: inherit;\n    font-size: 14px;\n    color: #545454;\n    line-height: 20px;\n    padding-top: 15px;\n\n}\n.modal-header{\n    background: #F4F4F4;\n    border-radius: 5px;\n    border-bottom: 1px solid #F4F4F4;\n}\n.modal-body{\n    background: #F4F4F4;\n    border-radius: 5px;\n}\n.modal-footer{\n    background: #F4F4F4;\n    border-radius: 5px;\n    border-top: 1px solid #f4f4f4\n}\n.form-control{\n    color: #393939;\n    height: 42px;\n    border: 1px solid #ffffff;\n    box-shadow: inset 0 0px 0px rgba(0,0,0,.075); \n    border-radius: 4px;\n    resize: none;\n\n}\nlabel {\n    color: #545454;\n}\n.modal-content{\n    margin-top: 15%;\n    margin-bottom: 15%;\n    box-shadow: 0 0px 0px;\n    border: 0px;\n\n}\n.btn-default {\n    color: #2ECC40;\n    background-color: #ffffff;\n    border-color: #2ECC40;\n    border-radius: 4px;\n    width: 76px;\n    height: 40px;\n}\n.btn-danger{\n    color: #ffffff;\n    background-color: #3D9970;\n    border-color: #3D9970;\n    border-radius: 4px;\n    width: 76px;\n    height: 40px;\n}\n.btn-danger:focus{\n    background-color: #01FF70;\n    border-color: #01FF70;\n}\n.btn-success {\n    color: #ffffff;\n    background-color: #3D9970;\n    border-color: #3D9970;\n    border-radius: 4px;\n    width: 76px;\n    height: 40px;\n}\n.btn-success:focus{\n    background-color: #01FF70;\n    border-color: #01FF70;\n}\n.btn-default:focus{\n    background-color: #fff;\n    border-color: #01FF70;  \n    color: #01FF70;      \n}\n.participant-title{\n    font-family: inherit;\n    font-size: 24px;\n    color: #4E4E4E;\n    letter-spacing: 0.28px;\n    line-height: 28px;\n}\n.info{\n    font-family: inherit;\n    font-size: 14px;\n    color: #343C41;\n    letter-spacing: 0.2px;\n    line-height: 24px;\n}\n.info-actions{\n    font-family: inherit;\n    font-size: 14px;\n    color: #343C41;\n    letter-spacing: 0.2px;\n    line-height: 24px;\n    padding-left: 24px;\n}\n.participant-properties{\n    font-family: inherit;\n    font-size: 14px;\n    color: #848484;\n    line-height: 42px;\n    white-space: nowrap;\n    overflow: hidden;\n    text-overflow: ellipsis;\n    max-width: 250px;\n}\n.plus-svg{\n    color: #fff;\n    fill: currentColor;\n}\n\n/***.participant-properties:hover, .participant-properties:hover span{  \noverflow: visible;\nposition: relative;\n make readable design \nbackground-color: #FFFFFF;\nborder: 1px solid #FFFFFF;\nborder-radius: 4px;\npadding: 3px;\n/* compensate padding and border size to avoid jerking \nmargin-left: -4px;\n}\n***/\n\n\n", ""]);
+exports.push([module.i, "/*\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n * \n * http://www.apache.org/licenses/LICENSE-2.0\n * \n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n.container {\n    margin-left: 72px;\n    margin-right: 32px;\n    background-color: #F4F4F4;\n    border-radius: 5px;\n}\n\n.btn-primary {\n    background: #3D9970;\n    border-radius: 4px;\n    border: 0px;\n    font-size: 14px;\n    color: #FFFFFF;\n    letter-spacing: 0;\n    line-height: 10px;\n    height: 40px;\n    width: 153px;\n    float: right;\n    margin-top: 5%;\n}\n\n.table > thead > tr > th {\n    border-bottom: 1px solid #EAEAEA;\n}\n\n.table > thead > tr > th.info {\n    background: #FFF;\n}\n.modal-title {\n    font-family: inherit;\n    font-size: 24px;\n    color: #4E4E4E;\n    letter-spacing: 0.28px;\n    line-height: 28px;\n    padding-top: 15px;\n}\n.modal-intro {\n    font-family: inherit;\n    font-size: 14px;\n    color: #545454;\n    line-height: 20px;\n    padding-top: 15px;\n\n}\n.modal-header{\n    background: #F4F4F4;\n    border-radius: 5px;\n    border-bottom: 1px solid #F4F4F4;\n}\n.modal-body{\n    background: #F4F4F4;\n    border-radius: 5px;\n}\n.modal-footer{\n    background: #F4F4F4;\n    border-radius: 5px;\n    border-top: 1px solid #f4f4f4\n}\n.form-control{\n    color: #393939;\n    height: 42px;\n    border: 1px solid #ffffff;\n    box-shadow: inset 0 0px 0px rgba(0,0,0,.075); \n    border-radius: 4px;\n    resize: none;\n\n}\nlabel {\n    color: #545454;\n}\n.modal-content{\n    margin-top: 15%;\n    margin-bottom: 15%;\n    box-shadow: 0 0px 0px;\n    border: 0px;\n\n}\n.btn-default {\n    color: #2ECC40;\n    background-color: #ffffff;\n    border-color: #2ECC40;\n    border-radius: 4px;\n    width: 76px;\n    height: 40px;\n}\n.btn-danger{\n    color: #ffffff;\n    background-color: #3D9970;\n    border-color: #3D9970;\n    border-radius: 4px;\n    width: 76px;\n    height: 40px;\n}\n.btn-danger:focus{\n    background-color: #01FF70;\n    border-color: #01FF70;\n}\n.btn-success {\n    color: #ffffff;\n    background-color: #3D9970;\n    border-color: #3D9970;\n    border-radius: 4px;\n    width: 76px;\n    height: 40px;\n}\n.btn-success:focus{\n    background-color: #01FF70;\n    border-color: #01FF70;\n}\n.btn-default:focus{\n    background-color: #fff;\n    border-color: #01FF70;  \n    color: #01FF70;      \n}\n.transaction-title{\n    font-family: inherit;\n    font-size: 18px;\n    color: #4E4E4E;\n    letter-spacing: 0.21px;\n    line-height: 28px;\n    display: inline-block;\n    margin-top: 30px;\n    margin-left: 20px;\n}\n.info{\n    font-family: inherit;\n    font-size: 14px;\n    color: #343C41;\n    letter-spacing: 0.2px;\n    line-height: 24px;\n}\n.info-actions{\n    font-family: inherit;\n    font-size: 14px;\n    color: #343C41;\n    letter-spacing: 0.2px;\n    line-height: 24px;\n    padding-left: 24px;\n}\n.transaction-properties{\n    font-family: inherit;\n    font-size: 14px;\n    color: #848484;\n    line-height: 42px;\n    white-space: nowrap;\n    overflow: hidden;\n    text-overflow: ellipsis;\n    max-width: 250px;\n}\n.plus-svg{\n    color: #fff;\n    fill: currentColor;\n}\n\n.invoke_cancel {\n    font-size: 14px;\n    color: #3D9970;\n    letter-spacing: 0.2px;\n    float: right;\n    margin-top: 30px;\n    font-weight: bold;\n    display: inline-block;\n    margin-right: 32px;\n}\n\n.invokeTransactionBtn {\n    float: right;\n    margin: 32px;\n}\n\n/***.transaction-properties:hover, .transaction-properties:hover span{  \noverflow: visible;\nposition: relative;\n make readable design \nbackground-color: #FFFFFF;\nborder: 1px solid #FFFFFF;\nborder-radius: 4px;\npadding: 3px;\n/* compensate padding and border size to avoid jerking \nmargin-left: -4px;\n}\n***/\n\n\n\n", ""]);
 
 // exports
 
@@ -3046,7 +3153,7 @@ exports = module.exports = __webpack_require__(44)(false);
 
 
 // module
-exports.push([module.i, "/*\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n * \n * http://www.apache.org/licenses/LICENSE-2.0\n * \n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n.container {\n    width: 100%;\n    padding-left: 72px;\n    padding-right: 72px;\n}\n\n.btn-primary {\n    background: #3D9970;\n    border-radius: 4px;\n    border: 0px;\n    font-size: 14px;\n    color: #FFFFFF;\n    letter-spacing: 0;\n    line-height: 10px;\n    height: 40px;\n    width: 153px;\n    float: right;\n    margin-top: 5%;\n}\n\n.table > thead > tr > th {\n    border-bottom: 1px solid #EAEAEA;\n}\n\n.table > thead > tr > th.info {\n    background: #FFF;\n}\n.modal-title {\n    font-family: inherit;\n    font-size: 24px;\n    color: #4E4E4E;\n    letter-spacing: 0.28px;\n    line-height: 28px;\n    padding-top: 15px;\n}\n.modal-intro {\n    font-family: inherit;\n    font-size: 14px;\n    color: #545454;\n    line-height: 20px;\n    padding-top: 15px;\n\n}\n.modal-header{\n    background: #F4F4F4;\n    border-radius: 5px;\n    border-bottom: 1px solid #F4F4F4;\n}\n.modal-body{\n    background: #F4F4F4;\n    border-radius: 5px;\n}\n.modal-footer{\n    background: #F4F4F4;\n    border-radius: 5px;\n    border-top: 1px solid #f4f4f4\n}\n.form-control{\n    color: #393939;\n    height: 42px;\n    border: 1px solid #ffffff;\n    box-shadow: inset 0 0px 0px rgba(0,0,0,.075); \n    border-radius: 4px;\n    resize: none;\n\n}\nlabel {\n    color: #545454;\n}\n.modal-content{\n    margin-top: 15%;\n    margin-bottom: 15%;\n    box-shadow: 0 0px 0px;\n    border: 0px;\n\n}\n.btn-default {\n    color: #2ECC40;\n    background-color: #ffffff;\n    border-color: #2ECC40;\n    border-radius: 4px;\n    width: 76px;\n    height: 40px;\n}\n.btn-danger{\n    color: #ffffff;\n    background-color: #3D9970;\n    border-color: #3D9970;\n    border-radius: 4px;\n    width: 76px;\n    height: 40px;\n}\n.btn-danger:focus{\n    background-color: #01FF70;\n    border-color: #01FF70;\n}\n.btn-success {\n    color: #ffffff;\n    background-color: #3D9970;\n    border-color: #3D9970;\n    border-radius: 4px;\n    width: 76px;\n    height: 40px;\n}\n.btn-success:focus{\n    background-color: #01FF70;\n    border-color: #01FF70;\n}\n.btn-default:focus{\n    background-color: #fff;\n    border-color: #01FF70;  \n    color: #01FF70;      \n}\n.asset-title{\n    font-family: inherit;\n    font-size: 24px;\n    color: #4E4E4E;\n    letter-spacing: 0.28px;\n    line-height: 28px;\n}\n.info{\n    font-family: inherit;\n    font-size: 14px;\n    color: #343C41;\n    letter-spacing: 0.2px;\n    line-height: 24px;\n}\n.info-actions{\n    font-family: inherit;\n    font-size: 14px;\n    color: #343C41;\n    letter-spacing: 0.2px;\n    line-height: 24px;\n    padding-left: 24px;\n}\n.asset-properties{\n    font-family: inherit;\n    font-size: 14px;\n    color: #848484;\n    line-height: 42px;\n    white-space: nowrap;\n    overflow: hidden;\n    text-overflow: ellipsis;\n    max-width: 250px;\n}\n.plus-svg{\n    color: #fff;\n    fill: currentColor;\n}\n\n/***.asset-properties:hover, .asset-properties:hover span{  \noverflow: visible;\nposition: relative;\n make readable design \nbackground-color: #FFFFFF;\nborder: 1px solid #FFFFFF;\nborder-radius: 4px;\npadding: 3px;\n/* compensate padding and border size to avoid jerking \nmargin-left: -4px;\n}\n***/\n\n\n", ""]);
+exports.push([module.i, "/*\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n * \n * http://www.apache.org/licenses/LICENSE-2.0\n * \n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n.container {\n    width: 100%;\n    padding-left: 72px;\n    padding-right: 72px;\n}\n\n.btn-primary {\n    background: #3D9970;\n    border-radius: 4px;\n    border: 0px;\n    font-size: 14px;\n    color: #FFFFFF;\n    letter-spacing: 0;\n    line-height: 10px;\n    height: 40px;\n    width: 163px;\n    float: right;\n    margin-top: 5%;\n}\n\n.table > thead > tr > th {\n    border-bottom: 1px solid #EAEAEA;\n}\n\n.table > thead > tr > th.info {\n    background: #FFF;\n}\n.modal-title {\n    font-family: inherit;\n    font-size: 24px;\n    color: #4E4E4E;\n    letter-spacing: 0.28px;\n    line-height: 28px;\n    padding-top: 15px;\n}\n.modal-intro {\n    font-family: inherit;\n    font-size: 14px;\n    color: #545454;\n    line-height: 20px;\n    padding-top: 15px;\n\n}\n.modal-header{\n    background: #F4F4F4;\n    border-radius: 5px;\n    border-bottom: 1px solid #F4F4F4;\n}\n.modal-body{\n    background: #F4F4F4;\n    border-radius: 5px;\n}\n.modal-footer{\n    background: #F4F4F4;\n    border-radius: 5px;\n    border-top: 1px solid #f4f4f4\n}\n.form-control{\n    color: #393939;\n    height: 42px;\n    border: 1px solid #ffffff;\n    box-shadow: inset 0 0px 0px rgba(0,0,0,.075); \n    border-radius: 4px;\n    resize: none;\n\n}\nlabel {\n    color: #545454;\n}\n.modal-content{\n    margin-top: 15%;\n    margin-bottom: 15%;\n    box-shadow: 0 0px 0px;\n    border: 0px;\n\n}\n.btn-default {\n    color: #2ECC40;\n    background-color: #ffffff;\n    border-color: #2ECC40;\n    border-radius: 4px;\n    width: 76px;\n    height: 40px;\n}\n.btn-danger{\n    color: #ffffff;\n    background-color: #3D9970;\n    border-color: #3D9970;\n    border-radius: 4px;\n    width: 76px;\n    height: 40px;\n}\n.btn-danger:focus{\n    background-color: #01FF70;\n    border-color: #01FF70;\n}\n.btn-success {\n    color: #ffffff;\n    background-color: #3D9970;\n    border-color: #3D9970;\n    border-radius: 4px;\n    width: 76px;\n    height: 40px;\n}\n.btn-success:focus{\n    background-color: #01FF70;\n    border-color: #01FF70;\n}\n.btn-default:focus{\n    background-color: #fff;\n    border-color: #01FF70;  \n    color: #01FF70;      \n}\n.participant-title{\n    font-family: inherit;\n    font-size: 24px;\n    color: #4E4E4E;\n    letter-spacing: 0.28px;\n    line-height: 28px;\n}\n.info{\n    font-family: inherit;\n    font-size: 14px;\n    color: #343C41;\n    letter-spacing: 0.2px;\n    line-height: 24px;\n}\n.info-actions{\n    font-family: inherit;\n    font-size: 14px;\n    color: #343C41;\n    letter-spacing: 0.2px;\n    line-height: 24px;\n    padding-left: 24px;\n}\n.participant-properties{\n    font-family: inherit;\n    font-size: 14px;\n    color: #848484;\n    line-height: 42px;\n    white-space: nowrap;\n    overflow: hidden;\n    text-overflow: ellipsis;\n    max-width: 250px;\n}\n.plus-svg{\n    color: #fff;\n    fill: currentColor;\n}\n\n/***.participant-properties:hover, .participant-properties:hover span{  \noverflow: visible;\nposition: relative;\n make readable design \nbackground-color: #FFFFFF;\nborder: 1px solid #FFFFFF;\nborder-radius: 4px;\npadding: 3px;\n/* compensate padding and border size to avoid jerking \nmargin-left: -4px;\n}\n***/\n\n\n", ""]);
 
 // exports
 
@@ -3082,7 +3189,7 @@ exports = module.exports = __webpack_require__(44)(false);
 
 
 // module
-exports.push([module.i, "/*\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n * \n * http://www.apache.org/licenses/LICENSE-2.0\n * \n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n.container {\n    width: 100%;\n    padding-left: 72px;\n    padding-right: 72px;\n}\n\n.btn-primary {\n    background: #3D9970;\n    border-radius: 4px;\n    border: 0px;\n    font-size: 14px;\n    color: #FFFFFF;\n    letter-spacing: 0;\n    line-height: 10px;\n    height: 40px;\n    width: 163px;\n    float: right;\n    margin-top: 5%;\n}\n\n.table > thead > tr > th {\n    border-bottom: 1px solid #EAEAEA;\n}\n\n.table > thead > tr > th.info {\n    background: #FFF;\n}\n.modal-title {\n    font-family: inherit;\n    font-size: 24px;\n    color: #4E4E4E;\n    letter-spacing: 0.28px;\n    line-height: 28px;\n    padding-top: 15px;\n}\n.modal-intro {\n    font-family: inherit;\n    font-size: 14px;\n    color: #545454;\n    line-height: 20px;\n    padding-top: 15px;\n\n}\n.modal-header{\n    background: #F4F4F4;\n    border-radius: 5px;\n    border-bottom: 1px solid #F4F4F4;\n}\n.modal-body{\n    background: #F4F4F4;\n    border-radius: 5px;\n}\n.modal-footer{\n    background: #F4F4F4;\n    border-radius: 5px;\n    border-top: 1px solid #f4f4f4\n}\n.form-control{\n    color: #393939;\n    height: 42px;\n    border: 1px solid #ffffff;\n    box-shadow: inset 0 0px 0px rgba(0,0,0,.075); \n    border-radius: 4px;\n    resize: none;\n\n}\nlabel {\n    color: #545454;\n}\n.modal-content{\n    margin-top: 15%;\n    margin-bottom: 15%;\n    box-shadow: 0 0px 0px;\n    border: 0px;\n\n}\n.btn-default {\n    color: #2ECC40;\n    background-color: #ffffff;\n    border-color: #2ECC40;\n    border-radius: 4px;\n    width: 76px;\n    height: 40px;\n}\n.btn-danger{\n    color: #ffffff;\n    background-color: #3D9970;\n    border-color: #3D9970;\n    border-radius: 4px;\n    width: 76px;\n    height: 40px;\n}\n.btn-danger:focus{\n    background-color: #01FF70;\n    border-color: #01FF70;\n}\n.btn-success {\n    color: #ffffff;\n    background-color: #3D9970;\n    border-color: #3D9970;\n    border-radius: 4px;\n    width: 76px;\n    height: 40px;\n}\n.btn-success:focus{\n    background-color: #01FF70;\n    border-color: #01FF70;\n}\n.btn-default:focus{\n    background-color: #fff;\n    border-color: #01FF70;  \n    color: #01FF70;      \n}\n.participant-title{\n    font-family: inherit;\n    font-size: 24px;\n    color: #4E4E4E;\n    letter-spacing: 0.28px;\n    line-height: 28px;\n}\n.info{\n    font-family: inherit;\n    font-size: 14px;\n    color: #343C41;\n    letter-spacing: 0.2px;\n    line-height: 24px;\n}\n.info-actions{\n    font-family: inherit;\n    font-size: 14px;\n    color: #343C41;\n    letter-spacing: 0.2px;\n    line-height: 24px;\n    padding-left: 24px;\n}\n.participant-properties{\n    font-family: inherit;\n    font-size: 14px;\n    color: #848484;\n    line-height: 42px;\n    white-space: nowrap;\n    overflow: hidden;\n    text-overflow: ellipsis;\n    max-width: 250px;\n}\n.plus-svg{\n    color: #fff;\n    fill: currentColor;\n}\n\n/***.participant-properties:hover, .participant-properties:hover span{  \noverflow: visible;\nposition: relative;\n make readable design \nbackground-color: #FFFFFF;\nborder: 1px solid #FFFFFF;\nborder-radius: 4px;\npadding: 3px;\n/* compensate padding and border size to avoid jerking \nmargin-left: -4px;\n}\n***/\n\n\n", ""]);
+exports.push([module.i, "/*\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n * \n * http://www.apache.org/licenses/LICENSE-2.0\n * \n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n.container {\n    width: 100%;\n    padding-left: 72px;\n    padding-right: 72px;\n}\n\n.btn-primary {\n    background: #3D9970;\n    border-radius: 4px;\n    border: 0px;\n    font-size: 14px;\n    color: #FFFFFF;\n    letter-spacing: 0;\n    line-height: 10px;\n    height: 40px;\n    width: 153px;\n    float: right;\n    margin-top: 5%;\n}\n\n.table > thead > tr > th {\n    border-bottom: 1px solid #EAEAEA;\n}\n\n.table > thead > tr > th.info {\n    background: #FFF;\n}\n.modal-title {\n    font-family: inherit;\n    font-size: 24px;\n    color: #4E4E4E;\n    letter-spacing: 0.28px;\n    line-height: 28px;\n    padding-top: 15px;\n}\n.modal-intro {\n    font-family: inherit;\n    font-size: 14px;\n    color: #545454;\n    line-height: 20px;\n    padding-top: 15px;\n\n}\n.modal-header{\n    background: #F4F4F4;\n    border-radius: 5px;\n    border-bottom: 1px solid #F4F4F4;\n}\n.modal-body{\n    background: #F4F4F4;\n    border-radius: 5px;\n}\n.modal-footer{\n    background: #F4F4F4;\n    border-radius: 5px;\n    border-top: 1px solid #f4f4f4\n}\n.form-control{\n    color: #393939;\n    height: 42px;\n    border: 1px solid #ffffff;\n    box-shadow: inset 0 0px 0px rgba(0,0,0,.075); \n    border-radius: 4px;\n    resize: none;\n\n}\nlabel {\n    color: #545454;\n}\n.modal-content{\n    margin-top: 15%;\n    margin-bottom: 15%;\n    box-shadow: 0 0px 0px;\n    border: 0px;\n\n}\n.btn-default {\n    color: #2ECC40;\n    background-color: #ffffff;\n    border-color: #2ECC40;\n    border-radius: 4px;\n    width: 76px;\n    height: 40px;\n}\n.btn-danger{\n    color: #ffffff;\n    background-color: #3D9970;\n    border-color: #3D9970;\n    border-radius: 4px;\n    width: 76px;\n    height: 40px;\n}\n.btn-danger:focus{\n    background-color: #01FF70;\n    border-color: #01FF70;\n}\n.btn-success {\n    color: #ffffff;\n    background-color: #3D9970;\n    border-color: #3D9970;\n    border-radius: 4px;\n    width: 76px;\n    height: 40px;\n}\n.btn-success:focus{\n    background-color: #01FF70;\n    border-color: #01FF70;\n}\n.btn-default:focus{\n    background-color: #fff;\n    border-color: #01FF70;  \n    color: #01FF70;      \n}\n.asset-title{\n    font-family: inherit;\n    font-size: 24px;\n    color: #4E4E4E;\n    letter-spacing: 0.28px;\n    line-height: 28px;\n}\n.info{\n    font-family: inherit;\n    font-size: 14px;\n    color: #343C41;\n    letter-spacing: 0.2px;\n    line-height: 24px;\n}\n.info-actions{\n    font-family: inherit;\n    font-size: 14px;\n    color: #343C41;\n    letter-spacing: 0.2px;\n    line-height: 24px;\n    padding-left: 24px;\n}\n.asset-properties{\n    font-family: inherit;\n    font-size: 14px;\n    color: #848484;\n    line-height: 42px;\n    white-space: nowrap;\n    overflow: hidden;\n    text-overflow: ellipsis;\n    max-width: 250px;\n}\n.plus-svg{\n    color: #fff;\n    fill: currentColor;\n}\n\n/***.asset-properties:hover, .asset-properties:hover span{  \noverflow: visible;\nposition: relative;\n make readable design \nbackground-color: #FFFFFF;\nborder: 1px solid #FFFFFF;\nborder-radius: 4px;\npadding: 3px;\n/* compensate padding and border size to avoid jerking \nmargin-left: -4px;\n}\n***/\n\n\n", ""]);
 
 // exports
 
@@ -3100,7 +3207,7 @@ exports = module.exports = __webpack_require__(44)(false);
 
 
 // module
-exports.push([module.i, "/*\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n * \n * http://www.apache.org/licenses/LICENSE-2.0\n * \n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n.container-fluid {\n    display: -ms-grid;\n    display: grid;\n    margin-left: 72px;\n    padding-left: 0px;\n}\n\n.navbar {\n    border-radius: 0px;\n    background: #F3F3F3;\n    border: none;\n}\n\n.navbar-header {\n    margin-top: 40px;\n    margin-bottom: 30px;\n}\n\n.navbar-brand {\n    height: 100%;\n    font-size: 32px;\n    letter-spacing: 0.28px;\n    padding: 5px;\n    margin-left: 0px !important;\n    color: #000;\n}\n\n.navbar-brand:hover {\n    color: #000;\n}\n\n.navbar-nav > li {\n    margin-right: 12px;\n    cursor: pointer;\n}\n\n.navbar-nav > a {\n    font-size: 14px;\n    color: #343C41;\n    letter-spacing: 0.2px;\n}\n\n.navbar-nav > li:hover {\n    background-color: #fff;\n    color: #000;\n}\n\n.navbar-nav > li > a {\n    color: #000;\n    padding: 10px;\n    font-weight: bold;\n}\n\n.navbar-nav > li > .active:hover > a {\n    color: #3D9970 !important;\n}\n\n.navbar-nav > li:hover > a {\n    color: #000;\n}\n\n.navbar-nav .active > a {\n    background-color: #fff;\n    color: #3D9970 !important;\n}\n\n.dropdown-menu {\n    border-radius: 0px;\n    border: none;\n    padding: 0px;\n    box-shadow: 1px 1px 2px 0 rgba(0,0,0,0.10);\n    max-height: 0;\n    display: block;\n    overflow: hidden;\n    visibility: hidden;\n    transition: all 0.5s;\n}\n\n.dropdown-menu:hover {\n    visibility: visible;\n}\n\n.dropdown-menu > li > a {\n    padding: 6px 12px;\n    font-size: 14px;\n    color: #343C41;\n    letter-spacing: 0.2px;\n    line-height: 30px;\n}\n\n.dropdown-menu > li:hover > a {\n    background-color: rgb(230, 214, 255);\n}\n\n.dropdown-menu > li:focus > a {\n    background-color: #F3ECFE;\n}\n\n.dropdown-menu > li > a:visited {\n    background-color: #F3ECFE;\n}\n\n.dropdown-menu > li > a:active {\n    background-color: #F3ECFE;\n}\n.dropdown-menu > li > a:focus {\n    background-color: #F3ECFE;\n}\n.dropdown-menu > li > a:visited {\n    background-color: #F3ECFE;\n}\n\n.dropdown:hover .dropdown-menu {\n    visibility: visible;\n}\n\n.scrollable-menu {\n    height: auto;\n    max-height: 200px;\n    overflow-x: hidden;\n}\n.btn-primary {\n    background: #3D9970;\n    border-radius: 4px;\n    border: 0px;\n    font-size: 14px;\n    color: #FFFFFF;\n    letter-spacing: 0;\n    line-height: 10px;\n    height: 40px;\n    width: 153px;\n    -ms-grid-column: 5;\n        grid-column-start: 5;\n     grid-column-end: 6;\n}", ""]);
+exports.push([module.i, "/*\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n * \n * http://www.apache.org/licenses/LICENSE-2.0\n * \n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n.container {\n    width: 100%;\n    padding-left: 72px;\n    padding-right: 72px;\n}\n\n.btn-primary {\n    background: #3D9970;\n    border-radius: 4px;\n    border: 0px;\n    font-size: 14px;\n    color: #FFFFFF;\n    letter-spacing: 0;\n    line-height: 10px;\n    height: 40px;\n    width: 163px;\n    float: right;\n    margin-top: 5%;\n}\n\n.table > thead > tr > th {\n    border-bottom: 1px solid #EAEAEA;\n}\n\n.table > thead > tr > th.info {\n    background: #FFF;\n}\n.modal-title {\n    font-family: inherit;\n    font-size: 24px;\n    color: #4E4E4E;\n    letter-spacing: 0.28px;\n    line-height: 28px;\n    padding-top: 15px;\n}\n.modal-intro {\n    font-family: inherit;\n    font-size: 14px;\n    color: #545454;\n    line-height: 20px;\n    padding-top: 15px;\n\n}\n.modal-header{\n    background: #F4F4F4;\n    border-radius: 5px;\n    border-bottom: 1px solid #F4F4F4;\n}\n.modal-body{\n    background: #F4F4F4;\n    border-radius: 5px;\n}\n.modal-footer{\n    background: #F4F4F4;\n    border-radius: 5px;\n    border-top: 1px solid #f4f4f4\n}\n.form-control{\n    color: #393939;\n    height: 42px;\n    border: 1px solid #ffffff;\n    box-shadow: inset 0 0px 0px rgba(0,0,0,.075); \n    border-radius: 4px;\n    resize: none;\n\n}\nlabel {\n    color: #545454;\n}\n.modal-content{\n    margin-top: 15%;\n    margin-bottom: 15%;\n    box-shadow: 0 0px 0px;\n    border: 0px;\n\n}\n.btn-default {\n    color: #2ECC40;\n    background-color: #ffffff;\n    border-color: #2ECC40;\n    border-radius: 4px;\n    width: 76px;\n    height: 40px;\n}\n.btn-danger{\n    color: #ffffff;\n    background-color: #3D9970;\n    border-color: #3D9970;\n    border-radius: 4px;\n    width: 76px;\n    height: 40px;\n}\n.btn-danger:focus{\n    background-color: #01FF70;\n    border-color: #01FF70;\n}\n.btn-success {\n    color: #ffffff;\n    background-color: #3D9970;\n    border-color: #3D9970;\n    border-radius: 4px;\n    width: 76px;\n    height: 40px;\n}\n.btn-success:focus{\n    background-color: #01FF70;\n    border-color: #01FF70;\n}\n.btn-default:focus{\n    background-color: #fff;\n    border-color: #01FF70;  \n    color: #01FF70;      \n}\n.participant-title{\n    font-family: inherit;\n    font-size: 24px;\n    color: #4E4E4E;\n    letter-spacing: 0.28px;\n    line-height: 28px;\n}\n.info{\n    font-family: inherit;\n    font-size: 14px;\n    color: #343C41;\n    letter-spacing: 0.2px;\n    line-height: 24px;\n}\n.info-actions{\n    font-family: inherit;\n    font-size: 14px;\n    color: #343C41;\n    letter-spacing: 0.2px;\n    line-height: 24px;\n    padding-left: 24px;\n}\n.participant-properties{\n    font-family: inherit;\n    font-size: 14px;\n    color: #848484;\n    line-height: 42px;\n    white-space: nowrap;\n    overflow: hidden;\n    text-overflow: ellipsis;\n    max-width: 250px;\n}\n.plus-svg{\n    color: #fff;\n    fill: currentColor;\n}\n\n/***.participant-properties:hover, .participant-properties:hover span{  \noverflow: visible;\nposition: relative;\n make readable design \nbackground-color: #FFFFFF;\nborder: 1px solid #FFFFFF;\nborder-radius: 4px;\npadding: 3px;\n/* compensate padding and border size to avoid jerking \nmargin-left: -4px;\n}\n***/\n\n\n", ""]);
 
 // exports
 
@@ -3118,7 +3225,7 @@ exports = module.exports = __webpack_require__(44)(false);
 
 
 // module
-exports.push([module.i, "/*\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n * \n * http://www.apache.org/licenses/LICENSE-2.0\n * \n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\nbody {\n    background-color: red;\n}", ""]);
+exports.push([module.i, "/*\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n * \n * http://www.apache.org/licenses/LICENSE-2.0\n * \n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n.container {\n    width: 100%;\n    padding-left: 72px;\n    padding-right: 72px;\n}\n\n.btn-primary {\n    background: #3D9970;\n    border-radius: 4px;\n    border: 0px;\n    font-size: 14px;\n    color: #FFFFFF;\n    letter-spacing: 0;\n    line-height: 10px;\n    height: 40px;\n    width: 163px;\n    float: right;\n    margin-top: 5%;\n}\n\n.table > thead > tr > th {\n    border-bottom: 1px solid #EAEAEA;\n}\n\n.table > thead > tr > th.info {\n    background: #FFF;\n}\n.modal-title {\n    font-family: inherit;\n    font-size: 24px;\n    color: #4E4E4E;\n    letter-spacing: 0.28px;\n    line-height: 28px;\n    padding-top: 15px;\n}\n.modal-intro {\n    font-family: inherit;\n    font-size: 14px;\n    color: #545454;\n    line-height: 20px;\n    padding-top: 15px;\n\n}\n.modal-header{\n    background: #F4F4F4;\n    border-radius: 5px;\n    border-bottom: 1px solid #F4F4F4;\n}\n.modal-body{\n    background: #F4F4F4;\n    border-radius: 5px;\n}\n.modal-footer{\n    background: #F4F4F4;\n    border-radius: 5px;\n    border-top: 1px solid #f4f4f4\n}\n.form-control{\n    color: #393939;\n    height: 42px;\n    border: 1px solid #ffffff;\n    box-shadow: inset 0 0px 0px rgba(0,0,0,.075); \n    border-radius: 4px;\n    resize: none;\n\n}\nlabel {\n    color: #545454;\n}\n.modal-content{\n    margin-top: 15%;\n    margin-bottom: 15%;\n    box-shadow: 0 0px 0px;\n    border: 0px;\n\n}\n.btn-default {\n    color: #2ECC40;\n    background-color: #ffffff;\n    border-color: #2ECC40;\n    border-radius: 4px;\n    width: 76px;\n    height: 40px;\n}\n.btn-danger{\n    color: #ffffff;\n    background-color: #3D9970;\n    border-color: #3D9970;\n    border-radius: 4px;\n    width: 76px;\n    height: 40px;\n}\n.btn-danger:focus{\n    background-color: #01FF70;\n    border-color: #01FF70;\n}\n.btn-success {\n    color: #ffffff;\n    background-color: #3D9970;\n    border-color: #3D9970;\n    border-radius: 4px;\n    width: 76px;\n    height: 40px;\n}\n.btn-success:focus{\n    background-color: #01FF70;\n    border-color: #01FF70;\n}\n.btn-default:focus{\n    background-color: #fff;\n    border-color: #01FF70;  \n    color: #01FF70;      \n}\n.participant-title{\n    font-family: inherit;\n    font-size: 24px;\n    color: #4E4E4E;\n    letter-spacing: 0.28px;\n    line-height: 28px;\n}\n.info{\n    font-family: inherit;\n    font-size: 14px;\n    color: #343C41;\n    letter-spacing: 0.2px;\n    line-height: 24px;\n}\n.info-actions{\n    font-family: inherit;\n    font-size: 14px;\n    color: #343C41;\n    letter-spacing: 0.2px;\n    line-height: 24px;\n    padding-left: 24px;\n}\n.participant-properties{\n    font-family: inherit;\n    font-size: 14px;\n    color: #848484;\n    line-height: 42px;\n    white-space: nowrap;\n    overflow: hidden;\n    text-overflow: ellipsis;\n    max-width: 250px;\n}\n.plus-svg{\n    color: #fff;\n    fill: currentColor;\n}\n\n/***.participant-properties:hover, .participant-properties:hover span{  \noverflow: visible;\nposition: relative;\n make readable design \nbackground-color: #FFFFFF;\nborder: 1px solid #FFFFFF;\nborder-radius: 4px;\npadding: 3px;\n/* compensate padding and border size to avoid jerking \nmargin-left: -4px;\n}\n***/\n\n\n", ""]);
 
 // exports
 
@@ -3136,6 +3243,42 @@ exports = module.exports = __webpack_require__(44)(false);
 
 
 // module
+exports.push([module.i, "/*\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n * \n * http://www.apache.org/licenses/LICENSE-2.0\n * \n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n.container-fluid {\n    display: -ms-grid;\n    display: grid;\n    margin-left: 72px;\n    padding-left: 0px;\n}\n.logoImage{\n    display: block;\n    margin-left: auto;\n    margin-right: auto;\n}\n.navbar {\n    border-radius: 0px;\n    background: #F3F3F3;\n    border: none;\n}\n\n.navbar-header {\n    margin-top: 10px;\n    margin-bottom: 10px;\n}\n\n.navbar-brand {\n    height: 100%;\n    font-size: 32px;\n    letter-spacing: 0.28px;\n    padding: 5px;\n    margin-left: 0px !important;\n    color: #000;\n}\n\n.navbar-brand:hover {\n    color: #000;\n}\n\n.navbar-nav > li {\n    margin-right: 12px;\n    cursor: pointer;\n}\n\n.navbar-nav > a {\n    font-size: 14px;\n    color: #343C41;\n    letter-spacing: 0.2px;\n}\n\n.navbar-nav > li:hover {\n    background-color: #fff;\n    color: #000;\n}\n\n.navbar-nav > li > a {\n    color: #000;\n    padding: 10px;\n    font-weight: bold;\n}\n\n.navbar-nav > li > .active:hover > a {\n    color: #3D9970 !important;\n}\n\n.navbar-nav > li:hover > a {\n    color: #000;\n}\n\n.navbar-nav .active > a {\n    background-color: #fff;\n    color: #3D9970 !important;\n}\n\n.dropdown-menu {\n    border-radius: 0px;\n    border: none;\n    padding: 0px;\n    box-shadow: 1px 1px 2px 0 rgba(0,0,0,0.10);\n    max-height: 0;\n    display: block;\n    overflow: hidden;\n    visibility: hidden;\n    transition: all 0.3s;\n}\n\n.dropdown-menu:hover {\n    visibility: visible;\n}\n\n.dropdown-menu > li > a {\n    padding: 6px 12px;\n    font-size: 14px;\n    color: #343C41;\n    letter-spacing: 0.2px;\n    line-height: 30px;\n}\n\n.dropdown-menu > li:hover > a {\n    background-color: rgb(230, 214, 255);\n}\n\n.dropdown-menu > li:focus > a {\n    background-color: #F3ECFE;\n}\n\n.dropdown-menu > li > a:visited {\n    background-color: #F3ECFE;\n}\n\n.dropdown-menu > li > a:active {\n    background-color: #F3ECFE;\n}\n.dropdown-menu > li > a:focus {\n    background-color: #F3ECFE;\n}\n.dropdown-menu > li > a:visited {\n    background-color: #F3ECFE;\n}\n\n.dropdown:hover .dropdown-menu {\n    visibility: visible;\n}\n\n.scrollable-menu {\n    height: auto;\n    max-height: 200px;\n    overflow-x: hidden;\n}\n.btn-primary {\n    background: #3D9970;\n    border-radius: 4px;\n    border: 0px;\n    font-size: 14px;\n    color: #FFFFFF;\n    letter-spacing: 0;\n    line-height: 10px;\n    height: 40px;\n    width: 100px;\n    float: left;\n}", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ 496:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(44)(false);
+// imports
+
+
+// module
+exports.push([module.i, "/*\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n * \n * http://www.apache.org/licenses/LICENSE-2.0\n * \n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\nbody {\n    background-color: red;\n}", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ 497:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(44)(false);
+// imports
+
+
+// module
 exports.push([module.i, "/*\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n * \n * http://www.apache.org/licenses/LICENSE-2.0\n * \n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n .container {\n    margin-left: 72px;\n    margin-right: 32px;\n    background-color: #F4F4F4;\n    border-radius: 5px;\n}\n\n.btn-primary {\n    background: #3D9970;\n    border-radius: 4px;\n    border: 0px;\n    font-size: 14px;\n    color: #FFFFFF;\n    letter-spacing: 0;\n    line-height: 10px;\n    height: 40px;\n    width: 153px;\n    float: right;\n    margin-top: 5%;\n}\n\n.table > thead > tr > th {\n    border-bottom: 1px solid #EAEAEA;\n}\n\n.table > thead > tr > th.info {\n    background: #FFF;\n}\n.modal-title {\n    font-family: inherit;\n    font-size: 24px;\n    color: #4E4E4E;\n    letter-spacing: 0.28px;\n    line-height: 28px;\n    padding-top: 15px;\n}\n.modal-intro {\n    font-family: inherit;\n    font-size: 14px;\n    color: #545454;\n    line-height: 20px;\n    padding-top: 15px;\n\n}\n.modal-header{\n    background: #F4F4F4;\n    border-radius: 5px;\n    border-bottom: 1px solid #F4F4F4;\n}\n.modal-body{\n    background: #F4F4F4;\n    border-radius: 5px;\n}\n.modal-footer{\n    background: #F4F4F4;\n    border-radius: 5px;\n    border-top: 1px solid #f4f4f4\n}\n.form-control{\n    color: #393939;\n    height: 42px;\n    border: 1px solid #ffffff;\n    box-shadow: inset 0 0px 0px rgba(0,0,0,.075); \n    border-radius: 4px;\n    resize: none;\n\n}\nlabel {\n    color: #545454;\n}\n.modal-content{\n    margin-top: 15%;\n    margin-bottom: 15%;\n    box-shadow: 0 0px 0px;\n    border: 0px;\n\n}\n.btn-default {\n    color: #2ECC40;\n    background-color: #ffffff;\n    border-color: #2ECC40;\n    border-radius: 4px;\n    width: 76px;\n    height: 40px;\n}\n.btn-danger{\n    color: #ffffff;\n    background-color: #3D9970;\n    border-color: #3D9970;\n    border-radius: 4px;\n    width: 76px;\n    height: 40px;\n}\n.btn-danger:focus{\n    background-color: #01FF70;\n    border-color: #01FF70;\n}\n.btn-success {\n    color: #ffffff;\n    background-color: #3D9970;\n    border-color: #3D9970;\n    border-radius: 4px;\n    width: 76px;\n    height: 40px;\n}\n.btn-success:focus{\n    background-color: #01FF70;\n    border-color: #01FF70;\n}\n.btn-default:focus{\n    background-color: #fff;\n    border-color: #01FF70;  \n    color: #01FF70;      \n}\n.transaction-title{\n    font-family: inherit;\n    font-size: 18px;\n    color: #4E4E4E;\n    letter-spacing: 0.21px;\n    line-height: 28px;\n    display: inline-block;\n    margin-top: 30px;\n    margin-left: 20px;\n}\n.info{\n    font-family: inherit;\n    font-size: 14px;\n    color: #343C41;\n    letter-spacing: 0.2px;\n    line-height: 24px;\n}\n.info-actions{\n    font-family: inherit;\n    font-size: 14px;\n    color: #343C41;\n    letter-spacing: 0.2px;\n    line-height: 24px;\n    padding-left: 24px;\n}\n.transaction-properties{\n    font-family: inherit;\n    font-size: 14px;\n    color: #848484;\n    line-height: 42px;\n    white-space: nowrap;\n    overflow: hidden;\n    text-overflow: ellipsis;\n    max-width: 250px;\n}\n.plus-svg{\n    color: #fff;\n    fill: currentColor;\n}\n\n.invoke_cancel {\n    font-size: 14px;\n    color: #3D9970;\n    letter-spacing: 0.2px;\n    float: right;\n    margin-top: 30px;\n    font-weight: bold;\n    display: inline-block;\n    margin-right: 32px;\n}\n\n.invokeTransactionBtn {\n    float: right;\n    margin: 32px;\n}\n\n/***.transaction-properties:hover, .transaction-properties:hover span{  \noverflow: visible;\nposition: relative;\n make readable design \nbackground-color: #FFFFFF;\nborder: 1px solid #FFFFFF;\nborder-radius: 4px;\npadding: 3px;\n/* compensate padding and border size to avoid jerking \nmargin-left: -4px;\n}\n***/\n\n\n\n", ""]);
 
 // exports
@@ -3146,70 +3289,70 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 501:
+/***/ 503:
 /***/ (function(module, exports) {
 
 module.exports = "<!--\n Licensed under the Apache License, Version 2.0 (the \"License\");\n you may not use this file except in compliance with the License.\n You may obtain a copy of the License at\n\n http://www.apache.org/licenses/LICENSE-2.0\n\n Unless required by applicable law or agreed to in writing, software\n distributed under the License is distributed on an \"AS IS\" BASIS,\n WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n See the License for the specific language governing permissions and\n limitations under the License.\n-->\n<div class=\"modal fade\" id=\"addTransactionModal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"addTransactionModalLabel\">\n  <div class=\"modal-dialog\" role=\"document\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button>\n        <h4 class=\"modal-title\" id=\"addTransactionModalLabel\">Create Transaction</h4>\n          <p class=\"modal-intro\">Enter the required values below.</p>\n      </div>\n      <form [formGroup]=\"myForm\">\n        <div class=\"modal-body\">\n          <div class=\"form-group text-left\">\n            <label for=\"phone\">IMEI Number</label>\n            <textarea formControlName=\"phone\" class=\"form-control\" rows=\"3\"></textarea> \n          </div>\n          <div class=\"form-group text-left\">\n            <label for=\"newOwner\">New Owner</label>\n            <textarea formControlName=\"newOwner\" class=\"form-control\" rows=\"3\"></textarea>\n          </div>       \n        </div>\n        <div class=\"modal-footer\">\n            <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Cancel</button>\n          <button (click)=\"addTransaction(myForm);\" type=\"submit\" class=\"btn btn-success\" data-dismiss=\"modal\">Confirm</button>\n        </div>\n      </form>\n    </div>\n  </div>\n</div>\n\n\n\n<!-- This is the form that pops up when the user hits Change Owner-->\n<div class=\"modal fade\" id=\"updateTransactionModal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"updateTransactionModalLabel\">\n  <div class=\"modal-dialog\" role=\"document\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button>\n        <h4 class=\"modal-title\" id=\"updateTransactionModalLabel\">Update Transaction</h4>\n      </div>\n      <form [formGroup]=\"myForm\">\n        <div class=\"modal-body\">\n            <div class=\"form-group text-left\">\n              <label for=\"phone\">IMEI number</label>\n              <textarea [ngModel]=\"phone\" formControlName=\"phone\" class=\"form-control\" rows=\"3\"></textarea>  \n            </div>\n            <div class=\"form-group text-left\">\n              <label for=\"newOwner\">New Owner Id</label>\n              <textarea [ngModel]=\"newOwner\" formControlName=\"newOwner\" class=\"form-control\" rows=\"3\"></textarea>\n            </div>\n        </div>\n        <div class=\"modal-footer\">\n          <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Close</button>\n          <button (click)=\"updateTransaction(myForm)\" type=\"submit\" class=\"btn btn-success\" data-dismiss=\"modal\">Submit</button>\n        </div>\n      </form>\n    </div>\n  </div>\n</div>\n\n\n\n<div class=\"modal fade\" id=\"deleteTransactionModal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"deleteTransactionModalLabel\">\n  <div class=\"modal-dialog\" role=\"document\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button>\n        <h4 class=\"modal-title\" id=\"deleteTransactionModalLabel\">Delete Transaction</h4>\n      </div>\n      <form [formGroup]=\"myForm\" (ngSubmit)=\"deleteTransaction()\">\n        <div class=\"modal-body\">\n          Are you sure you want to delete this Transaction?\n        </div>\n        <div class=\"modal-footer\">\n          <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">No</button>\n          <button (click)=\"deleteTransaction()\" type=\"submit\" class=\"btn btn-danger\" data-dismiss=\"modal\">Yes</button>\n        </div>\n      </form>\n    </div>\n  </div>\n</div>\n\n<div class=\"container col-md-6\">\n  <div *ngIf=\"errorMessage\" class=\"alert alert-danger\" role=\"alert\">\n    <strong>Error:</strong> {{errorMessage}}\n  </div>\n  <div class=\"row\">\n    <div class=\"col-md-12\">\n      <h1 class=\"transaction-title\" id='transactionName'>Change the owner of the phone</h1>\n      <p class=\"invoke_cancel\" id='invoke_cancel'>Invoke</p>\n    </div>\n  </div>\n  <br>\n  <div class=\"row\">\n    <div class=\"col-md-12\">\n      <div class=\"row\">\n        <div class=\"col-md-12\">\n          To change the owner of the phone please have the IMEI number of the phone and the new owners ID ready:\n        </div>\n      </div>\n      <button (click)=\"resetForm();\" type=\"button\" class=\"btn btn-primary invokeTransactionBtn\" data-toggle=\"modal\" data-target=\"#addTransactionModal\">Change Owner</button>\n    </div>\n  </div>\n</div>\n \n"
 
 /***/ }),
 
-/***/ 502:
+/***/ 504:
 /***/ (function(module, exports) {
 
 module.exports = "<!--\n Licensed under the Apache License, Version 2.0 (the \"License\");\n you may not use this file except in compliance with the License.\n You may obtain a copy of the License at\n\n http://www.apache.org/licenses/LICENSE-2.0\n\n Unless required by applicable law or agreed to in writing, software\n distributed under the License is distributed on an \"AS IS\" BASIS,\n WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n See the License for the specific language governing permissions and\n limitations under the License.\n-->\n<div class=\"modal fade\" id=\"addParticipantModal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"addParticipantModalLabel\">\n    <div class=\"modal-dialog\" role=\"document\">\n      <div class=\"modal-content\">\n        <div class=\"modal-header\">\n          <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button>\n          <h4 class=\"modal-title\" id=\"addParticipantModalLabel\">Create participant</h4>\n            <p class=\"modal-intro\">Enter the required values below.</p>\n        </div>\n        <form [formGroup]=\"myForm\">\n          <div class=\"modal-body\">\n  \n  \n            \n  \n              \n                <div class=\"form-group text-left\">\n                  <label for=\"branchId\">branchId</label>\n                  \n                    <input formControlName=\"branchId\" type=\"text\" class=\"form-control\">\n                  \n                </div>\n              \n            \n  \n              \n                <div class=\"form-group text-left\">\n                  <label for=\"branchName\">branchName</label>\n                  \n                    <input formControlName=\"branchName\" type=\"text\" class=\"form-control\">\n                  \n                </div>\n              \n            \n  \n              \n                <div class=\"form-group text-left\">\n                  <label for=\"branchAddress\">branchAddress</label>\n                  \n                    <input formControlName=\"branchAddress\" type=\"text\" class=\"form-control\">\n                  \n                </div>\n              \n            \n  \n          </div>\n          <div class=\"modal-footer\">\n              <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Cancel</button>\n            <button (click)=\"addParticipant(myForm);\" type=\"submit\" class=\"btn btn-success\" data-dismiss=\"modal\">Confirm</button>\n  \n          </div>\n        </form>\n      </div>\n    </div>\n  </div>\n  \n  \n  \n  \n  <div class=\"modal fade\" id=\"updateParticipantModal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"updateParticipantModalLabel\">\n    <div class=\"modal-dialog\" role=\"document\">\n      <div class=\"modal-content\">\n        <div class=\"modal-header\">\n          <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button>\n          <h4 class=\"modal-title\" id=\"updateParticipantModalLabel\">Update Participant</h4>\n        </div>\n        <form [formGroup]=\"myForm\">\n          <div class=\"modal-body\">\n  \n  \n            \n              <div class=\"form-group text-left\">\n                <label for=\"branchId\">branchId</label>\n  \n                \n                  <input [ngModel]=\"branchId\" formControlName=\"branchId\" class=\"form-control\" disabled=\"disabled\">  \n                \n  \n              </div>\n            \n              <div class=\"form-group text-left\">\n                <label for=\"branchName\">branchName</label>\n  \n                \n                  <input [ngModel]=\"branchName\"formControlName=\"branchName\" type=\"text\" class=\"form-control\">\n                \n  \n              </div>\n            \n              <div class=\"form-group text-left\">\n                <label for=\"branchAddress\">branchAddress</label>\n  \n                \n                  <input [ngModel]=\"branchAddress\"formControlName=\"branchAddress\" type=\"text\" class=\"form-control\">\n                \n  \n              </div>\n            \n  \n  \n          </div>\n          <div class=\"modal-footer\">\n            <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Close</button>\n            <button (click)=\"updateParticipant(myForm)\" type=\"submit\" class=\"btn btn-success\" data-dismiss=\"modal\">Submit</button>\n          </div>\n        </form>\n      </div>\n    </div>\n  </div>\n  \n  \n  \n  <div class=\"modal fade\" id=\"deleteParticipantModal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"deleteParticipantModalLabel\">\n    <div class=\"modal-dialog\" role=\"document\">\n      <div class=\"modal-content\">\n        <div class=\"modal-header\">\n          <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button>\n          <h4 class=\"modal-title\" id=\"deleteParticipantModalLabel\">Delete Participant</h4>\n        </div>\n        <form [formGroup]=\"myForm\">\n          <div class=\"modal-body\">\n            Are you sure you want to delete this participant?\n          </div>\n          <div class=\"modal-footer\">\n            <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">No</button>\n            <button (click)=\"deleteParticipant()\" type=\"submit\" class=\"btn btn-danger\" data-dismiss=\"modal\">Yes</button>\n          </div>\n        </form>\n      </div>\n    </div>\n  </div>\n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  <div class=\"container\">\n      <div *ngIf=\"errorMessage\" class=\"alert alert-danger\" role=\"alert\">\n          <strong>Error:</strong> {{errorMessage}}\n      </div>\n    \n    <div class=\"row\">\n      <div class=\"col-md-9\">\n          <h1 class=\"participant-title\" id='participantName'>LawEnfrocment</h1>\n      </div>\n      <div class=\"col-md-3\">\n        <button (click)=\"resetForm()\" type=\"button\" class=\"btn btn-primary\" data-toggle=\"modal\" data-target=\"#addParticipantModal\">\n            <span style=\"font-size: 14px;font-family: inherit;border-right:1px solid rgba(255,255,255,0.5);padding-right:0.6em;margin-right:0.5em;vertical-align:middle;\">\n                <svg class=\"plus-svg\" xmlns=\"http://www.w3.org/2000/svg\" width=\"10\" height=\"10\" viewBox=\"0 0 10 10\">\n                  <path fill-rule=\"evenodd\" d=\"M5.5,4.5 L9.5,4.5 L10,4.5 L10,5.5 L9.5,5.5 L5.5,5.5 L5.5,9.5 L5.5,10 L4.5,10 L4.5,9.5 L4.5,5.5 L0.5,5.5 L0,5.5 L0,4.5 L0.5,4.5 L4.5,4.5 L4.5,0.5 L4.5,0 L5.5,0 L5.5,0.5 L5.5,4.5 Z\"/>\n                </svg>\n            </span>\n          Create Participant\n        </button>\n      </div>\n    </div>\n    <br>\n    <div class=\"row\">\n      <div class=\"col-md-12\">\n        <table class=\"table table-responsive\">\n          <thead class=\"thead\">\n            <tr class=\"thead-cols\">\n              \n                  <th class=\"info\">branchId</th>\n              \n                  <th class=\"info\">branchName</th>\n              \n                  <th class=\"info\">branchAddress</th>\n              \n                <th class=\"info-actions\">Actions</th>\n            </tr>\n          </thead>\n          <tbody>\n            <tr *ngFor=\"let participant of allParticipants\">\n  \n              \n                  <td class=\"participant-properties\">{{participant.branchId}}</td>\n              \n                  <td class=\"participant-properties\">{{participant.branchName}}</td>\n              \n                  <td class=\"participant-properties\">{{participant.branchAddress}}</td>\n              \n              <td>\n                <button (click)=\"getForm(participant.branchId);\" type=\"button\" class=\"btn btn-update\" data-toggle=\"modal\" data-target=\"#updateParticipantModal\">\n                    <svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\n                    width=\"12.8px\" height=\"12.8px\" viewBox=\"0 0 30.7 30.7\" style=\"enable-background:new 0 0 30.7 30.7;\" xml:space=\"preserve\">\n                 <g>\n                   <path d=\"M1.5,30.7c0.1,0,0.2,0,0.4,0l5.9-1.5c0.8-0.2,1.3-1,1.1-1.8c-0.2-0.8-1-1.3-1.8-1.1l-3.6,0.9l0.8-3.8\n                     c0.2-0.8-0.4-1.6-1.2-1.8c-0.8-0.2-1.6,0.4-1.8,1.2L0,28.9c-0.1,0.5,0.1,1,0.4,1.4C0.7,30.6,1.1,30.7,1.5,30.7z\"/>\n                   <path d=\"M10.4,25.2c0.3,0.3,0.7,0.4,1.1,0.4c0.4,0,0.8-0.1,1.1-0.4L30.3,7.5c0.6-0.6,0.6-1.5,0-2.1l-4.9-4.9\n                     C25.1,0.2,24.7,0,24.3,0c-0.4,0-0.8,0.2-1.1,0.4L5.5,18.2c-0.3,0.3-0.4,0.7-0.4,1.1s0.2,0.8,0.4,1.1L10.4,25.2z M24.3,3.6l2.8,2.8\n                     L11.5,22l-2.8-2.8L24.3,3.6z\"/>\n                 </g>\n                 </svg>\n                </button>\n  \n                <button (click)=\"setId(participant.branchId);\" type=\"button\" class=\"btn btn-delete\" data-toggle=\"modal\" data-target=\"#deleteParticipantModal\">\n                    <svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\n                    width=\"13.8px\" height=\"16px\" viewBox=\"0 0 65.9 76.2\" style=\"enable-background:new 0 0 65.9 76.2;\" xml:space=\"preserve\">\n                 <path d=\"M42.8,60.2V22.6c0-1.7-1.3-3-3-3s-3,1.3-3,3v37.6c0,1.7,1.3,3,3,3S42.8,61.9,42.8,60.2z M29.1,60.2V22.6c0-1.7-1.3-3-3-3\n                   s-3,1.3-3,3v37.6c0,1.7,1.3,3,3,3S29.1,61.9,29.1,60.2z M56.2,19.6c-1.7,0-3,1.3-3,3V68c0,1.2-1,2.2-2.2,2.2H14.9\n                   c-1.2,0-2.2-1-2.2-2.2V22.6c0-1.7-1.3-3-3-3s-3,1.3-3,3V68c0,4.5,3.7,8.2,8.2,8.2H51c4.5,0,8.2-3.7,8.2-8.2V22.6\n                   C59.2,21,57.9,19.6,56.2,19.6z M62.9,10.3H49.3V3c0-1.7-1.3-3-3-3H19.6c-1.7,0-3,1.3-3,3v7.3H3c-1.7,0-3,1.3-3,3s1.3,3,3,3h59.9\n                   c1.7,0,3-1.3,3-3S64.5,10.3,62.9,10.3z M43.3,10.3H22.6V6h20.7L43.3,10.3L43.3,10.3z\"/>\n                 </svg>\n                </button>\n              </td>\n            </tr>\n          </tbody>\n        </table>\n      </div>\n    </div>\n  </div>"
 
 /***/ }),
 
-/***/ 503:
+/***/ 505:
 /***/ (function(module, exports) {
 
 module.exports = "<!--\n Licensed under the Apache License, Version 2.0 (the \"License\");\n you may not use this file except in compliance with the License.\n You may obtain a copy of the License at\n\n http://www.apache.org/licenses/LICENSE-2.0\n\n Unless required by applicable law or agreed to in writing, software\n distributed under the License is distributed on an \"AS IS\" BASIS,\n WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n See the License for the specific language governing permissions and\n limitations under the License.\n-->\n<div class=\"modal fade\" id=\"addParticipantModal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"addParticipantModalLabel\">\n    <div class=\"modal-dialog\" role=\"document\">\n      <div class=\"modal-content\">\n        <div class=\"modal-header\">\n          <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button>\n          <h4 class=\"modal-title\" id=\"addParticipantModalLabel\">Create participant</h4>\n            <p class=\"modal-intro\">Enter the required values below.</p>\n        </div>\n        <form [formGroup]=\"myForm\">\n          <div class=\"modal-body\">\n  \n  \n            \n  \n              \n                <div class=\"form-group text-left\">\n                  <label for=\"email\">email</label>\n                  \n                    <input formControlName=\"email\" type=\"text\" class=\"form-control\">\n                  \n                </div>\n              \n            \n  \n              \n                <div class=\"form-group text-left\">\n                  <label for=\"firstName\">firstName</label>\n                  \n                    <input formControlName=\"firstName\" type=\"text\" class=\"form-control\">\n                  \n                </div>\n              \n            \n  \n              \n                <div class=\"form-group text-left\">\n                  <label for=\"lastName\">lastName</label>\n                  \n                    <input formControlName=\"lastName\" type=\"text\" class=\"form-control\">\n                  \n                </div>\n              \n            \n  \n              \n                <div class=\"form-group text-left\">\n                  <label for=\"ownerId\">ownerId</label>\n                  \n                    <input formControlName=\"ownerId\" type=\"text\" class=\"form-control\">\n                  \n                </div>\n              \n            \n  \n          </div>\n          <div class=\"modal-footer\">\n              <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Cancel</button>\n            <button (click)=\"addParticipant(myForm);\" type=\"submit\" class=\"btn btn-success\" data-dismiss=\"modal\">Confirm</button>\n  \n          </div>\n        </form>\n      </div>\n    </div>\n  </div>\n  \n  \n  \n  \n  <div class=\"modal fade\" id=\"updateParticipantModal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"updateParticipantModalLabel\">\n    <div class=\"modal-dialog\" role=\"document\">\n      <div class=\"modal-content\">\n        <div class=\"modal-header\">\n          <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button>\n          <h4 class=\"modal-title\" id=\"updateParticipantModalLabel\">Update Participant</h4>\n        </div>\n        <form [formGroup]=\"myForm\">\n          <div class=\"modal-body\">\n  \n  \n            \n              <div class=\"form-group text-left\">\n                <label for=\"email\">email</label>\n  \n                \n                  <input [ngModel]=\"email\"formControlName=\"email\" type=\"text\" class=\"form-control\">\n                \n  \n              </div>\n            \n              <div class=\"form-group text-left\">\n                <label for=\"firstName\">firstName</label>\n  \n                \n                  <input [ngModel]=\"firstName\"formControlName=\"firstName\" type=\"text\" class=\"form-control\">\n                \n  \n              </div>\n            \n              <div class=\"form-group text-left\">\n                <label for=\"lastName\">lastName</label>\n  \n                \n                  <input [ngModel]=\"lastName\"formControlName=\"lastName\" type=\"text\" class=\"form-control\">\n                \n  \n              </div>\n            \n              <div class=\"form-group text-left\">\n                <label for=\"ownerId\">ownerId</label>\n  \n                \n                  <input [ngModel]=\"ownerId\" formControlName=\"ownerId\" class=\"form-control\" disabled=\"disabled\">  \n                \n  \n              </div>\n            \n  \n  \n          </div>\n          <div class=\"modal-footer\">\n            <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Close</button>\n            <button (click)=\"updateParticipant(myForm)\" type=\"submit\" class=\"btn btn-success\" data-dismiss=\"modal\">Submit</button>\n          </div>\n        </form>\n      </div>\n    </div>\n  </div>\n  \n  \n  \n  <div class=\"modal fade\" id=\"deleteParticipantModal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"deleteParticipantModalLabel\">\n    <div class=\"modal-dialog\" role=\"document\">\n      <div class=\"modal-content\">\n        <div class=\"modal-header\">\n          <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button>\n          <h4 class=\"modal-title\" id=\"deleteParticipantModalLabel\">Delete Participant</h4>\n        </div>\n        <form [formGroup]=\"myForm\">\n          <div class=\"modal-body\">\n            Are you sure you want to delete this participant?\n          </div>\n          <div class=\"modal-footer\">\n            <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">No</button>\n            <button (click)=\"deleteParticipant()\" type=\"submit\" class=\"btn btn-danger\" data-dismiss=\"modal\">Yes</button>\n          </div>\n        </form>\n      </div>\n    </div>\n  </div>\n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  <div class=\"container\">\n      <div *ngIf=\"errorMessage\" class=\"alert alert-danger\" role=\"alert\">\n          <strong>Error:</strong> {{errorMessage}}\n      </div>\n    \n    <div class=\"row\">\n      <div class=\"col-md-9\">\n          <h1 class=\"participant-title\" id='participantName'>Member</h1>\n      </div>\n      <div class=\"col-md-3\">\n        <button (click)=\"resetForm()\" type=\"button\" class=\"btn btn-primary\" data-toggle=\"modal\" data-target=\"#addParticipantModal\">\n            <span style=\"font-size: 14px;font-family: inherit;border-right:1px solid rgba(255,255,255,0.5);padding-right:0.6em;margin-right:0.5em;vertical-align:middle;\">\n                <svg class=\"plus-svg\" xmlns=\"http://www.w3.org/2000/svg\" width=\"10\" height=\"10\" viewBox=\"0 0 10 10\">\n                  <path fill-rule=\"evenodd\" d=\"M5.5,4.5 L9.5,4.5 L10,4.5 L10,5.5 L9.5,5.5 L5.5,5.5 L5.5,9.5 L5.5,10 L4.5,10 L4.5,9.5 L4.5,5.5 L0.5,5.5 L0,5.5 L0,4.5 L0.5,4.5 L4.5,4.5 L4.5,0.5 L4.5,0 L5.5,0 L5.5,0.5 L5.5,4.5 Z\"/>\n                </svg>\n            </span>\n          Create Participant\n        </button>\n      </div>\n    </div>\n    <br>\n    <div class=\"row\">\n      <div class=\"col-md-12\">\n        <table class=\"table table-responsive\">\n          <thead class=\"thead\">\n            <tr class=\"thead-cols\">\n              \n                  <th class=\"info\">email</th>\n              \n                  <th class=\"info\">firstName</th>\n              \n                  <th class=\"info\">lastName</th>\n              \n                  <th class=\"info\">ownerId</th>\n              \n                <th class=\"info-actions\">Actions</th>\n            </tr>\n          </thead>\n          <tbody>\n            <tr *ngFor=\"let participant of allParticipants\">\n  \n              \n                  <td class=\"participant-properties\">{{participant.email}}</td>\n              \n                  <td class=\"participant-properties\">{{participant.firstName}}</td>\n              \n                  <td class=\"participant-properties\">{{participant.lastName}}</td>\n              \n                  <td class=\"participant-properties\">{{participant.ownerId}}</td>\n              \n              <td>\n                <button (click)=\"getForm(participant.ownerId);\" type=\"button\" class=\"btn btn-update\" data-toggle=\"modal\" data-target=\"#updateParticipantModal\">\n                    <svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\n                    width=\"12.8px\" height=\"12.8px\" viewBox=\"0 0 30.7 30.7\" style=\"enable-background:new 0 0 30.7 30.7;\" xml:space=\"preserve\">\n                 <g>\n                   <path d=\"M1.5,30.7c0.1,0,0.2,0,0.4,0l5.9-1.5c0.8-0.2,1.3-1,1.1-1.8c-0.2-0.8-1-1.3-1.8-1.1l-3.6,0.9l0.8-3.8\n                     c0.2-0.8-0.4-1.6-1.2-1.8c-0.8-0.2-1.6,0.4-1.8,1.2L0,28.9c-0.1,0.5,0.1,1,0.4,1.4C0.7,30.6,1.1,30.7,1.5,30.7z\"/>\n                   <path d=\"M10.4,25.2c0.3,0.3,0.7,0.4,1.1,0.4c0.4,0,0.8-0.1,1.1-0.4L30.3,7.5c0.6-0.6,0.6-1.5,0-2.1l-4.9-4.9\n                     C25.1,0.2,24.7,0,24.3,0c-0.4,0-0.8,0.2-1.1,0.4L5.5,18.2c-0.3,0.3-0.4,0.7-0.4,1.1s0.2,0.8,0.4,1.1L10.4,25.2z M24.3,3.6l2.8,2.8\n                     L11.5,22l-2.8-2.8L24.3,3.6z\"/>\n                 </g>\n                 </svg>\n                </button>\n  \n                <button (click)=\"setId(participant.ownerId);\" type=\"button\" class=\"btn btn-delete\" data-toggle=\"modal\" data-target=\"#deleteParticipantModal\">\n                    <svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\n                    width=\"13.8px\" height=\"16px\" viewBox=\"0 0 65.9 76.2\" style=\"enable-background:new 0 0 65.9 76.2;\" xml:space=\"preserve\">\n                 <path d=\"M42.8,60.2V22.6c0-1.7-1.3-3-3-3s-3,1.3-3,3v37.6c0,1.7,1.3,3,3,3S42.8,61.9,42.8,60.2z M29.1,60.2V22.6c0-1.7-1.3-3-3-3\n                   s-3,1.3-3,3v37.6c0,1.7,1.3,3,3,3S29.1,61.9,29.1,60.2z M56.2,19.6c-1.7,0-3,1.3-3,3V68c0,1.2-1,2.2-2.2,2.2H14.9\n                   c-1.2,0-2.2-1-2.2-2.2V22.6c0-1.7-1.3-3-3-3s-3,1.3-3,3V68c0,4.5,3.7,8.2,8.2,8.2H51c4.5,0,8.2-3.7,8.2-8.2V22.6\n                   C59.2,21,57.9,19.6,56.2,19.6z M62.9,10.3H49.3V3c0-1.7-1.3-3-3-3H19.6c-1.7,0-3,1.3-3,3v7.3H3c-1.7,0-3,1.3-3,3s1.3,3,3,3h59.9\n                   c1.7,0,3-1.3,3-3S64.5,10.3,62.9,10.3z M43.3,10.3H22.6V6h20.7L43.3,10.3L43.3,10.3z\"/>\n                 </svg>\n                </button>\n              </td>\n            </tr>\n          </tbody>\n        </table>\n      </div>\n    </div>\n  </div>"
 
 /***/ }),
 
-/***/ 504:
+/***/ 506:
 /***/ (function(module, exports) {
 
 module.exports = "<!--\n Licensed under the Apache License, Version 2.0 (the \"License\");\n you may not use this file except in compliance with the License.\n You may obtain a copy of the License at\n\n http://www.apache.org/licenses/LICENSE-2.0\n\n Unless required by applicable law or agreed to in writing, software\n distributed under the License is distributed on an \"AS IS\" BASIS,\n WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n See the License for the specific language governing permissions and\n limitations under the License.\n-->\n<div class=\"modal fade\" id=\"addParticipantModal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"addParticipantModalLabel\">\n    <div class=\"modal-dialog\" role=\"document\">\n      <div class=\"modal-content\">\n        <div class=\"modal-header\">\n          <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button>\n          <h4 class=\"modal-title\" id=\"addParticipantModalLabel\">Create participant</h4>\n            <p class=\"modal-intro\">Enter the required values below.</p>\n        </div>\n        <form [formGroup]=\"myForm\">\n          <div class=\"modal-body\">\n  \n  \n            \n  \n              \n                <div class=\"form-group text-left\">\n                  <label for=\"networkId\">networkId</label>\n                  \n                    <input formControlName=\"networkId\" type=\"text\" class=\"form-control\">\n                  \n                </div>\n              \n            \n  \n              \n                <div class=\"form-group text-left\">\n                  <label for=\"compnayName\">compnayName</label>\n                  \n                    <input formControlName=\"compnayName\" type=\"text\" class=\"form-control\">\n                  \n                </div>\n              \n            \n  \n          </div>\n          <div class=\"modal-footer\">\n              <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Cancel</button>\n            <button (click)=\"addParticipant(myForm);\" type=\"submit\" class=\"btn btn-success\" data-dismiss=\"modal\">Confirm</button>\n  \n          </div>\n        </form>\n      </div>\n    </div>\n  </div>\n  \n  \n  \n  \n  <div class=\"modal fade\" id=\"updateParticipantModal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"updateParticipantModalLabel\">\n    <div class=\"modal-dialog\" role=\"document\">\n      <div class=\"modal-content\">\n        <div class=\"modal-header\">\n          <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button>\n          <h4 class=\"modal-title\" id=\"updateParticipantModalLabel\">Update Participant</h4>\n        </div>\n        <form [formGroup]=\"myForm\">\n          <div class=\"modal-body\">\n  \n  \n            \n              <div class=\"form-group text-left\">\n                <label for=\"networkId\">networkId</label>\n  \n                \n                  <input [ngModel]=\"networkId\" formControlName=\"networkId\" class=\"form-control\" disabled=\"disabled\">  \n                \n  \n              </div>\n            \n              <div class=\"form-group text-left\">\n                <label for=\"compnayName\">compnayName</label>\n  \n                \n                  <input [ngModel]=\"compnayName\"formControlName=\"compnayName\" type=\"text\" class=\"form-control\">\n                \n  \n              </div>\n            \n  \n  \n          </div>\n          <div class=\"modal-footer\">\n            <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Close</button>\n            <button (click)=\"updateParticipant(myForm)\" type=\"submit\" class=\"btn btn-success\" data-dismiss=\"modal\">Submit</button>\n          </div>\n        </form>\n      </div>\n    </div>\n  </div>\n  \n  \n  \n  <div class=\"modal fade\" id=\"deleteParticipantModal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"deleteParticipantModalLabel\">\n    <div class=\"modal-dialog\" role=\"document\">\n      <div class=\"modal-content\">\n        <div class=\"modal-header\">\n          <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button>\n          <h4 class=\"modal-title\" id=\"deleteParticipantModalLabel\">Delete Participant</h4>\n        </div>\n        <form [formGroup]=\"myForm\">\n          <div class=\"modal-body\">\n            Are you sure you want to delete this participant?\n          </div>\n          <div class=\"modal-footer\">\n            <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">No</button>\n            <button (click)=\"deleteParticipant()\" type=\"submit\" class=\"btn btn-danger\" data-dismiss=\"modal\">Yes</button>\n          </div>\n        </form>\n      </div>\n    </div>\n  </div>\n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  <div class=\"container\">\n      <div *ngIf=\"errorMessage\" class=\"alert alert-danger\" role=\"alert\">\n          <strong>Error:</strong> {{errorMessage}}\n      </div>\n    \n    <div class=\"row\">\n      <div class=\"col-md-9\">\n          <h1 class=\"participant-title\" id='participantName'>NetworkProvider</h1>\n      </div>\n      <div class=\"col-md-3\">\n        <button (click)=\"resetForm()\" type=\"button\" class=\"btn btn-primary\" data-toggle=\"modal\" data-target=\"#addParticipantModal\">\n            <span style=\"font-size: 14px;font-family: inherit;border-right:1px solid rgba(255,255,255,0.5);padding-right:0.6em;margin-right:0.5em;vertical-align:middle;\">\n                <svg class=\"plus-svg\" xmlns=\"http://www.w3.org/2000/svg\" width=\"10\" height=\"10\" viewBox=\"0 0 10 10\">\n                  <path fill-rule=\"evenodd\" d=\"M5.5,4.5 L9.5,4.5 L10,4.5 L10,5.5 L9.5,5.5 L5.5,5.5 L5.5,9.5 L5.5,10 L4.5,10 L4.5,9.5 L4.5,5.5 L0.5,5.5 L0,5.5 L0,4.5 L0.5,4.5 L4.5,4.5 L4.5,0.5 L4.5,0 L5.5,0 L5.5,0.5 L5.5,4.5 Z\"/>\n                </svg>\n            </span>\n          Create Participant\n        </button>\n      </div>\n    </div>\n    <br>\n    <div class=\"row\">\n      <div class=\"col-md-12\">\n        <table class=\"table table-responsive\">\n          <thead class=\"thead\">\n            <tr class=\"thead-cols\">\n              \n                  <th class=\"info\">networkId</th>\n              \n                  <th class=\"info\">compnayName</th>\n              \n                <th class=\"info-actions\">Actions</th>\n            </tr>\n          </thead>\n          <tbody>\n            <tr *ngFor=\"let participant of allParticipants\">\n  \n              \n                  <td class=\"participant-properties\">{{participant.networkId}}</td>\n              \n                  <td class=\"participant-properties\">{{participant.compnayName}}</td>\n              \n              <td>\n                <button (click)=\"getForm(participant.networkId);\" type=\"button\" class=\"btn btn-update\" data-toggle=\"modal\" data-target=\"#updateParticipantModal\">\n                    <svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\n                    width=\"12.8px\" height=\"12.8px\" viewBox=\"0 0 30.7 30.7\" style=\"enable-background:new 0 0 30.7 30.7;\" xml:space=\"preserve\">\n                 <g>\n                   <path d=\"M1.5,30.7c0.1,0,0.2,0,0.4,0l5.9-1.5c0.8-0.2,1.3-1,1.1-1.8c-0.2-0.8-1-1.3-1.8-1.1l-3.6,0.9l0.8-3.8\n                     c0.2-0.8-0.4-1.6-1.2-1.8c-0.8-0.2-1.6,0.4-1.8,1.2L0,28.9c-0.1,0.5,0.1,1,0.4,1.4C0.7,30.6,1.1,30.7,1.5,30.7z\"/>\n                   <path d=\"M10.4,25.2c0.3,0.3,0.7,0.4,1.1,0.4c0.4,0,0.8-0.1,1.1-0.4L30.3,7.5c0.6-0.6,0.6-1.5,0-2.1l-4.9-4.9\n                     C25.1,0.2,24.7,0,24.3,0c-0.4,0-0.8,0.2-1.1,0.4L5.5,18.2c-0.3,0.3-0.4,0.7-0.4,1.1s0.2,0.8,0.4,1.1L10.4,25.2z M24.3,3.6l2.8,2.8\n                     L11.5,22l-2.8-2.8L24.3,3.6z\"/>\n                 </g>\n                 </svg>\n                </button>\n  \n                <button (click)=\"setId(participant.networkId);\" type=\"button\" class=\"btn btn-delete\" data-toggle=\"modal\" data-target=\"#deleteParticipantModal\">\n                    <svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\n                    width=\"13.8px\" height=\"16px\" viewBox=\"0 0 65.9 76.2\" style=\"enable-background:new 0 0 65.9 76.2;\" xml:space=\"preserve\">\n                 <path d=\"M42.8,60.2V22.6c0-1.7-1.3-3-3-3s-3,1.3-3,3v37.6c0,1.7,1.3,3,3,3S42.8,61.9,42.8,60.2z M29.1,60.2V22.6c0-1.7-1.3-3-3-3\n                   s-3,1.3-3,3v37.6c0,1.7,1.3,3,3,3S29.1,61.9,29.1,60.2z M56.2,19.6c-1.7,0-3,1.3-3,3V68c0,1.2-1,2.2-2.2,2.2H14.9\n                   c-1.2,0-2.2-1-2.2-2.2V22.6c0-1.7-1.3-3-3-3s-3,1.3-3,3V68c0,4.5,3.7,8.2,8.2,8.2H51c4.5,0,8.2-3.7,8.2-8.2V22.6\n                   C59.2,21,57.9,19.6,56.2,19.6z M62.9,10.3H49.3V3c0-1.7-1.3-3-3-3H19.6c-1.7,0-3,1.3-3,3v7.3H3c-1.7,0-3,1.3-3,3s1.3,3,3,3h59.9\n                   c1.7,0,3-1.3,3-3S64.5,10.3,62.9,10.3z M43.3,10.3H22.6V6h20.7L43.3,10.3L43.3,10.3z\"/>\n                 </svg>\n                </button>\n              </td>\n            </tr>\n          </tbody>\n        </table>\n      </div>\n    </div>\n  </div>"
 
 /***/ }),
 
-/***/ 505:
+/***/ 507:
 /***/ (function(module, exports) {
 
 module.exports = "<!--\n Licensed under the Apache License, Version 2.0 (the \"License\");\n you may not use this file except in compliance with the License.\n You may obtain a copy of the License at\n\n http://www.apache.org/licenses/LICENSE-2.0\n\n Unless required by applicable law or agreed to in writing, software\n distributed under the License is distributed on an \"AS IS\" BASIS,\n WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n See the License for the specific language governing permissions and\n limitations under the License.\n-->\n<div class=\"modal fade\" id=\"addAssetModal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"addAssetModalLabel\">\n  <div class=\"modal-dialog\" role=\"document\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button>\n        <h4 class=\"modal-title\" id=\"addAssetModalLabel\">Create asset</h4>\n          <p class=\"modal-intro\">Enter the required values below.</p>\n      </div>\n      <form [formGroup]=\"myForm\">\n        <div class=\"modal-body\">\n\n\n          \n\n            \n              <div class=\"form-group text-left\">\n                <label for=\"IMEI\">IMEI</label>\n                \n                  <input formControlName=\"IMEI\" type=\"text\" class=\"form-control\">\n                \n              </div>\n            \n          \n\n            \n              <div class=\"form-group text-left\">\n                <label for=\"phoneStatus\">phoneStatus</label>\n                \n                  <input formControlName=\"phoneStatus\" type=\"text\" class=\"form-control\">\n                \n              </div>\n            \n          \n\n            \n              <div class=\"form-group text-left\">\n                <label for=\"owner\">owner</label>\n                \n                    <textarea formControlName=\"owner\" class=\"form-control\" rows=\"3\"></textarea>\n                \n              </div>\n            \n          \n\n        </div>\n        <div class=\"modal-footer\">\n            <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Cancel</button>\n          <button (click)=\"addAsset(myForm);\" type=\"submit\" class=\"btn btn-success\" data-dismiss=\"modal\">Confirm</button>\n\n        </div>\n      </form>\n    </div>\n  </div>\n</div>\n\n\n\n\n<div class=\"modal fade\" id=\"updateAssetModal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"updateAssetModalLabel\">\n  <div class=\"modal-dialog\" role=\"document\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button>\n        <h4 class=\"modal-title\" id=\"updateAssetModalLabel\">Update Asset</h4>\n      </div>\n      <form [formGroup]=\"myForm\">\n        <div class=\"modal-body\">\n\n\n          \n            <div class=\"form-group text-left\">\n              <label for=\"IMEI\">IMEI</label>\n              \n              \n                <input [ngModel]=\"IMEI\" formControlName=\"IMEI\" class=\"form-control\" disabled=\"disabled\">  \n              \n\n            </div>\n          \n            <div class=\"form-group text-left\">\n              <label for=\"phoneStatus\">phoneStatus</label>\n              \n              \n                <input [ngModel]=\"phoneStatus\"formControlName=\"phoneStatus\" type=\"text\" class=\"form-control\">\n              \n\n            </div>\n          \n            <div class=\"form-group text-left\">\n              <label for=\"owner\">owner</label>\n              \n              \n                \n                  <textarea [ngModel]=\"owner\" formControlName=\"owner\" class=\"form-control\" rows=\"3\"></textarea>\n                \n              \n\n            </div>\n          \n\n\n        </div>\n        <div class=\"modal-footer\">\n          <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Close</button>\n          <button (click)=\"updateAsset(myForm)\" type=\"submit\" class=\"btn btn-success\" data-dismiss=\"modal\">Submit</button>\n        </div>\n      </form>\n    </div>\n  </div>\n</div>\n\n\n\n<div class=\"modal fade\" id=\"deleteAssetModal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"deleteAssetModalLabel\">\n  <div class=\"modal-dialog\" role=\"document\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button>\n        <h4 class=\"modal-title\" id=\"deleteAssetModalLabel\">Delete Asset</h4>\n      </div>\n      <form [formGroup]=\"myForm\">\n        <div class=\"modal-body\">\n          Are you sure you want to delete this asset?\n        </div>\n        <div class=\"modal-footer\">\n          <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">No</button>\n          <button (click)=\"deleteAsset()\" type=\"submit\" class=\"btn btn-danger\" data-dismiss=\"modal\">Yes</button>\n        </div>\n      </form>\n    </div>\n  </div>\n</div>\n\n\n\n\n\n\n\n\n\n\n\n<div class=\"container\">\n\t<div *ngIf=\"errorMessage\" class=\"alert alert-danger\" role=\"alert\">\n\t\t<strong>Error:</strong> {{errorMessage}}\n\t</div>\n  \n  <div class=\"row\">\n    <div class=\"col-md-9\">\n        <h1 class=\"asset-title\" id='assetName'>Phone</h1>\n    </div>\n    <div class=\"col-md-3\">\n      <button (click)=\"resetForm()\" type=\"button\" class=\"btn btn-primary\" data-toggle=\"modal\" data-target=\"#addAssetModal\">\n          <span style=\"font-size: 14px;font-family: inherit;border-right:1px solid rgba(255,255,255,0.5);padding-right:0.6em;margin-right:0.5em;vertical-align:middle;\">\n              <svg class=\"plus-svg\" xmlns=\"http://www.w3.org/2000/svg\" width=\"10\" height=\"10\" viewBox=\"0 0 10 10\">\n                <path fill-rule=\"evenodd\" d=\"M5.5,4.5 L9.5,4.5 L10,4.5 L10,5.5 L9.5,5.5 L5.5,5.5 L5.5,9.5 L5.5,10 L4.5,10 L4.5,9.5 L4.5,5.5 L0.5,5.5 L0,5.5 L0,4.5 L0.5,4.5 L4.5,4.5 L4.5,0.5 L4.5,0 L5.5,0 L5.5,0.5 L5.5,4.5 Z\"/>\n              </svg>\n          </span>\n        Create Asset\n      </button>\n    </div>\n  </div>\n  <br>\n  <div class=\"row\">\n    <div class=\"col-md-12\">\n      <table class=\"table table-responsive\">\n        <thead class=\"thead\">\n          <tr class=\"thead-cols\">\n            \n                <th class=\"info\">IMEI</th>\n            \n                <th class=\"info\">status</th>\n            \n                <th class=\"info\">owner</th>\n            \n              <th class=\"info-actions\">Actions</th>\n          </tr>\n        </thead>\n        <tbody>\n          <tr *ngFor=\"let asset of allAssets\">\n\n            \n                <td class=\"asset-properties\">{{asset.IMEI}}</td>\n            \n                <td class=\"asset-properties\">{{asset.phoneStatus}}</td>\n            \n                <td class=\"asset-properties\">{{asset.owner}}</td>\n            \n            <td>\n              <button (click)=\"getForm(asset.IMEI);\" type=\"button\" class=\"btn btn-update\" data-toggle=\"modal\" data-target=\"#updateAssetModal\">\n                  <svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\n                  width=\"12.8px\" height=\"12.8px\" viewBox=\"0 0 30.7 30.7\" style=\"enable-background:new 0 0 30.7 30.7;\" xml:space=\"preserve\">\n               <g>\n                 <path d=\"M1.5,30.7c0.1,0,0.2,0,0.4,0l5.9-1.5c0.8-0.2,1.3-1,1.1-1.8c-0.2-0.8-1-1.3-1.8-1.1l-3.6,0.9l0.8-3.8\n                   c0.2-0.8-0.4-1.6-1.2-1.8c-0.8-0.2-1.6,0.4-1.8,1.2L0,28.9c-0.1,0.5,0.1,1,0.4,1.4C0.7,30.6,1.1,30.7,1.5,30.7z\"/>\n                 <path d=\"M10.4,25.2c0.3,0.3,0.7,0.4,1.1,0.4c0.4,0,0.8-0.1,1.1-0.4L30.3,7.5c0.6-0.6,0.6-1.5,0-2.1l-4.9-4.9\n                   C25.1,0.2,24.7,0,24.3,0c-0.4,0-0.8,0.2-1.1,0.4L5.5,18.2c-0.3,0.3-0.4,0.7-0.4,1.1s0.2,0.8,0.4,1.1L10.4,25.2z M24.3,3.6l2.8,2.8\n                   L11.5,22l-2.8-2.8L24.3,3.6z\"/>\n               </g>\n               </svg>\n              </button>\n\n              <button (click)=\"setId(asset.IMEI);\" type=\"button\" class=\"btn btn-delete\" data-toggle=\"modal\" data-target=\"#deleteAssetModal\">\n                  <svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\n                  width=\"13.8px\" height=\"16px\" viewBox=\"0 0 65.9 76.2\" style=\"enable-background:new 0 0 65.9 76.2;\" xml:space=\"preserve\">\n               <path d=\"M42.8,60.2V22.6c0-1.7-1.3-3-3-3s-3,1.3-3,3v37.6c0,1.7,1.3,3,3,3S42.8,61.9,42.8,60.2z M29.1,60.2V22.6c0-1.7-1.3-3-3-3\n                 s-3,1.3-3,3v37.6c0,1.7,1.3,3,3,3S29.1,61.9,29.1,60.2z M56.2,19.6c-1.7,0-3,1.3-3,3V68c0,1.2-1,2.2-2.2,2.2H14.9\n                 c-1.2,0-2.2-1-2.2-2.2V22.6c0-1.7-1.3-3-3-3s-3,1.3-3,3V68c0,4.5,3.7,8.2,8.2,8.2H51c4.5,0,8.2-3.7,8.2-8.2V22.6\n                 C59.2,21,57.9,19.6,56.2,19.6z M62.9,10.3H49.3V3c0-1.7-1.3-3-3-3H19.6c-1.7,0-3,1.3-3,3v7.3H3c-1.7,0-3,1.3-3,3s1.3,3,3,3h59.9\n                 c1.7,0,3-1.3,3-3S64.5,10.3,62.9,10.3z M43.3,10.3H22.6V6h20.7L43.3,10.3L43.3,10.3z\"/>\n               </svg>\n              </button>\n            </td>\n          </tr>\n        </tbody>\n      </table>\n    </div>\n  </div>\n</div>"
 
 /***/ }),
 
-/***/ 506:
+/***/ 508:
 /***/ (function(module, exports) {
 
 module.exports = "<!--\n Licensed under the Apache License, Version 2.0 (the \"License\");\n you may not use this file except in compliance with the License.\n You may obtain a copy of the License at\n\n http://www.apache.org/licenses/LICENSE-2.0\n\n Unless required by applicable law or agreed to in writing, software\n distributed under the License is distributed on an \"AS IS\" BASIS,\n WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n See the License for the specific language governing permissions and\n limitations under the License.\n-->\n<div class=\"modal fade\" id=\"addParticipantModal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"addParticipantModalLabel\">\n    <div class=\"modal-dialog\" role=\"document\">\n      <div class=\"modal-content\">\n        <div class=\"modal-header\">\n          <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button>\n          <h4 class=\"modal-title\" id=\"addParticipantModalLabel\">Create participant</h4>\n            <p class=\"modal-intro\">Enter the required values below.</p>\n        </div>\n        <form [formGroup]=\"myForm\">\n          <div class=\"modal-body\">\n  \n  \n            \n  \n              \n                <div class=\"form-group text-left\">\n                  <label for=\"recyclerId\">recyclerId</label>\n                  \n                    <input formControlName=\"recyclerId\" type=\"text\" class=\"form-control\">\n                  \n                </div>\n              \n            \n  \n              \n                <div class=\"form-group text-left\">\n                  <label for=\"recyclerName\">recyclerName</label>\n                  \n                    <input formControlName=\"recyclerName\" type=\"text\" class=\"form-control\">\n                  \n                </div>\n              \n            \n  \n              \n                <div class=\"form-group text-left\">\n                  <label for=\"ownerId\">ownerId</label>\n                  \n                    <input formControlName=\"ownerId\" type=\"text\" class=\"form-control\">\n                  \n                </div>\n              \n            \n  \n          </div>\n          <div class=\"modal-footer\">\n              <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Cancel</button>\n            <button (click)=\"addParticipant(myForm);\" type=\"submit\" class=\"btn btn-success\" data-dismiss=\"modal\">Confirm</button>\n  \n          </div>\n        </form>\n      </div>\n    </div>\n  </div>\n  \n  \n  \n  \n  <div class=\"modal fade\" id=\"updateParticipantModal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"updateParticipantModalLabel\">\n    <div class=\"modal-dialog\" role=\"document\">\n      <div class=\"modal-content\">\n        <div class=\"modal-header\">\n          <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button>\n          <h4 class=\"modal-title\" id=\"updateParticipantModalLabel\">Update Participant</h4>\n        </div>\n        <form [formGroup]=\"myForm\">\n          <div class=\"modal-body\">\n  \n  \n            \n              <div class=\"form-group text-left\">\n                <label for=\"recyclerId\">recyclerId</label>\n  \n                \n                  <input [ngModel]=\"recyclerId\"formControlName=\"recyclerId\" type=\"text\" class=\"form-control\">\n                \n  \n              </div>\n            \n              <div class=\"form-group text-left\">\n                <label for=\"recyclerName\">recyclerName</label>\n  \n                \n                  <input [ngModel]=\"recyclerName\"formControlName=\"recyclerName\" type=\"text\" class=\"form-control\">\n                \n  \n              </div>\n            \n              <div class=\"form-group text-left\">\n                <label for=\"ownerId\">ownerId</label>\n  \n                \n                  <input [ngModel]=\"ownerId\" formControlName=\"ownerId\" class=\"form-control\" disabled=\"disabled\">  \n                \n  \n              </div>\n            \n  \n  \n          </div>\n          <div class=\"modal-footer\">\n            <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Close</button>\n            <button (click)=\"updateParticipant(myForm)\" type=\"submit\" class=\"btn btn-success\" data-dismiss=\"modal\">Submit</button>\n          </div>\n        </form>\n      </div>\n    </div>\n  </div>\n  \n  \n  \n  <div class=\"modal fade\" id=\"deleteParticipantModal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"deleteParticipantModalLabel\">\n    <div class=\"modal-dialog\" role=\"document\">\n      <div class=\"modal-content\">\n        <div class=\"modal-header\">\n          <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button>\n          <h4 class=\"modal-title\" id=\"deleteParticipantModalLabel\">Delete Participant</h4>\n        </div>\n        <form [formGroup]=\"myForm\">\n          <div class=\"modal-body\">\n            Are you sure you want to delete this participant?\n          </div>\n          <div class=\"modal-footer\">\n            <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">No</button>\n            <button (click)=\"deleteParticipant()\" type=\"submit\" class=\"btn btn-danger\" data-dismiss=\"modal\">Yes</button>\n          </div>\n        </form>\n      </div>\n    </div>\n  </div>\n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  <div class=\"container\">\n      <div *ngIf=\"errorMessage\" class=\"alert alert-danger\" role=\"alert\">\n          <strong>Error:</strong> {{errorMessage}}\n      </div>\n    \n    <div class=\"row\">\n      <div class=\"col-md-9\">\n          <h1 class=\"participant-title\" id='participantName'>Recycler</h1>\n      </div>\n      <div class=\"col-md-3\">\n        <button (click)=\"resetForm()\" type=\"button\" class=\"btn btn-primary\" data-toggle=\"modal\" data-target=\"#addParticipantModal\">\n            <span style=\"font-size: 14px;font-family: inherit;border-right:1px solid rgba(255,255,255,0.5);padding-right:0.6em;margin-right:0.5em;vertical-align:middle;\">\n                <svg class=\"plus-svg\" xmlns=\"http://www.w3.org/2000/svg\" width=\"10\" height=\"10\" viewBox=\"0 0 10 10\">\n                  <path fill-rule=\"evenodd\" d=\"M5.5,4.5 L9.5,4.5 L10,4.5 L10,5.5 L9.5,5.5 L5.5,5.5 L5.5,9.5 L5.5,10 L4.5,10 L4.5,9.5 L4.5,5.5 L0.5,5.5 L0,5.5 L0,4.5 L0.5,4.5 L4.5,4.5 L4.5,0.5 L4.5,0 L5.5,0 L5.5,0.5 L5.5,4.5 Z\"/>\n                </svg>\n            </span>\n          Create Participant\n        </button>\n      </div>\n    </div>\n    <br>\n    <div class=\"row\">\n      <div class=\"col-md-12\">\n        <table class=\"table table-responsive\">\n          <thead class=\"thead\">\n            <tr class=\"thead-cols\">\n              \n                  <th class=\"info\">recyclerId</th>\n              \n                  <th class=\"info\">recyclerName</th>\n              \n                  <th class=\"info\">ownerId</th>\n              \n                <th class=\"info-actions\">Actions</th>\n            </tr>\n          </thead>\n          <tbody>\n            <tr *ngFor=\"let participant of allParticipants\">\n  \n              \n                  <td class=\"participant-properties\">{{participant.recyclerId}}</td>\n              \n                  <td class=\"participant-properties\">{{participant.recyclerName}}</td>\n              \n                  <td class=\"participant-properties\">{{participant.ownerId}}</td>\n              \n              <td>\n                <button (click)=\"getForm(participant.ownerId);\" type=\"button\" class=\"btn btn-update\" data-toggle=\"modal\" data-target=\"#updateParticipantModal\">\n                    <svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\n                    width=\"12.8px\" height=\"12.8px\" viewBox=\"0 0 30.7 30.7\" style=\"enable-background:new 0 0 30.7 30.7;\" xml:space=\"preserve\">\n                 <g>\n                   <path d=\"M1.5,30.7c0.1,0,0.2,0,0.4,0l5.9-1.5c0.8-0.2,1.3-1,1.1-1.8c-0.2-0.8-1-1.3-1.8-1.1l-3.6,0.9l0.8-3.8\n                     c0.2-0.8-0.4-1.6-1.2-1.8c-0.8-0.2-1.6,0.4-1.8,1.2L0,28.9c-0.1,0.5,0.1,1,0.4,1.4C0.7,30.6,1.1,30.7,1.5,30.7z\"/>\n                   <path d=\"M10.4,25.2c0.3,0.3,0.7,0.4,1.1,0.4c0.4,0,0.8-0.1,1.1-0.4L30.3,7.5c0.6-0.6,0.6-1.5,0-2.1l-4.9-4.9\n                     C25.1,0.2,24.7,0,24.3,0c-0.4,0-0.8,0.2-1.1,0.4L5.5,18.2c-0.3,0.3-0.4,0.7-0.4,1.1s0.2,0.8,0.4,1.1L10.4,25.2z M24.3,3.6l2.8,2.8\n                     L11.5,22l-2.8-2.8L24.3,3.6z\"/>\n                 </g>\n                 </svg>\n                </button>\n  \n                <button (click)=\"setId(participant.ownerId);\" type=\"button\" class=\"btn btn-delete\" data-toggle=\"modal\" data-target=\"#deleteParticipantModal\">\n                    <svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\n                    width=\"13.8px\" height=\"16px\" viewBox=\"0 0 65.9 76.2\" style=\"enable-background:new 0 0 65.9 76.2;\" xml:space=\"preserve\">\n                 <path d=\"M42.8,60.2V22.6c0-1.7-1.3-3-3-3s-3,1.3-3,3v37.6c0,1.7,1.3,3,3,3S42.8,61.9,42.8,60.2z M29.1,60.2V22.6c0-1.7-1.3-3-3-3\n                   s-3,1.3-3,3v37.6c0,1.7,1.3,3,3,3S29.1,61.9,29.1,60.2z M56.2,19.6c-1.7,0-3,1.3-3,3V68c0,1.2-1,2.2-2.2,2.2H14.9\n                   c-1.2,0-2.2-1-2.2-2.2V22.6c0-1.7-1.3-3-3-3s-3,1.3-3,3V68c0,4.5,3.7,8.2,8.2,8.2H51c4.5,0,8.2-3.7,8.2-8.2V22.6\n                   C59.2,21,57.9,19.6,56.2,19.6z M62.9,10.3H49.3V3c0-1.7-1.3-3-3-3H19.6c-1.7,0-3,1.3-3,3v7.3H3c-1.7,0-3,1.3-3,3s1.3,3,3,3h59.9\n                   c1.7,0,3-1.3,3-3S64.5,10.3,62.9,10.3z M43.3,10.3H22.6V6h20.7L43.3,10.3L43.3,10.3z\"/>\n                 </svg>\n                </button>\n              </td>\n            </tr>\n          </tbody>\n        </table>\n      </div>\n    </div>\n  </div>"
 
 /***/ }),
 
-/***/ 507:
+/***/ 509:
 /***/ (function(module, exports) {
 
 module.exports = "<!--\n Licensed under the Apache License, Version 2.0 (the \"License\");\n you may not use this file except in compliance with the License.\n You may obtain a copy of the License at\n\n http://www.apache.org/licenses/LICENSE-2.0\n\n Unless required by applicable law or agreed to in writing, software\n distributed under the License is distributed on an \"AS IS\" BASIS,\n WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n See the License for the specific language governing permissions and\n limitations under the License.\n-->\n<div class=\"modal fade\" id=\"addParticipantModal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"addParticipantModalLabel\">\n    <div class=\"modal-dialog\" role=\"document\">\n      <div class=\"modal-content\">\n        <div class=\"modal-header\">\n          <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button>\n          <h4 class=\"modal-title\" id=\"addParticipantModalLabel\">Create participant</h4>\n            <p class=\"modal-intro\">Enter the required values below.</p>\n        </div>\n        <form [formGroup]=\"myForm\">\n          <div class=\"modal-body\">\n  \n  \n            \n  \n              \n                <div class=\"form-group text-left\">\n                  <label for=\"retailerId\">retailerId</label>\n                  \n                    <input formControlName=\"retailerId\" type=\"text\" class=\"form-control\">\n                  \n                </div>\n              \n            \n  \n              \n                <div class=\"form-group text-left\">\n                  <label for=\"retailerName\">retailerName</label>\n                  \n                    <input formControlName=\"retailerName\" type=\"text\" class=\"form-control\">\n                  \n                </div>\n              \n            \n  \n              \n                <div class=\"form-group text-left\">\n                  <label for=\"ownerId\">ownerId</label>\n                  \n                    <input formControlName=\"ownerId\" type=\"text\" class=\"form-control\">\n                  \n                </div>\n              \n            \n  \n          </div>\n          <div class=\"modal-footer\">\n              <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Cancel</button>\n            <button (click)=\"addParticipant(myForm);\" type=\"submit\" class=\"btn btn-success\" data-dismiss=\"modal\">Confirm</button>\n  \n          </div>\n        </form>\n      </div>\n    </div>\n  </div>\n  \n  \n  \n  \n  <div class=\"modal fade\" id=\"updateParticipantModal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"updateParticipantModalLabel\">\n    <div class=\"modal-dialog\" role=\"document\">\n      <div class=\"modal-content\">\n        <div class=\"modal-header\">\n          <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button>\n          <h4 class=\"modal-title\" id=\"updateParticipantModalLabel\">Update Participant</h4>\n        </div>\n        <form [formGroup]=\"myForm\">\n          <div class=\"modal-body\">\n  \n  \n            \n              <div class=\"form-group text-left\">\n                <label for=\"retailerId\">retailerId</label>\n  \n                \n                  <input [ngModel]=\"retailerId\"formControlName=\"retailerId\" type=\"text\" class=\"form-control\">\n                \n  \n              </div>\n            \n              <div class=\"form-group text-left\">\n                <label for=\"retailerName\">retailerName</label>\n  \n                \n                  <input [ngModel]=\"retailerName\"formControlName=\"retailerName\" type=\"text\" class=\"form-control\">\n                \n  \n              </div>\n            \n              <div class=\"form-group text-left\">\n                <label for=\"ownerId\">ownerId</label>\n  \n                \n                  <input [ngModel]=\"ownerId\" formControlName=\"ownerId\" class=\"form-control\" disabled=\"disabled\">  \n                \n  \n              </div>\n            \n  \n  \n          </div>\n          <div class=\"modal-footer\">\n            <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Close</button>\n            <button (click)=\"updateParticipant(myForm)\" type=\"submit\" class=\"btn btn-success\" data-dismiss=\"modal\">Submit</button>\n          </div>\n        </form>\n      </div>\n    </div>\n  </div>\n  \n  \n  \n  <div class=\"modal fade\" id=\"deleteParticipantModal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"deleteParticipantModalLabel\">\n    <div class=\"modal-dialog\" role=\"document\">\n      <div class=\"modal-content\">\n        <div class=\"modal-header\">\n          <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button>\n          <h4 class=\"modal-title\" id=\"deleteParticipantModalLabel\">Delete Participant</h4>\n        </div>\n        <form [formGroup]=\"myForm\">\n          <div class=\"modal-body\">\n            Are you sure you want to delete this participant?\n          </div>\n          <div class=\"modal-footer\">\n            <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">No</button>\n            <button (click)=\"deleteParticipant()\" type=\"submit\" class=\"btn btn-danger\" data-dismiss=\"modal\">Yes</button>\n          </div>\n        </form>\n      </div>\n    </div>\n  </div>\n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  <div class=\"container\">\n      <div *ngIf=\"errorMessage\" class=\"alert alert-danger\" role=\"alert\">\n          <strong>Error:</strong> {{errorMessage}}\n      </div>\n    \n    <div class=\"row\">\n      <div class=\"col-md-9\">\n          <h1 class=\"participant-title\" id='participantName'>Retailer</h1>\n      </div>\n      <div class=\"col-md-3\">\n        <button (click)=\"resetForm()\" type=\"button\" class=\"btn btn-primary\" data-toggle=\"modal\" data-target=\"#addParticipantModal\">\n            <span style=\"font-size: 14px;font-family: inherit;border-right:1px solid rgba(255,255,255,0.5);padding-right:0.6em;margin-right:0.5em;vertical-align:middle;\">\n                <svg class=\"plus-svg\" xmlns=\"http://www.w3.org/2000/svg\" width=\"10\" height=\"10\" viewBox=\"0 0 10 10\">\n                  <path fill-rule=\"evenodd\" d=\"M5.5,4.5 L9.5,4.5 L10,4.5 L10,5.5 L9.5,5.5 L5.5,5.5 L5.5,9.5 L5.5,10 L4.5,10 L4.5,9.5 L4.5,5.5 L0.5,5.5 L0,5.5 L0,4.5 L0.5,4.5 L4.5,4.5 L4.5,0.5 L4.5,0 L5.5,0 L5.5,0.5 L5.5,4.5 Z\"/>\n                </svg>\n            </span>\n          Create Participant\n        </button>\n      </div>\n    </div>\n    <br>\n    <div class=\"row\">\n      <div class=\"col-md-12\">\n        <table class=\"table table-responsive\">\n          <thead class=\"thead\">\n            <tr class=\"thead-cols\">\n              \n                  <th class=\"info\">retailerId</th>\n              \n                  <th class=\"info\">retailerName</th>\n              \n                  <th class=\"info\">ownerId</th>\n              \n                <th class=\"info-actions\">Actions</th>\n            </tr>\n          </thead>\n          <tbody>\n            <tr *ngFor=\"let participant of allParticipants\">\n  \n              \n                  <td class=\"participant-properties\">{{participant.retailerId}}</td>\n              \n                  <td class=\"participant-properties\">{{participant.retailerName}}</td>\n              \n                  <td class=\"participant-properties\">{{participant.ownerId}}</td>\n              \n              <td>\n                <button (click)=\"getForm(participant.ownerId);\" type=\"button\" class=\"btn btn-update\" data-toggle=\"modal\" data-target=\"#updateParticipantModal\">\n                    <svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\n                    width=\"12.8px\" height=\"12.8px\" viewBox=\"0 0 30.7 30.7\" style=\"enable-background:new 0 0 30.7 30.7;\" xml:space=\"preserve\">\n                 <g>\n                   <path d=\"M1.5,30.7c0.1,0,0.2,0,0.4,0l5.9-1.5c0.8-0.2,1.3-1,1.1-1.8c-0.2-0.8-1-1.3-1.8-1.1l-3.6,0.9l0.8-3.8\n                     c0.2-0.8-0.4-1.6-1.2-1.8c-0.8-0.2-1.6,0.4-1.8,1.2L0,28.9c-0.1,0.5,0.1,1,0.4,1.4C0.7,30.6,1.1,30.7,1.5,30.7z\"/>\n                   <path d=\"M10.4,25.2c0.3,0.3,0.7,0.4,1.1,0.4c0.4,0,0.8-0.1,1.1-0.4L30.3,7.5c0.6-0.6,0.6-1.5,0-2.1l-4.9-4.9\n                     C25.1,0.2,24.7,0,24.3,0c-0.4,0-0.8,0.2-1.1,0.4L5.5,18.2c-0.3,0.3-0.4,0.7-0.4,1.1s0.2,0.8,0.4,1.1L10.4,25.2z M24.3,3.6l2.8,2.8\n                     L11.5,22l-2.8-2.8L24.3,3.6z\"/>\n                 </g>\n                 </svg>\n                </button>\n  \n                <button (click)=\"setId(participant.ownerId);\" type=\"button\" class=\"btn btn-delete\" data-toggle=\"modal\" data-target=\"#deleteParticipantModal\">\n                    <svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\n                    width=\"13.8px\" height=\"16px\" viewBox=\"0 0 65.9 76.2\" style=\"enable-background:new 0 0 65.9 76.2;\" xml:space=\"preserve\">\n                 <path d=\"M42.8,60.2V22.6c0-1.7-1.3-3-3-3s-3,1.3-3,3v37.6c0,1.7,1.3,3,3,3S42.8,61.9,42.8,60.2z M29.1,60.2V22.6c0-1.7-1.3-3-3-3\n                   s-3,1.3-3,3v37.6c0,1.7,1.3,3,3,3S29.1,61.9,29.1,60.2z M56.2,19.6c-1.7,0-3,1.3-3,3V68c0,1.2-1,2.2-2.2,2.2H14.9\n                   c-1.2,0-2.2-1-2.2-2.2V22.6c0-1.7-1.3-3-3-3s-3,1.3-3,3V68c0,4.5,3.7,8.2,8.2,8.2H51c4.5,0,8.2-3.7,8.2-8.2V22.6\n                   C59.2,21,57.9,19.6,56.2,19.6z M62.9,10.3H49.3V3c0-1.7-1.3-3-3-3H19.6c-1.7,0-3,1.3-3,3v7.3H3c-1.7,0-3,1.3-3,3s1.3,3,3,3h59.9\n                   c1.7,0,3-1.3,3-3S64.5,10.3,62.9,10.3z M43.3,10.3H22.6V6h20.7L43.3,10.3L43.3,10.3z\"/>\n                 </svg>\n                </button>\n              </td>\n            </tr>\n          </tbody>\n        </table>\n      </div>\n    </div>\n  </div>"
 
 /***/ }),
 
-/***/ 508:
-/***/ (function(module, exports) {
-
-module.exports = "<!--\n Licensed under the Apache License, Version 2.0 (the \"License\");\n you may not use this file except in compliance with the License.\n You may obtain a copy of the License at\n\n http://www.apache.org/licenses/LICENSE-2.0\n\n Unless required by applicable law or agreed to in writing, software\n distributed under the License is distributed on an \"AS IS\" BASIS,\n WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n See the License for the specific language governing permissions and\n limitations under the License.\n-->\n<nav class=\"navbar navbar-inverse\">\n    <div class=\"container-fluid\">\n      <div class=\"navbar-header\">\n        <img src=\"assets/images/logo.png\" width=\"150px\" height=\"150px\"/>\n      </div>\n      <ul class=\"nav navbar-nav\">\n        <li class=\"dropdown active\">\n            <a class=\"dropdown-toggle\" data-toggle=\"dropdown\">Assets</a>\n            <ul class=\"dropdown-menu scrollable-menu\">\n              <li><a [routerLink]=\"['/Phone']\">Phone</a></li>\n            </ul>\n        </li>\n        <li class=\"dropdown active\">\n          <a class=\"dropdown-toggle\" data-toggle=\"dropdown\">Participants</a>\n          <ul class=\"dropdown-menu scrollable-menu\">\n            <li><a [routerLink]=\"['/Member']\">Member</a></li>\n            <li><a [routerLink]=\"['/Retailer']\">Retailer</a></li>\n            <li><a [routerLink]=\"['/Recycler']\">Recycler</a></li>\n            <li><a [routerLink]=\"['/NetworkProvider']\">NetworkProvider</a></li>\n            <li><a [routerLink]=\"['/LawEnfrocment']\">LawEnfrocment</a></li>\n          </ul>\n        </li>\n        <li class=\"dropdown active\">\n          <a class=\"dropdown-toggle\" data-toggle=\"dropdown\">Transactions</a>\n          <ul class=\"dropdown-menu scrollable-menu\">\n            <li><a [routerLink]=\"['/ChangeOwner']\">ChangeOwner</a></li>\n            <li><a [routerLink]=\"['/markAsStolen']\">markAsStolen</a></li>\n          </ul>\n        </li>\n        <li><button class=\"btn btn-primary btn-margin\">Log In</button></li>\n       </ul> \n      <!-- <button class=\"btn btn-primary btn-margin\" *ngIf=\"!auth.isAuthenticated()\" (click)=\"auth.login()\">Log In</button>\n      <button class=\"btn btn-primary btn-margin\" *ngIf=\"auth.isAuthenticated()\" (click)=\"auth.logout()\">Log Out</button> -->\n    </div>\n  </nav>\n\n  <router-outlet></router-outlet>\n"
-
-/***/ }),
-
-/***/ 509:
-/***/ (function(module, exports) {
-
-module.exports = "<!--\n Licensed under the Apache License, Version 2.0 (the \"License\");\n you may not use this file except in compliance with the License.\n You may obtain a copy of the License at\n\n http://www.apache.org/licenses/LICENSE-2.0\n\n Unless required by applicable law or agreed to in writing, software\n distributed under the License is distributed on an \"AS IS\" BASIS,\n WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n See the License for the specific language governing permissions and\n limitations under the License.\n-->\n<div class=\"container\">\n\t<div class=\"jumbotron\">\n\t\t<h2>Welcome to Identiphone.</h2>\n\t\t<p>Identiphone is a blockchain solution to help track a phones history and to help stop the selling of stolen phones</p>\n\t</div>\n\n</div>\n<div class=\"container\">\n\t<div class=\"jumbotron\">\n\t\t<h3>How does it work</h3>\n\t\t<ul>\n\t\t\t<li><p>Your phone is registered when you buy it or opt in.</p></li>\n\t\t\t<li><p>If your phone is ever stolen, you can log into Identiphone to retrieve your IMEI number and with this number you can ring your network provider to block your phone</p></li>\n\t\t\t<li><p>It also enables you to check the history of a phone. So you can see if a phone has been stolen or the number of previous owners it has had</p></li>\t\t\n\t\t\t<li><p>For retailers or people buying second hand phones it can provide clarity that you are buying from the actual owner of the phone</p></li>\n\t\t</ul>\n\t</div>\n</div>"
-
-/***/ }),
-
 /***/ 510:
+/***/ (function(module, exports) {
+
+module.exports = "<!--\n Licensed under the Apache License, Version 2.0 (the \"License\");\n you may not use this file except in compliance with the License.\n You may obtain a copy of the License at\n\n http://www.apache.org/licenses/LICENSE-2.0\n\n Unless required by applicable law or agreed to in writing, software\n distributed under the License is distributed on an \"AS IS\" BASIS,\n WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n See the License for the specific language governing permissions and\n limitations under the License.\n-->\n<img class =\"logoImage\" src=\"assets/images/logo.png\" width=\"150px\" height=\"150px\"/>\n<nav class=\"navbar navbar-inverse\">\n    <div class=\"container-fluid\">\n      <div class=\"navbar-header\">\n        \n      </div>\n      <ul class=\"nav navbar-nav\">\n        <li class=\"dropdown active\">\n            <a class=\"dropdown-toggle\" data-toggle=\"dropdown\">Assets</a>\n            <ul class=\"dropdown-menu scrollable-menu\">\n              <li><a [routerLink]=\"['/Phone']\">Phone</a></li>\n            </ul>\n        </li>\n        <li class=\"dropdown active\">\n          <a class=\"dropdown-toggle\" data-toggle=\"dropdown\">Participants</a>\n          <ul class=\"dropdown-menu scrollable-menu\">\n            <li><a [routerLink]=\"['/Member']\">Member</a></li>\n            <li><a [routerLink]=\"['/Retailer']\">Retailer</a></li>\n            <li><a [routerLink]=\"['/Recycler']\">Recycler</a></li>\n            <li><a [routerLink]=\"['/NetworkProvider']\">NetworkProvider</a></li>\n            <li><a [routerLink]=\"['/LawEnfrocment']\">LawEnfrocment</a></li>\n          </ul>\n        </li>\n        <li class=\"dropdown active\">\n          <a class=\"dropdown-toggle\" data-toggle=\"dropdown\">Transactions</a>\n          <ul class=\"dropdown-menu scrollable-menu\">\n            <li><a [routerLink]=\"['/ChangeOwner']\">ChangeOwner</a></li>\n            <li><a [routerLink]=\"['/markAsStolen']\">markAsStolen</a></li>\n          </ul>\n        </li>\n      </ul>\n    </div>\n  </nav>       \n  <button *ngIf=\"!authenticated\" class=\"btn btn-primary btn-margin\" (click)=\"location.href = 'https://35.204.114.96:3000/auth/github';\" type=\"submit\"> Log In</button>\n  <button *ngIf=\"authenticated\" class=\"btn btn-primary btn-margin\">Log Out</button>\n  <router-outlet></router-outlet>\n"
+
+/***/ }),
+
+/***/ 511:
+/***/ (function(module, exports) {
+
+module.exports = "<!--\n Licensed under the Apache License, Version 2.0 (the \"License\");\n you may not use this file except in compliance with the License.\n You may obtain a copy of the License at\n\n http://www.apache.org/licenses/LICENSE-2.0\n\n Unless required by applicable law or agreed to in writing, software\n distributed under the License is distributed on an \"AS IS\" BASIS,\n WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n See the License for the specific language governing permissions and\n limitations under the License.\n-->\n<div class=\"container\">\n\t<div class=\"jumbotron\">\n\t\t<h2>Welcome to Identiphone, <div *ngIf=\"currentUser\" class=\"user-info\"> {{currentUser.split('#')[1]}}</div></h2>\n\t\t<p>Identiphone is a blockchain solution to help track a phones history and to help stop the selling of stolen phones</p>\n\t</div>\n<section *ngIf=\"authenticated && !loggedIn\">\n\t<h3>Sign Up</h3>\n\t<form (ngSubmit)=\"onSignUp()\" #signupForm=\"ngForm\">\n\t\t<table>\n\t\t\t<colgroup>\n\t\t\t\t<col span=\"1\" style=\"width: 11%;\">\n\t\t\t\t<col span=\"1\" style=\"width: 89%;\">\n\t\t\t</colgroup>\n\t\t\t<tr>\n\t\t\t\t<td><label>Email</label></td>\n\t\t\t\t<td><input type=\"email\" [(ngModel)]=\"signUp.email\" #id=\"ngModel\" name=\"email\"></td>\n\t\t\t</tr>\n\t\t\t<tr>\n\t\t\t\t<td><label>First Name</label></td>\n\t\t\t\t<td><input type=\"text\" [(ngModel)]=\"signUp.firstName\" #firstName=\"ngModel\" name=\"firstName\"></td>\n\t\t\t</tr>\n\t\t\t<tr>\n\t\t\t\t<td><label>Surname</label></td>\n\t\t\t\t<td><input type=\"text\" [(ngModel)]=\"signUp.lastName\" #lastName=\"ngModel\" name=\"lastName\"></td>\n\t\t\t</tr>\n\t\t</table>\n\t\t<button type=\"submit\" class=\"primary\">\n\t\t<div *ngIf=\"!signUpInProgress\">\n\t\t\t<span>Sign up</span>\n\t\t</div>\n\t\t<div *ngIf=\"signUpInProgress\" class=\"ibm-spinner-indeterminate small loop\">\n\t\t\t<div class=\"loader\">\n\t\t\t<svg class=\"circular\" viewBox=\"25 25 50 50\">\n\t\t\t\t<circle class=\"circle-path\" cx=\"50\" cy=\"50\" r=\"20\"/>\n\t\t\t</svg>\n\t\t\t</div>\n\t\t</div>\n\t\t</button>\n\t</form>\n</section>\n<section *ngIf=\"loggedIn\">\n\t<div class=\"container\">\n\t\t<div class=\"jumbotron\">\n\t\t\t<h3>How does it work</h3>\n\t\t\t<ul>\n\t\t\t\t<li><p>Your phone is registered when you buy it or opt in.</p></li>\n\t\t\t\t<li><p>If your phone is ever stolen, you can log into Identiphone to retrieve your IMEI number and with this number you can ring your network provider to block your phone</p></li>\n\t\t\t\t<li><p>It also enables you to check the history of a phone. So you can see if a phone has been stolen or the number of previous owners it has had</p></li>\t\t\n\t\t\t\t<li><p>For retailers or people buying second hand phones it can provide clarity that you are buying from the actual owner of the phone</p></li>\n\t\t\t</ul>\n\t\t</div>\n\t</div>\n</section>"
+
+/***/ }),
+
+/***/ 512:
 /***/ (function(module, exports) {
 
 module.exports = "<!--\n Licensed under the Apache License, Version 2.0 (the \"License\");\n you may not use this file except in compliance with the License.\n You may obtain a copy of the License at\n\n http://www.apache.org/licenses/LICENSE-2.0\n\n Unless required by applicable law or agreed to in writing, software\n distributed under the License is distributed on an \"AS IS\" BASIS,\n WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n See the License for the specific language governing permissions and\n limitations under the License.\n-->\n<div class=\"modal fade\" id=\"addTransactionModal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"addTransactionModalLabel\">\n  <div class=\"modal-dialog\" role=\"document\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button>\n        <h4 class=\"modal-title\" id=\"addTransactionModalLabel\">Create Transaction</h4>\n          <p class=\"modal-intro\">Enter the required values below.</p>\n      </div>\n      <form [formGroup]=\"myForm\">\n        <div class=\"modal-body\">\n           <div class=\"form-group text-left\">\n                <label for=\"phone\">phone</label>\n                <textarea formControlName=\"phone\" class=\"form-control\" rows=\"3\"></textarea>\n              </div>\n            </div>\n        <div class=\"modal-footer\">\n            <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Cancel</button>\n          <button (click)=\"addTransaction(myForm);\" type=\"submit\" class=\"btn btn-success\" data-dismiss=\"modal\">Confirm</button>\n        </div>\n      </form>\n    </div>\n  </div>\n</div>\n<div class=\"modal fade\" id=\"updateTransactionModal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"updateTransactionModalLabel\">\n  <div class=\"modal-dialog\" role=\"document\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button>\n        <h4 class=\"modal-title\" id=\"updateTransactionModalLabel\">Update Transaction</h4>\n      </div>\n      <form [formGroup]=\"myForm\">\n        <div class=\"modal-body\">\n          <div class=\"form-group text-left\">\n              <label for=\"phone\">Phone's IMEI</label>\n              <textarea [ngModel]=\"phone\" formControlName=\"phone\" class=\"form-control\" rows=\"3\"></textarea>\n            </div>\n        </div>\n        <div class=\"modal-footer\">\n          <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Close</button>\n          <button (click)=\"updateTransaction(myForm)\" type=\"submit\" class=\"btn btn-success\" data-dismiss=\"modal\">Submit</button>\n        </div>\n      </form>\n    </div>\n  </div>\n</div>\n<div class=\"modal fade\" id=\"deleteTransactionModal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"deleteTransactionModalLabel\">\n  <div class=\"modal-dialog\" role=\"document\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button>\n        <h4 class=\"modal-title\" id=\"deleteTransactionModalLabel\">Delete Transaction</h4>\n      </div>\n      <form [formGroup]=\"myForm\" (ngSubmit)=\"deleteTransaction()\">\n        <div class=\"modal-body\">\n          Are you sure you want to delete this Transaction?\n        </div>\n        <div class=\"modal-footer\">\n          <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">No</button>\n          <button (click)=\"deleteTransaction()\" type=\"submit\" class=\"btn btn-danger\" data-dismiss=\"modal\">Yes</button>\n        </div>\n      </form>\n    </div>\n  </div>\n</div>\n<div class=\"container col-md-6\">\n    <div *ngIf=\"errorMessage\" class=\"alert alert-danger\" role=\"alert\">\n        <strong>Error:</strong> {{errorMessage}}\n    </div>\n  \n  <div class=\"row\">\n    <div class=\"col-md-12\">\n        <h1 class=\"transaction-title\" id='transactionName'>markAsStolen</h1>\n        <p class=\"invoke_cancel\" id='invoke_cancel'>Invoke</p>\n    </div>\n  </div>\n  <br>\n  <div class=\"row\">\n    <div class=\"col-md-12\">\n      <div class=\"row\">\n        <div class=\"col-md-12\">\n          To change the status of a phone you will need the IMEI number:\n        </div>\n      </div>\n      <button (click)=\"resetForm();\" type=\"button\" class=\"btn btn-primary invokeTransactionBtn\" data-toggle=\"modal\" data-target=\"#addTransactionModal\">Change Phone Status</button>\n    </div>\n  </div>\n</div>\n \n"
@@ -3220,13 +3363,13 @@ module.exports = "<!--\n Licensed under the Apache License, Version 2.0 (the \"L
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(338);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(341);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__ = __webpack_require__(352);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__ = __webpack_require__(357);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_catch__ = __webpack_require__(351);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_catch__ = __webpack_require__(356);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_catch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_catch__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DataService; });
 /*
@@ -3328,13 +3471,13 @@ var _a;
 
 /***/ }),
 
-/***/ 791:
+/***/ 793:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(463);
+module.exports = __webpack_require__(466);
 
 
 /***/ })
 
-},[791]);
+},[793]);
 //# sourceMappingURL=main.bundle.js.map

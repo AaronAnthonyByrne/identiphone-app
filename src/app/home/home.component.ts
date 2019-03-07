@@ -12,7 +12,9 @@
  * limitations under the License.
  */
 
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
+import { RestService } from 'app/rest.service';
 
 @Component({
   selector: 'app-home',
@@ -21,7 +23,68 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
-  constructor () {
+  private authenticated = false;
+  private loggedIn = false;
+
+  constructor (private route: ActivatedRoute,
+                private router: Router,
+                private restService: RestService) {
   }
 
+  private signUpInProgress = false;
+  private currentUser;
+  @ViewChild('signupForm') signupForm;
+
+  private signUp ={
+    email : '',
+    firstName: '',
+    lastName:'',
+    ownerId:''
+  };
+
+  ngOnInit(){
+    this.route
+    .queryParams
+    .subscribe((queryParams)=>{
+      const loggedIn = queryParams['loggedIn'];
+      if(loggedIn){
+        this.authenticated = true;
+        return this.router.navigate(['/'])
+        .then(() =>{
+          return this.checkWallet();
+        });
+      }
+    });
+  }
+
+  checkWallet(){
+    return this.restService.checkWallet()
+    .then((res) => {
+      if(res['length']>0){
+        this.loggedIn = true;
+        return this.getCurrentUser();
+      }
+    });
+  }
+
+  onSignUp(){
+    this.signUpInProgress = true;
+    return this.restService.signUp(this.signUp)
+    .then(() =>{
+      return this.getCurrentUser();
+    })
+    .then(() =>{
+      this.loggedIn = true;
+      this.signUpInProgress = true;
+    });
+  }
+
+  getCurrentUser(){
+    return this.restService.getCurrentUser()
+    .then((currentUser)=> {
+      this.currentUser. currentUser;
+    });
+  }
+
+  
 }
