@@ -12801,7 +12801,7 @@ var DataService = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/*Home Layout*/\n.main__container {\n    display: grid;\n    grid-template-columns: repeat(3, 1fr);\n    grid-template-rows: repeat(auto-fill, 1fr);\n    align-items: center;\n    justify-items: center;\n    height: 100%;\n  }\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS9ob21lLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsY0FBYztBQUNkO0lBQ0ksYUFBYTtJQUNiLHFDQUFxQztJQUNyQywwQ0FBMEM7SUFDMUMsbUJBQW1CO0lBQ25CLHFCQUFxQjtJQUNyQixZQUFZO0VBQ2QiLCJmaWxlIjoic3JjL2FwcC9ob21lL2hvbWUuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi8qSG9tZSBMYXlvdXQqL1xuLm1haW5fX2NvbnRhaW5lciB7XG4gICAgZGlzcGxheTogZ3JpZDtcbiAgICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IHJlcGVhdCgzLCAxZnIpO1xuICAgIGdyaWQtdGVtcGxhdGUtcm93czogcmVwZWF0KGF1dG8tZmlsbCwgMWZyKTtcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgIGp1c3RpZnktaXRlbXM6IGNlbnRlcjtcbiAgICBoZWlnaHQ6IDEwMCU7XG4gIH0iXX0= */"
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2hvbWUvaG9tZS5jb21wb25lbnQuY3NzIn0= */"
 
 /***/ }),
 
@@ -12812,7 +12812,7 @@ module.exports = "/*Home Layout*/\n.main__container {\n    display: grid;\n    g
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"main__container\">\n\n\t<app-weather-card></app-weather-card>\n\t<app-add-card></app-add-card>\n  \n  </div>"
+module.exports = "<!--\n Licensed under the Apache License, Version 2.0 (the \"License\");\n you may not use this file except in compliance with the License.\n You may obtain a copy of the License at\n http://www.apache.org/licenses/LICENSE-2.0\n Unless required by applicable law or agreed to in writing, software\n distributed under the License is distributed on an \"AS IS\" BASIS,\n WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n See the License for the specific language governing permissions and\n limitations under the License.\n-->\n<div class=\"container\">\n\t<div class=\"jumbotron\">\n\t\t<h2>Welcome to Identiphone.</h2>\n\t\t<p>Identiphone is a blockchain solution to help track a phones history and to help stop the selling of stolen phones</p>\n\t</div>\n\n</div>\n<div class=\"container\">\n\t<div class=\"jumbotron\">\n\t\t<h3>How does it work</h3>\n\t\t<ul>\n\t\t\t<li><p>Your phone is registered when you buy it or opt in.</p></li>\n\t\t\t<li><p>If your phone is ever stolen, you can log into Identiphone to retrieve your IMEI number and with this number you can ring your network provider to block your phone</p></li>\n\t\t\t<li><p>It also enables you to check the history of a phone. So you can see if a phone has been stolen or the number of previous owners it has had</p></li>\t\t\n\t\t\t<li><p>For retailers or people buying second hand phones it can provide clarity that you are buying from the actual owner of the phone</p></li>\n\t\t</ul>\n\t</div>\n</div>"
 
 /***/ }),
 
