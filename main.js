@@ -12727,7 +12727,7 @@ var DataService = /** @class */ (function () {
     function DataService(http) {
         this.http = http;
         this.resolveSuffix = '?resolve=true';
-        this.actionUrl = 'https://35.204.114.96:3000/api/';
+        this.actionUrl = 'https://35.204.34.37:3000/api/';
         this.headers = new _angular_http__WEBPACK_IMPORTED_MODULE_2__["Headers"]();
         this.headers.append('Content-Type', 'application/json');
         this.headers.append('Accept', 'application/json');
@@ -13276,7 +13276,7 @@ var RestService = /** @class */ (function () {
         this.httpClient = httpClient;
     }
     RestService.prototype.checkWallet = function () {
-        return this.httpClient.get('https://35.204.114.96:3000/api/wallet', { withCredentials: true }).toPromise();
+        return this.httpClient.get('https://35.204.34.37:3000/api/wallet', { withCredentials: true }).toPromise();
     };
     RestService.prototype.signUp = function (data) {
         var _this = this;
@@ -13287,14 +13287,14 @@ var RestService = /** @class */ (function () {
             lastName: data.lastName,
             ownerId: data.ownerId
         };
-        return this.httpClient.post('https://35.204.114.96:3000/api/org.example.mynetwork.Member', member).toPromise()
+        return this.httpClient.post('https://35.204.34.37:3000/api/org.example.mynetwork.Member', member).toPromise()
             .then(function () {
             var identity = {
                 participant: 'org.example.mynetwork.Member#' + data.firstName,
                 userID: data.email,
                 options: {}
             };
-            return _this.httpClient.post('https://35.204.114.96:3000/api/system/identities/issue', identity, { responseType: 'blob' }).toPromise();
+            return _this.httpClient.post('https://35.204.34.37:3000/api/system/identities/issue', identity, { responseType: 'blob' }).toPromise();
         })
             .then(function (cardData) {
             console.log('CARD-DATA', cardData);
@@ -13304,11 +13304,11 @@ var RestService = /** @class */ (function () {
             formData.append('card', file);
             var headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpHeaders"]();
             headers.set('Content-Type', 'multipart/form-data');
-            return _this.httpClient.post('https://35.204.114.96:3000/api/wallet/import', formData, { withCredentials: true, headers: headers });
+            return _this.httpClient.post('https://35.204.34.37:3000/api/wallet/import', formData, { withCredentials: true, headers: headers });
         });
     };
     RestService.prototype.getCurrentUser = function () {
-        return this.httpClient.get('https://35.204.114.96:3000/api/system/ping', { withCredentials: true }).toPromise()
+        return this.httpClient.get('https://35.204.34.37:3000/api/system/ping', { withCredentials: true }).toPromise()
             .then(function (data) {
             return data['participant'];
         });
