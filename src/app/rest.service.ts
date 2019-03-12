@@ -8,7 +8,7 @@ export class RestService {
   }
 
   checkWallet() {
-    return this.httpClient.get('https://35.204.114.96:3000/api/wallet', {withCredentials: true}).toPromise();
+    return this.httpClient.get('https://35.204.34.37:3000/api/wallet', {withCredentials: true}).toPromise();
   }
 
   signUp(data) {
@@ -22,7 +22,7 @@ export class RestService {
     };
      
 
-    return this.httpClient.post('https://35.204.114.96:3000/api/org.example.mynetwork.Member', member).toPromise()
+    return this.httpClient.post('https://35.204.34.37:3000/api/org.example.mynetwork.Member', member).toPromise()
       .then(() => {
         const identity = {
           participant: 'org.example.mynetwork.Member#' + data.firstName,
@@ -30,7 +30,7 @@ export class RestService {
           options: {}
         };
 
-        return this.httpClient.post('https://35.204.114.96:3000/api/system/identities/issue', identity, {responseType: 'blob'}).toPromise();
+        return this.httpClient.post('https://35.204.34.37:3000/api/system/identities/issue', identity, {responseType: 'blob'}).toPromise();
       })
       .then((cardData) => {
       console.log('CARD-DATA', cardData);
@@ -42,12 +42,12 @@ export class RestService {
 
         const headers = new HttpHeaders();
         headers.set('Content-Type', 'multipart/form-data');
-        return this.httpClient.post('https://35.204.114.96:3000/api/wallet/import', formData,{ withCredentials: true, headers})
+        return this.httpClient.post('https://35.204.34.37:3000/api/wallet/import', formData,{ withCredentials: true, headers})
       });
   }
 
   getCurrentUser() {
-    return this.httpClient.get('https://35.204.114.96:3000/api/system/ping', {withCredentials: true}).toPromise()
+    return this.httpClient.get('https://35.204.34.37:3000/api/system/ping', {withCredentials: true}).toPromise()
       .then((data) => {
         return data['participant'];
       });
