@@ -19,7 +19,7 @@ import 'rxjs/add/operator/toPromise';
 @Component({
   selector: 'app-login',
   templateUrl: './Login.html',
-  styleUrls: ['./Login.css']
+  styleUrls: ['../Member/Member.component.css']
 })
 export class LoginComponent {
 

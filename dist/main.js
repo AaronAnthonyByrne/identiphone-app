@@ -10780,6 +10780,84 @@ var LawEnfrocmentService = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "./src/app/Login/Login.component.ts":
+/*!******************************************!*\
+  !*** ./src/app/Login/Login.component.ts ***!
+  \******************************************/
+/*! exports provided: LoginComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LoginComponent", function() { return LoginComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
+/* harmony import */ var rxjs_add_operator_toPromise__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs/add/operator/toPromise */ "./node_modules/rxjs-compat/_esm5/add/operator/toPromise.js");
+/* harmony import */ var rxjs_add_operator_toPromise__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(rxjs_add_operator_toPromise__WEBPACK_IMPORTED_MODULE_3__);
+/*
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+
+
+
+var LoginComponent = /** @class */ (function () {
+    function LoginComponent() {
+        this.email = new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"]('', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required);
+        this.password = new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"]('', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required);
+        // constructor(fb: FormBuilder){
+        //   this.myForm = fb.group({
+        //     email: this.email,
+        //     password: this.password
+        //   });
+        // };
+        // attemptLogin(form:any): Promise<any>{
+        //   this.query ={
+        //     'email':this.email.value,
+        //     'password':this.password.value
+        //   };
+        //   this.myForm.setValue({
+        //     'email':null,
+        //     'password':null
+        //   });
+        // }
+    }
+    LoginComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'app-login',
+            template: __webpack_require__(/*! ./Login.html */ "./src/app/Login/Login.html"),
+            styles: [__webpack_require__(/*! ../Member/Member.component.css */ "./src/app/Member/Member.component.css")]
+        })
+    ], LoginComponent);
+    return LoginComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/Login/Login.html":
+/*!**********************************!*\
+  !*** ./src/app/Login/Login.html ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"modal fade\" id=\"loginMember\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"loginMemberModalLabel\">\n\t<div class=\"modal-dialog\" role=\"document\">\n\t\t<div class=\"modal-content\">\n\t\t\t<div class=\"modal-header\">\n\t\t\t\t<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button>\n\t\t\t\t<h4 class=\"modal-title\" id=\"loginMemberModalLabel\">Login</h4>\n\t\t\t\t<p class=\"modal-intro\">Enter the required values below.</p>\n\t\t\t</div>\n\t\t\t<form [formGroup]=\"myForm\">\n\t\t\t\t<div class=\"modal-body\">\n\t\t\t\t\t<div class=\"form-group text-left\">\n\t\t\t\t\t\t<label for=\"email\">Email</label>\n\t\t\t\t\t\t<input formControlName=\"email\" type=\"text\" class=\"form-control\">\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"form-group text-left\">\n\t\t\t\t\t\t<label for=\"firstName\">Password</label>\n\t\t\t\t\t\t<input formControlName=\"password\" type=\"password\" class=\"form-control\">\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"modal-footer\">\n\t\t\t\t\t<button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Cancel</button>\n\t\t\t\t\t<button (click)=\"attemptLogin(myForm);\" type=\"submit\" class=\"btn btn-success\" data-dismiss=\"modal\">Confirm</button>\n\t\t\t\t</div>\n\t\t\t</form>\n\t\t</div>\n\t</div>\n</div>\n"
+
+/***/ }),
+
 /***/ "./src/app/Member/Member.component.css":
 /*!*********************************************!*\
   !*** ./src/app/Member/Member.component.css ***!
@@ -12442,13 +12520,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
 /* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./home/home.component */ "./src/app/home/home.component.ts");
 /* harmony import */ var _Phone_Phone_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Phone/Phone.component */ "./src/app/Phone/Phone.component.ts");
-/* harmony import */ var _Member_Member_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Member/Member.component */ "./src/app/Member/Member.component.ts");
-/* harmony import */ var _Retailer_Retailer_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Retailer/Retailer.component */ "./src/app/Retailer/Retailer.component.ts");
-/* harmony import */ var _Recycler_Recycler_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Recycler/Recycler.component */ "./src/app/Recycler/Recycler.component.ts");
-/* harmony import */ var _NetworkProvider_NetworkProvider_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./NetworkProvider/NetworkProvider.component */ "./src/app/NetworkProvider/NetworkProvider.component.ts");
-/* harmony import */ var _LawEnfrocment_LawEnfrocment_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./LawEnfrocment/LawEnfrocment.component */ "./src/app/LawEnfrocment/LawEnfrocment.component.ts");
-/* harmony import */ var _ChangeOwner_ChangeOwner_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./ChangeOwner/ChangeOwner.component */ "./src/app/ChangeOwner/ChangeOwner.component.ts");
-/* harmony import */ var _markAsStolen_markAsStolen_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./markAsStolen/markAsStolen.component */ "./src/app/markAsStolen/markAsStolen.component.ts");
+/* harmony import */ var _Login_Login_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Login/Login.component */ "./src/app/Login/Login.component.ts");
+/* harmony import */ var _Member_Member_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Member/Member.component */ "./src/app/Member/Member.component.ts");
+/* harmony import */ var _Retailer_Retailer_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Retailer/Retailer.component */ "./src/app/Retailer/Retailer.component.ts");
+/* harmony import */ var _Recycler_Recycler_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Recycler/Recycler.component */ "./src/app/Recycler/Recycler.component.ts");
+/* harmony import */ var _NetworkProvider_NetworkProvider_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./NetworkProvider/NetworkProvider.component */ "./src/app/NetworkProvider/NetworkProvider.component.ts");
+/* harmony import */ var _LawEnfrocment_LawEnfrocment_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./LawEnfrocment/LawEnfrocment.component */ "./src/app/LawEnfrocment/LawEnfrocment.component.ts");
+/* harmony import */ var _ChangeOwner_ChangeOwner_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./ChangeOwner/ChangeOwner.component */ "./src/app/ChangeOwner/ChangeOwner.component.ts");
+/* harmony import */ var _markAsStolen_markAsStolen_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./markAsStolen/markAsStolen.component */ "./src/app/markAsStolen/markAsStolen.component.ts");
 /*
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -12474,16 +12553,18 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
 var routes = [
     { path: '', component: _home_home_component__WEBPACK_IMPORTED_MODULE_3__["HomeComponent"] },
+    { path: '', component: _Login_Login_component__WEBPACK_IMPORTED_MODULE_5__["LoginComponent"] },
     { path: 'Phone', component: _Phone_Phone_component__WEBPACK_IMPORTED_MODULE_4__["PhoneComponent"] },
-    { path: 'Member', component: _Member_Member_component__WEBPACK_IMPORTED_MODULE_5__["MemberComponent"] },
-    { path: 'Retailer', component: _Retailer_Retailer_component__WEBPACK_IMPORTED_MODULE_6__["RetailerComponent"] },
-    { path: 'Recycler', component: _Recycler_Recycler_component__WEBPACK_IMPORTED_MODULE_7__["RecyclerComponent"] },
-    { path: 'NetworkProvider', component: _NetworkProvider_NetworkProvider_component__WEBPACK_IMPORTED_MODULE_8__["NetworkProviderComponent"] },
-    { path: 'LawEnfrocment', component: _LawEnfrocment_LawEnfrocment_component__WEBPACK_IMPORTED_MODULE_9__["LawEnfrocmentComponent"] },
-    { path: 'ChangeOwner', component: _ChangeOwner_ChangeOwner_component__WEBPACK_IMPORTED_MODULE_10__["ChangeOwnerComponent"] },
-    { path: 'markAsStolen', component: _markAsStolen_markAsStolen_component__WEBPACK_IMPORTED_MODULE_11__["markAsStolenComponent"] },
+    { path: 'Member', component: _Member_Member_component__WEBPACK_IMPORTED_MODULE_6__["MemberComponent"] },
+    { path: 'Retailer', component: _Retailer_Retailer_component__WEBPACK_IMPORTED_MODULE_7__["RetailerComponent"] },
+    { path: 'Recycler', component: _Recycler_Recycler_component__WEBPACK_IMPORTED_MODULE_8__["RecyclerComponent"] },
+    { path: 'NetworkProvider', component: _NetworkProvider_NetworkProvider_component__WEBPACK_IMPORTED_MODULE_9__["NetworkProviderComponent"] },
+    { path: 'LawEnfrocment', component: _LawEnfrocment_LawEnfrocment_component__WEBPACK_IMPORTED_MODULE_10__["LawEnfrocmentComponent"] },
+    { path: 'ChangeOwner', component: _ChangeOwner_ChangeOwner_component__WEBPACK_IMPORTED_MODULE_11__["ChangeOwnerComponent"] },
+    { path: 'markAsStolen', component: _markAsStolen_markAsStolen_component__WEBPACK_IMPORTED_MODULE_12__["markAsStolenComponent"] },
     { path: '**', redirectTo: '' }
 ];
 var AppRoutingModule = /** @class */ (function () {
@@ -12521,7 +12602,7 @@ module.exports = "/*\n * Licensed under the Apache License, Version 2.0 (the \"L
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!--\n Licensed under the Apache License, Version 2.0 (the \"License\");\n you may not use this file except in compliance with the License.\n You may obtain a copy of the License at\n\n http://www.apache.org/licenses/LICENSE-2.0\n\n Unless required by applicable law or agreed to in writing, software\n distributed under the License is distributed on an \"AS IS\" BASIS,\n WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n See the License for the specific language governing permissions and\n limitations under the License.\n-->\n<nav class=\"navbar navbar-inverse\">\n    <div class=\"container-fluid\">\n      <div class=\"navbar-header\">\n        <img src=\"assets/images/logo.png\" width=\"150px\" height=\"150px\"/>\n      </div>\n      <ul class=\"nav navbar-nav\">\n        <li class=\"dropdown active\">\n            <a class=\"dropdown-toggle\" data-toggle=\"dropdown\">Assets</a>\n            <ul class=\"dropdown-menu scrollable-menu\">\n              <li><a [routerLink]=\"['/Phone']\">Phone</a></li>\n            </ul>\n        </li>\n        <li class=\"dropdown active\">\n          <a class=\"dropdown-toggle\" data-toggle=\"dropdown\">Participants</a>\n          <ul class=\"dropdown-menu scrollable-menu\">\n            <li><a [routerLink]=\"['/Member']\">Member</a></li>\n            <li><a [routerLink]=\"['/Retailer']\">Retailer</a></li>\n            <li><a [routerLink]=\"['/Recycler']\">Recycler</a></li>\n            <li><a [routerLink]=\"['/NetworkProvider']\">NetworkProvider</a></li>\n            <li><a [routerLink]=\"['/LawEnfrocment']\">LawEnfrocment</a></li>\n          </ul>\n        </li>\n        <li class=\"dropdown active\">\n          <a class=\"dropdown-toggle\" data-toggle=\"dropdown\">Transactions</a>\n          <ul class=\"dropdown-menu scrollable-menu\">\n            <li><a [routerLink]=\"['/ChangeOwner']\">ChangeOwner</a></li>\n            <li><a [routerLink]=\"['/markAsStolen']\">markAsStolen</a></li>\n          </ul>\n        </li>\n        <li><button class=\"btn btn-primary btn-margin\"><a href=\"https://35.204.34.37:3000/auth/github\"> Log In</a></button></li>\n       </ul> \n      <!-- <button class=\"btn btn-primary btn-margin\" *ngIf=\"!auth.isAuthenticated()\" (click)=\"auth.login()\">Log In</button>\n      <button class=\"btn btn-primary btn-margin\" *ngIf=\"auth.isAuthenticated()\" (click)=\"auth.logout()\">Log Out</button> -->\n    </div>\n  </nav>\n\n  <router-outlet></router-outlet>\n"
+module.exports = "<!--\n Licensed under the Apache License, Version 2.0 (the \"License\");\n you may not use this file except in compliance with the License.\n You may obtain a copy of the License at\n\n http://www.apache.org/licenses/LICENSE-2.0\n\n Unless required by applicable law or agreed to in writing, software\n distributed under the License is distributed on an \"AS IS\" BASIS,\n WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n See the License for the specific language governing permissions and\n limitations under the License.\n-->\n<nav class=\"navbar navbar-inverse\">\n    <div class=\"container-fluid\">\n      <div class=\"navbar-header\">\n        <img src=\"assets/images/logo.png\" width=\"150px\" height=\"150px\"/>\n      </div>\n\n        <a href=\"https://35.204.34.37:3000/auth/github\"><button class=\"btn btn-primary btn-margin\">Log In</button></a> \n      <!-- <button class=\"btn btn-primary btn-margin\" *ngIf=\"!auth.isAuthenticated()\" (click)=\"auth.login()\">Log In</button>\n      <button class=\"btn btn-primary btn-margin\" *ngIf=\"auth.isAuthenticated()\" (click)=\"auth.logout()\">Log Out</button> -->\n    </div>\n  </nav>\n\n  <router-outlet></router-outlet>\n"
 
 /***/ }),
 
@@ -12721,7 +12802,8 @@ var DataService = /** @class */ (function () {
     function DataService(http) {
         this.http = http;
         this.resolveSuffix = '?resolve=true';
-        this.actionUrl = 'https://35.204.34.37:3000/api/';
+        this.actionUrl = 'http://35.204.34.37:3000/api/';
+        // this.actionUrl = 'http://35.204.34.37:3000/api/';
         this.headers = new _angular_http__WEBPACK_IMPORTED_MODULE_2__["Headers"]();
         this.headers.append('Content-Type', 'application/json');
         this.headers.append('Accept', 'application/json');
@@ -12788,17 +12870,6 @@ var DataService = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./src/app/home/home.component.css":
-/*!*****************************************!*\
-  !*** ./src/app/home/home.component.css ***!
-  \*****************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/*\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n * \n * http://www.apache.org/licenses/LICENSE-2.0\n * \n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\nbody {\n    background-color: red;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS9ob21lLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7Ozs7Ozs7OztFQVlFO0FBQ0Y7SUFDSSxxQkFBcUI7QUFDekIiLCJmaWxlIjoic3JjL2FwcC9ob21lL2hvbWUuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi8qXG4gKiBMaWNlbnNlZCB1bmRlciB0aGUgQXBhY2hlIExpY2Vuc2UsIFZlcnNpb24gMi4wICh0aGUgXCJMaWNlbnNlXCIpO1xuICogeW91IG1heSBub3QgdXNlIHRoaXMgZmlsZSBleGNlcHQgaW4gY29tcGxpYW5jZSB3aXRoIHRoZSBMaWNlbnNlLlxuICogWW91IG1heSBvYnRhaW4gYSBjb3B5IG9mIHRoZSBMaWNlbnNlIGF0XG4gKiBcbiAqIGh0dHA6Ly93d3cuYXBhY2hlLm9yZy9saWNlbnNlcy9MSUNFTlNFLTIuMFxuICogXG4gKiBVbmxlc3MgcmVxdWlyZWQgYnkgYXBwbGljYWJsZSBsYXcgb3IgYWdyZWVkIHRvIGluIHdyaXRpbmcsIHNvZnR3YXJlXG4gKiBkaXN0cmlidXRlZCB1bmRlciB0aGUgTGljZW5zZSBpcyBkaXN0cmlidXRlZCBvbiBhbiBcIkFTIElTXCIgQkFTSVMsXG4gKiBXSVRIT1VUIFdBUlJBTlRJRVMgT1IgQ09ORElUSU9OUyBPRiBBTlkgS0lORCwgZWl0aGVyIGV4cHJlc3Mgb3IgaW1wbGllZC5cbiAqIFNlZSB0aGUgTGljZW5zZSBmb3IgdGhlIHNwZWNpZmljIGxhbmd1YWdlIGdvdmVybmluZyBwZXJtaXNzaW9ucyBhbmRcbiAqIGxpbWl0YXRpb25zIHVuZGVyIHRoZSBMaWNlbnNlLlxuICovXG5ib2R5IHtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZWQ7XG59Il19 */"
-
-/***/ }),
-
 /***/ "./src/app/home/home.component.html":
 /*!******************************************!*\
   !*** ./src/app/home/home.component.html ***!
@@ -12844,7 +12915,7 @@ var HomeComponent = /** @class */ (function () {
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
             selector: 'app-home',
             template: __webpack_require__(/*! ./home.component.html */ "./src/app/home/home.component.html"),
-            styles: [__webpack_require__(/*! ./home.component.css */ "./src/app/home/home.component.css")]
+            styles: [__webpack_require__(/*! ../app.component.css */ "./src/app/app.component.css")]
         }),
         tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
     ], HomeComponent);
