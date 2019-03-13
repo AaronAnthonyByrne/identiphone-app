@@ -13,7 +13,6 @@
  */
 
 import { Component, OnInit, Input } from '@angular/core';
-import { mongoService } from '../services/index';
 import { FormGroup, FormControl, Validators, FormBuilder } from '@angular/forms';
 import 'rxjs/add/operator/toPromise';
 
@@ -31,25 +30,23 @@ export class LoginComponent {
   email = new FormControl('', Validators.required);
   password = new FormControl('', Validators.required);
   
-  constructor(public mongo: mongoService, fb: FormBuilder){
-    this.myForm = fb.group({
-      email: this.email,
-      password: this.password
-    });
-  };
+  // constructor(fb: FormBuilder){
+  //   this.myForm = fb.group({
+  //     email: this.email,
+  //     password: this.password
+  //   });
+  // };
 
-  attemptLogin(form:any): Promise<any>{
-    this.query ={
-      'email':this.email.value,
-      'password':this.password.value
-    };
+  // attemptLogin(form:any): Promise<any>{
+  //   this.query ={
+  //     'email':this.email.value,
+  //     'password':this.password.value
+  //   };
 
-    this.myForm.setValue({
-      'email':null,
-      'password':null
-    });
-
-    return this.mongo.getUser(this.query)
-  }
+  //   this.myForm.setValue({
+  //     'email':null,
+  //     'password':null
+  //   });
+  // }
 }
 

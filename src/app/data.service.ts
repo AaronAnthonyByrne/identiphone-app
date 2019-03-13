@@ -25,7 +25,8 @@ export class DataService<Type> {
     private headers: Headers;
 
     constructor(private http: Http) {
-        this.actionUrl = 'https://35.204.114.96:3000/api/';
+        this.actionUrl = 'http://127.0.0.1:3000/api/';
+        // this.actionUrl = 'http://35.204.34.37:3000/api/';
         this.headers = new Headers();
         this.headers.append('Content-Type', 'application/json');
         this.headers.append('Accept', 'application/json');

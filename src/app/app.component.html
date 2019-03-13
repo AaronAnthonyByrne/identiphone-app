@@ -16,32 +16,8 @@
       <div class="navbar-header">
         <img src="assets/images/logo.png" width="150px" height="150px"/>
       </div>
-      <ul class="nav navbar-nav">
-        <li class="dropdown active">
-            <a class="dropdown-toggle" data-toggle="dropdown">Assets</a>
-            <ul class="dropdown-menu scrollable-menu">
-              <li><a [routerLink]="['/Phone']">Phone</a></li>
-            </ul>
-        </li>
-        <li class="dropdown active">
-          <a class="dropdown-toggle" data-toggle="dropdown">Participants</a>
-          <ul class="dropdown-menu scrollable-menu">
-            <li><a [routerLink]="['/Member']">Member</a></li>
-            <li><a [routerLink]="['/Retailer']">Retailer</a></li>
-            <li><a [routerLink]="['/Recycler']">Recycler</a></li>
-            <li><a [routerLink]="['/NetworkProvider']">NetworkProvider</a></li>
-            <li><a [routerLink]="['/LawEnfrocment']">LawEnfrocment</a></li>
-          </ul>
-        </li>
-        <li class="dropdown active">
-          <a class="dropdown-toggle" data-toggle="dropdown">Transactions</a>
-          <ul class="dropdown-menu scrollable-menu">
-            <li><a [routerLink]="['/ChangeOwner']">ChangeOwner</a></li>
-            <li><a [routerLink]="['/markAsStolen']">markAsStolen</a></li>
-          </ul>
-        </li>
-        <li><button class="btn btn-primary btn-margin"><a href="https://35.204.114.96:3000/auth/github"> Log In</a></button></li>
-       </ul> 
+
+        <a href="https://127.0.0.1:3000/auth/github"><button class="btn btn-primary btn-margin">Log In</button></a> 
       <!-- <button class="btn btn-primary btn-margin" *ngIf="!auth.isAuthenticated()" (click)="auth.login()">Log In</button>
       <button class="btn btn-primary btn-margin" *ngIf="auth.isAuthenticated()" (click)="auth.logout()">Log Out</button> -->
     </div>
