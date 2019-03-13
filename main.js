@@ -12556,7 +12556,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var routes = [
     { path: '', component: _home_home_component__WEBPACK_IMPORTED_MODULE_3__["HomeComponent"] },
-    { path: '', component: _Login_Login_component__WEBPACK_IMPORTED_MODULE_5__["LoginComponent"] },
+    { path: 'Login', component: _Login_Login_component__WEBPACK_IMPORTED_MODULE_5__["LoginComponent"] },
     { path: 'Phone', component: _Phone_Phone_component__WEBPACK_IMPORTED_MODULE_4__["PhoneComponent"] },
     { path: 'Member', component: _Member_Member_component__WEBPACK_IMPORTED_MODULE_6__["MemberComponent"] },
     { path: 'Retailer', component: _Retailer_Retailer_component__WEBPACK_IMPORTED_MODULE_7__["RetailerComponent"] },
@@ -12602,7 +12602,7 @@ module.exports = "/*\n * Licensed under the Apache License, Version 2.0 (the \"L
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!--\n Licensed under the Apache License, Version 2.0 (the \"License\");\n you may not use this file except in compliance with the License.\n You may obtain a copy of the License at\n\n http://www.apache.org/licenses/LICENSE-2.0\n\n Unless required by applicable law or agreed to in writing, software\n distributed under the License is distributed on an \"AS IS\" BASIS,\n WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n See the License for the specific language governing permissions and\n limitations under the License.\n-->\n<nav class=\"navbar navbar-inverse\">\n    <div class=\"container-fluid\">\n      <div class=\"navbar-header\">\n        <img src=\"assets/images/logo.png\" width=\"150px\" height=\"150px\"/>\n      </div>\n\n        <a href=\"https://35.204.34.37:3000/auth/github\"><button class=\"btn btn-primary btn-margin\">Log In</button></a> \n      <!-- <button class=\"btn btn-primary btn-margin\" *ngIf=\"!auth.isAuthenticated()\" (click)=\"auth.login()\">Log In</button>\n      <button class=\"btn btn-primary btn-margin\" *ngIf=\"auth.isAuthenticated()\" (click)=\"auth.logout()\">Log Out</button> -->\n    </div>\n  </nav>\n\n  <router-outlet></router-outlet>\n"
+module.exports = "<!--\n Licensed under the Apache License, Version 2.0 (the \"License\");\n you may not use this file except in compliance with the License.\n You may obtain a copy of the License at\n\n http://www.apache.org/licenses/LICENSE-2.0\n\n Unless required by applicable law or agreed to in writing, software\n distributed under the License is distributed on an \"AS IS\" BASIS,\n WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n See the License for the specific language governing permissions and\n limitations under the License.\n-->\n<nav class=\"navbar navbar-inverse\">\n    <div class=\"container-fluid\">\n      <div class=\"navbar-header\">\n        <img src=\"assets/images/logo.png\" width=\"150px\" height=\"150px\"/>\n      </div>\n\n        <button class=\"btn btn-primary btn-margin\"href=\"/Login\">Log In</button> \n      <!-- <button class=\"btn btn-primary btn-margin\" *ngIf=\"!auth.isAuthenticated()\" (click)=\"auth.login()\">Log In</button>\n      <button class=\"btn btn-primary btn-margin\" *ngIf=\"auth.isAuthenticated()\" (click)=\"auth.logout()\">Log Out</button> -->\n    </div>\n  </nav>\n\n  <router-outlet></router-outlet>\n"
 
 /***/ }),
 
