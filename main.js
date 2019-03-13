@@ -12696,6 +12696,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _LawEnfrocment_LawEnfrocment_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./LawEnfrocment/LawEnfrocment.component */ "./src/app/LawEnfrocment/LawEnfrocment.component.ts");
 /* harmony import */ var _ChangeOwner_ChangeOwner_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./ChangeOwner/ChangeOwner.component */ "./src/app/ChangeOwner/ChangeOwner.component.ts");
 /* harmony import */ var _markAsStolen_markAsStolen_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./markAsStolen/markAsStolen.component */ "./src/app/markAsStolen/markAsStolen.component.ts");
+/* harmony import */ var _Login_Login_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./Login/Login.component */ "./src/app/Login/Login.component.ts");
 /*
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -12709,6 +12710,7 @@ __webpack_require__.r(__webpack_exports__);
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
 
 
 
@@ -12742,6 +12744,7 @@ var AppModule = /** @class */ (function () {
                 _LawEnfrocment_LawEnfrocment_component__WEBPACK_IMPORTED_MODULE_14__["LawEnfrocmentComponent"],
                 _ChangeOwner_ChangeOwner_component__WEBPACK_IMPORTED_MODULE_15__["ChangeOwnerComponent"],
                 _markAsStolen_markAsStolen_component__WEBPACK_IMPORTED_MODULE_16__["markAsStolenComponent"],
+                _Login_Login_component__WEBPACK_IMPORTED_MODULE_17__["LoginComponent"]
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
