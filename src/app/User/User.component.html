@@ -1,0 +1,85 @@
+<!--
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+ http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+<!-- Table that appears when user clicks add model -->
+
+<div class="container">
+	<div *ngIf="errorMessage" class="alert alert-danger" role="alert">
+		<strong>Error:</strong> {{errorMessage}}
+	</div>
+	<div>
+		Welcome Back, {{user.participant.split('#')[1]}}
+	</div>
+	<div class="row">
+		<div class="col-md-9">
+			<h1 class="participant-title" id='assetName'>Phone</h1>
+		</div>
+		<div class="col-md-3">
+		</div>
+	</div>
+	<br>
+	<div class="row">
+		<div class="col-md-12">
+			<table class="table table-responsive">
+				<thead class="thead">
+					<tr class="thead-cols">
+						<th class="info">IMEI</th>
+						<th class="info">Phones Status</th>
+						<th class="info">Owner</th>
+						<th class="info-actions">Actions</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr *ngFor="let asset of allAssets">
+						<td class="participant-properties">{{asset.IMEI}}</td>
+						<td class="participant-properties">{{asset.phoneStatus}}</td>
+						<td class="participant-properties">{{asset.owner.split('#')[1]}}</td>
+
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-9">
+			<h1 class="participant-title" id='participantName'>Members</h1>
+		</div>
+		<div class="col-md-3">
+		</div>
+	</div>
+	<br>
+	<div class="row">
+		<div class="col-md-12">
+			<table class="table table-responsive">
+				<thead class="thead">
+					<tr class="thead-cols">
+						<th class="info">Email</th>
+						<th class="info">Name</th>
+						<th class="info">Id</th>
+						<th class="info-actions">Actions</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr *ngFor="let participant of allParticipants">
+						<td class="participant-properties">{{participant.email}}</td>
+						<td class="participant-properties">{{participant.firstName}} {{participant.lastName}}</td>
+						<td class="participant-properties">{{participant.ownerId}}</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>

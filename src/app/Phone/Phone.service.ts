@@ -47,4 +47,8 @@ export class PhoneService {
     return this.dataService.delete(this.NAMESPACE, id);
   }
 
+  public getCurrentUser(): Observable<any>{
+    return this.dataService.getCurrentUser();
+  }
+
 }

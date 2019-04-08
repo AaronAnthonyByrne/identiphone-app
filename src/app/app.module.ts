@@ -15,6 +15,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpModule } from '@angular/http';
+import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { DataService } from './data.service';
@@ -28,6 +29,7 @@ import { NetworkProviderComponent } from './NetworkProvider/NetworkProvider.comp
 import { LawEnfrocmentComponent } from './LawEnfrocment/LawEnfrocment.component';
 import { ChangeOwnerComponent } from './ChangeOwner/ChangeOwner.component';
 import { markAsStolenComponent } from './markAsStolen/markAsStolen.component';
+import { UserComponent } from './User/User.component';
 
   @NgModule({
   declarations: [
@@ -41,17 +43,18 @@ import { markAsStolenComponent } from './markAsStolen/markAsStolen.component';
     LawEnfrocmentComponent,
     ChangeOwnerComponent,
     markAsStolenComponent,
-
+    UserComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     ReactiveFormsModule,
     HttpModule,
+    HttpClientModule,
     AppRoutingModule
   ],
   providers: [
-    DataService
+    DataService,
   ],
   bootstrap: [AppComponent]
 })
