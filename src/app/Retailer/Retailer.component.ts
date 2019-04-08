@@ -14,7 +14,7 @@
 
 import { Component, OnInit, Input } from '@angular/core';
 import { FormGroup, FormControl, Validators, FormBuilder } from '@angular/forms';
-import { RetailerService } from './Retailer.service';
+import { RetailerService } from '../Services/Retailer.service';
 import 'rxjs/add/operator/toPromise';
 
 @Component({

@@ -14,7 +14,7 @@
 
 import { Component, OnInit, Input } from '@angular/core';
 import { FormGroup, FormControl, Validators, FormBuilder } from '@angular/forms';
-import { NetworkProviderService } from './NetworkProvider.service';
+import { NetworkProviderService } from '../Services/NetworkProvider.service';
 import 'rxjs/add/operator/toPromise';
 
 @Component({

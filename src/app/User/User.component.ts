@@ -14,9 +14,10 @@
 
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormControl, Validators, FormBuilder } from '@angular/forms';
-import { PhoneService } from '../Phone/Phone.service';
+import { PhoneService } from '../Services/Phone.service';
 import 'rxjs/add/operator/toPromise';
-import { MemberService } from '../Member/Member.service';
+import { MemberService } from '../Services/Member.service';
+import { Member } from 'app/org.example.mynetwork';
 // import * as mongoose from "mongoose";
 
 @Component({
@@ -36,74 +37,83 @@ export class UserComponent implements OnInit {
   public errorMessage;
   public user;
 
+  // to determine who has signed in
+  admin: boolean = true;
+  member: boolean = false;
+  recycler: boolean = false;
+  retailer: boolean = false;
+  law: boolean = false;
+  network: boolean = false;
+
+
   IMEI = new FormControl('', Validators.required);
   phoneStatus = new FormControl('', Validators.required);
   owner = new FormControl('', Validators.required);
 
-  constructor(public serviceMember:MemberService, public  servicePhone: PhoneService, fb: FormBuilder) {
-    this.myForm = fb.group({
-      IMEI: this.IMEI,
-      phoneStatus: this.phoneStatus,
-      owner: this.owner
-    });
+  constructor(public serviceMember: MemberService, public servicePhone: PhoneService, fb: FormBuilder) {
+
   };
 
   ngOnInit(): void {
     this.checkUser();
-    this.loadAllPhones();
+    if (this.member || this.recycler || this.retailer) {
+      this.loadAllPhones();
+    }
+    if(this.admin){
     this.loadAllMembers();
+    }
   }
 
   checkUser(): Promise<any> {
     return this.servicePhone.getCurrentUser()
-    .toPromise()
-    .then((result)=>{
-      this.errorMessage = null;
-      this.user=result;
+      .toPromise()
+      .then((result) => {
+        this.errorMessage = null;
+        this.user = result;
       });
   }
 
   loadAllPhones(): Promise<any> {
     const phoneList = [];
     return this.servicePhone.getAll()
-    .toPromise()
-    .then((result) => {
-      this.errorMessage = null;
-      result.forEach(asset => {
-        phoneList.push(asset);
+      .toPromise()
+      .then((result) => {
+        this.errorMessage = null;
+        result.forEach(asset => {
+          phoneList.push(asset);
+        });
+        this.allAssets = phoneList;
+      })
+      .catch((error) => {
+        if (error === 'Server error') {
+          this.errorMessage = 'Could not connect to REST server. Please check your configuration details';
+        } else if (error === '404 - Not Found') {
+          this.errorMessage = '404 - Could not find API route. Please check your available APIs.';
+        } else {
+          this.errorMessage = error;
+        }
       });
-      this.allAssets = phoneList;
-    })
-    .catch((error) => {
-      if (error === 'Server error') {
-        this.errorMessage = 'Could not connect to REST server. Please check your configuration details';
-      } else if (error === '404 - Not Found') {
-        this.errorMessage = '404 - Could not find API route. Please check your available APIs.';
-      } else {
-        this.errorMessage = error;
-      }
-    });
   }
 
   loadAllMembers(): Promise<any> {
     const tempList = [];
     return this.serviceMember.getAll()
-    .toPromise()
-    .then((result) => {
-      this.errorMessage = null;
-      result.forEach(participant => {
-        tempList.push(participant);
+      .toPromise()
+      .then((result) => {
+        this.errorMessage = null;
+        result.forEach(participant => {
+          tempList.push(participant);
+        });
+        this.allParticipants = tempList;
+      })
+      .catch((error) => {
+        if (error === 'Server error') {
+          this.errorMessage = 'Could not connect to REST server. Please check your configuration details';
+        } else if (error === '404 - Not Found') {
+          this.errorMessage = '404 - Could not find API route. Please check your available APIs.';
+          this.errorMessage = error;
+        }
       });
-      this.allParticipants = tempList;
-    })
-    .catch((error) => {
-      if (error === 'Server error') {
-        this.errorMessage = 'Could not connect to REST server. Please check your configuration details';
-      } else if (error === '404 - Not Found') {
-        this.errorMessage = '404 - Could not find API route. Please check your available APIs.';
-        this.errorMessage = error;
-      }
-    });
   }
 
 

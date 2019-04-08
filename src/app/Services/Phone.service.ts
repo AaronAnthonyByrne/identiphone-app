@@ -13,38 +13,42 @@
  */
 
 import { Injectable } from '@angular/core';
-import { DataService } from '../data.service';
+import { DataService } from './data.service';
 import { Observable } from 'rxjs/Observable';
-import { Retailer } from '../org.example.mynetwork';
+import { Phone } from '../org.example.mynetwork';
 import 'rxjs/Rx';
 
 // Can be injected into a constructor
 @Injectable()
-export class RetailerService {
+export class PhoneService {
 
-  private NAMESPACE = 'Retailer';
+  private NAMESPACE = 'Phone';
 
-  constructor(private dataService: DataService<Retailer>) {
+  constructor(private dataService: DataService<Phone>) {
   };
 
-  public getAll(): Observable<Retailer[]> {
+  public getAll(): Observable<Phone[]> {
     return this.dataService.getAll(this.NAMESPACE);
   }
 
-  public getparticipant(id: any): Observable<Retailer> {
+  public getAsset(id: any): Observable<Phone> {
     return this.dataService.getSingle(this.NAMESPACE, id);
   }
 
-  public addParticipant(itemToAdd: any): Observable<Retailer> {
+  public addAsset(itemToAdd: any): Observable<Phone> {
     return this.dataService.add(this.NAMESPACE, itemToAdd);
   }
 
-  public updateParticipant(id: any, itemToUpdate: any): Observable<Retailer> {
+  public updateAsset(id: any, itemToUpdate: any): Observable<Phone> {
     return this.dataService.update(this.NAMESPACE, id, itemToUpdate);
   }
 
-  public deleteParticipant(id: any): Observable<Retailer> {
+  public deleteAsset(id: any): Observable<Phone> {
     return this.dataService.delete(this.NAMESPACE, id);
+  }
+
+  public getCurrentUser(): Observable<any>{
+    return this.dataService.getCurrentUser();
   }
 
 }

@@ -13,37 +13,37 @@
  */
 
 import { Injectable } from '@angular/core';
-import { DataService } from '../data.service';
+import { DataService } from './data.service';
 import { Observable } from 'rxjs/Observable';
-import { LawEnfrocment } from '../org.example.mynetwork';
+import { NetworkProvider } from '../org.example.mynetwork';
 import 'rxjs/Rx';
 
 // Can be injected into a constructor
 @Injectable()
-export class LawEnfrocmentService {
+export class NetworkProviderService {
 
-  private NAMESPACE = 'LawEnfrocment';
+  private NAMESPACE = 'NetworkProvider';
 
-  constructor(private dataService: DataService<LawEnfrocment>) {
+  constructor(private dataService: DataService<NetworkProvider>) {
   };
 
-  public getAll(): Observable<LawEnfrocment[]> {
+  public getAll(): Observable<NetworkProvider[]> {
     return this.dataService.getAll(this.NAMESPACE);
   }
 
-  public getparticipant(id: any): Observable<LawEnfrocment> {
+  public getparticipant(id: any): Observable<NetworkProvider> {
     return this.dataService.getSingle(this.NAMESPACE, id);
   }
 
-  public addParticipant(itemToAdd: any): Observable<LawEnfrocment> {
+  public addParticipant(itemToAdd: any): Observable<NetworkProvider> {
     return this.dataService.add(this.NAMESPACE, itemToAdd);
   }
 
-  public updateParticipant(id: any, itemToUpdate: any): Observable<LawEnfrocment> {
+  public updateParticipant(id: any, itemToUpdate: any): Observable<NetworkProvider> {
     return this.dataService.update(this.NAMESPACE, id, itemToUpdate);
   }
 
-  public deleteParticipant(id: any): Observable<LawEnfrocment> {
+  public deleteParticipant(id: any): Observable<NetworkProvider> {
     return this.dataService.delete(this.NAMESPACE, id);
   }
 

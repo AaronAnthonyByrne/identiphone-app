@@ -14,7 +14,7 @@
 
 import { Component, OnInit, Input } from '@angular/core';
 import { FormGroup, FormControl, Validators, FormBuilder } from '@angular/forms';
-import { RecyclerService } from './Recycler.service';
+import { RecyclerService } from '../Services/Recycler.service';
 import 'rxjs/add/operator/toPromise';
 
 @Component({

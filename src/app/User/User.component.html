@@ -12,13 +12,12 @@
  limitations under the License.
 -->
 <!-- Table that appears when user clicks add model -->
-
-<div class="container">
+<div>
+	Welcome Back, {{user.participant.split('#')[1]}}
+</div>
+<div *ngIf="member || retailer || recycler"class="container">
 	<div *ngIf="errorMessage" class="alert alert-danger" role="alert">
 		<strong>Error:</strong> {{errorMessage}}
-	</div>
-	<div>
-		Welcome Back, {{user.participant.split('#')[1]}}
 	</div>
 	<div class="row">
 		<div class="col-md-9">
@@ -52,7 +51,7 @@
 	</div>
 </div>
 
-<div class="container">
+<div *ngIf="admin" class="container">
 	<div class="row">
 		<div class="col-md-9">
 			<h1 class="participant-title" id='participantName'>Members</h1>
