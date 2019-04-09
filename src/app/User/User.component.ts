@@ -38,8 +38,8 @@ export class UserComponent implements OnInit {
   public user;
 
   // to determine who has signed in
-  admin: boolean = true;
-  member: boolean = false;
+  admin: boolean = false;
+  member: boolean = true;
   recycler: boolean = false;
   retailer: boolean = false;
   law: boolean = false;

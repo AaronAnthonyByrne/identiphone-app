@@ -15,6 +15,13 @@
 <div>
 	Welcome Back, {{user.participant.split('#')[1]}}
 </div>
+<div *ngIf="!admin" class="searchbar">
+	<form>
+		<input type="text" placeholder="Enter IMEI">
+		<button type="submit" class="fa-search">Search</button>
+	</form>
+</div>
+
 <div *ngIf="member || retailer || recycler"class="container">
 	<div *ngIf="errorMessage" class="alert alert-danger" role="alert">
 		<strong>Error:</strong> {{errorMessage}}

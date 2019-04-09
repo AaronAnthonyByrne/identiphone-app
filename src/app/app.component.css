@@ -77,6 +77,27 @@
 .navbar-nav > li:hover > a {
     color: #000;
 }
+.searchbar{
+    float:right;
+}
+.searchbar input[type=text] {
+    float: left;
+    padding: 6px;
+    border:1px black solid;
+    margin-top: 8px;
+    font-size: 17px;
+  }
+.fa-search{
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    height: 40px;
+    width: 100px;
+    background: #3D9970;
+    color: #FFFFFF;
+    border-radius: 4px;
+  }
 
 .btn-primary {
     background: #3D9970;
